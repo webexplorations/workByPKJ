@@ -51,7 +51,9 @@
     "date": "1926-03-04",
     "medium": "watercolor",
     "dimensions": "tags:",
-    "tags": [],
+    "tags": [
+      "showcase"
+    ],
     "description": "## Notes",
     "image": "4personalLandscapes.jpeg"
   },
@@ -142,7 +144,8 @@
     "medium": "watercolor",
     "dimensions": "tags:",
     "tags": [
-      "art-class"
+      "art-class",
+      "showcase"
     ],
     "description": "## Notes\nThe challenge for this art class was to paint fall leaves. I wanted to get the feel of the leaves falling off our maple tree outside my studio so I tilted the horizon and overlapped the leaves, each having a separate plane as it fell from the tree. I really like how the warm and cool colors work together as well as the shadows on the ground.",
     "image": "autumnLeaf.jpeg"
@@ -185,7 +188,9 @@
     "date": "2025-02-24",
     "medium": "dimensions:",
     "dimensions": "tags:",
-    "tags": [],
+    "tags": [
+      "showcase"
+    ],
     "description": "## Notes",
     "image": "beyone02242025.png"
   },
@@ -250,13 +255,26 @@
     "image": "birchForMoninne.jpg"
   },
   {
+    "id": "birchInPurple",
+    "title": "birchInPurple",
+    "date": "medium:",
+    "medium": "dimensions:",
+    "dimensions": "tags:",
+    "tags": [
+      "showcase"
+    ],
+    "description": "## Notes",
+    "image": "birchInPurple.jpeg"
+  },
+  {
     "id": "birchesForMarianne",
     "title": "birchesForMarianne",
     "date": "medium:",
     "medium": "dimensions:",
     "dimensions": "tags:",
     "tags": [
-      "birch"
+      "birch",
+      "showcase"
     ],
     "description": "## Notes",
     "image": "birchesForMarianne.jpeg"

@@ -148,7 +148,7 @@ const catNames = {
 function tagLabel(t){ return catNames[t] || t.charAt(0).toUpperCase()+t.slice(1); }
 
 async function init() {
-  const res = await fetch('paintings.json');
+  const res = await fetch('paintings.json?v=' + Date.now());
   paintings = await res.json();
 
   // Update "All" option with real count

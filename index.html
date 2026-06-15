@@ -22,27 +22,34 @@ header{background:var(--surface);border-bottom:1px solid var(--border);padding:1
 .stat-num{font-family:'Playfair Display',serif;font-size:var(--fs);font-weight:600;color:var(--accent)}
 .stat-label{font-size:var(--fs-xs);color:var(--muted);font-weight:600;margin-left:4px}
 .header-copy{font-size:10px;color:var(--muted);letter-spacing:.3px;line-height:1.4}
+/* Showcase */
+.showcase{padding:24px 16px 0}
+.showcase-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:14px;margin-bottom:20px}
+.showcase-card{border-radius:14px;overflow:hidden;cursor:pointer;position:relative;box-shadow:0 4px 16px rgba(0,0,0,.12);transition:box-shadow .2s,transform .15s;aspect-ratio:1}
+.showcase-card:hover{box-shadow:0 8px 28px rgba(0,0,0,.2);transform:translateY(-3px)}
+.showcase-card img{width:100%;height:100%;object-fit:cover;display:block}
+.showcase-label{position:absolute;bottom:0;left:0;right:0;padding:28px 12px 10px;background:linear-gradient(transparent,rgba(0,0,0,.6));color:#fff;font-size:var(--fs-sm);font-weight:600;line-height:1.3}
+.showcase-prompt{text-align:center;padding:0 16px 20px;border-bottom:1px solid var(--border);margin-bottom:4px}
+.showcase-prompt p{font-family:'Playfair Display',serif;font-size:var(--fs-lg);color:var(--muted);margin-bottom:4px}
+.showcase-prompt small{font-size:var(--fs-sm);color:var(--muted)}
+/* Controls */
 .controls{padding:14px 16px 0;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
-.cat-select{flex:1;min-width:200px;background:var(--surface);border:1.5px solid var(--border-med);border-radius:12px;padding:11px 14px;color:var(--text);font-family:'Source Sans 3',sans-serif;font-size:var(--fs);outline:none;cursor:pointer;transition:border-color .2s;box-shadow:0 1px 4px rgba(0,0,0,.05);appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%236b6b60' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 14px center}
+.cat-select{flex:1;min-width:200px;background:var(--surface);border:1.5px solid var(--border-med);border-radius:12px;padding:11px 14px;color:var(--text);font-family:'Source Sans 3',sans-serif;font-size:var(--fs);outline:none;cursor:pointer;transition:border-color .2s;box-shadow:0 1px 4px rgba(0,0,0,.05);appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%236b6b60' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 14px center;padding-right:36px}
 .cat-select:focus{border-color:var(--accent)}
 .search-input{flex:1;min-width:160px;background:var(--surface);border:1.5px solid var(--border-med);border-radius:12px;padding:11px 14px;color:var(--text);font-family:'Source Sans 3',sans-serif;font-size:var(--fs);outline:none;transition:border-color .2s;box-shadow:0 1px 4px rgba(0,0,0,.05)}
 .search-input:focus{border-color:var(--accent)}
 .result-count{padding:10px 18px 0;font-size:var(--fs-sm);color:var(--muted);font-style:italic}
-.empty-state{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:60px 20px;color:var(--muted);text-align:center}
-.empty-state svg{margin-bottom:16px;opacity:.3}
-.empty-state p{font-family:'Playfair Display',serif;font-size:var(--fs-lg);color:var(--muted)}
-.empty-state small{font-size:var(--fs-sm);margin-top:8px;color:var(--muted)}
 .grid{padding:14px 12px 20px;display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px}
 .painting-card{background:var(--card);border:1px solid var(--border);border-radius:12px;overflow:hidden;cursor:pointer;transition:box-shadow .2s,transform .15s;box-shadow:0 1px 4px rgba(0,0,0,.06)}
 .painting-card:hover{box-shadow:0 6px 20px rgba(0,0,0,.13);transform:translateY(-2px)}
-.thumb-wrap{width:100%;aspect-ratio:1;overflow:hidden;background:#eee;position:relative}
+.thumb-wrap{width:100%;aspect-ratio:1;overflow:hidden;background:#eee}
 .thumb-wrap img{width:100%;height:100%;object-fit:cover;display:block}
 .card-info{padding:9px 10px 10px}
 .card-title{font-size:var(--fs-sm);font-weight:600;line-height:1.3;margin-bottom:5px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .card-tags{display:flex;flex-wrap:wrap;gap:3px}
 .mini-tag{font-size:10px;padding:2px 7px;border-radius:10px;background:var(--accent-light);color:var(--accent);font-weight:600}
 .no-results{grid-column:1/-1;text-align:center;padding:60px 20px;color:var(--muted);font-size:var(--fs);font-style:italic}
-footer{background:var(--surface);border-top:1px solid var(--border);padding:12px 20px;text-align:center}
+footer{background:var(--surface);border-top:1px solid var(--border);padding:12px 20px;text-align:center;margin-top:auto}
 .footer-copy{font-size:10px;color:var(--muted);letter-spacing:.3px;line-height:1.6}
 /* Modal */
 .modal-bg{display:none;position:fixed;inset:0;background:rgba(0,0,0,.75);z-index:200;overflow-y:auto;padding:20px;-webkit-overflow-scrolling:touch}
@@ -73,22 +80,23 @@ footer{background:var(--surface);border-top:1px solid var(--border);padding:12px
 </header>
 
 <div id="app">
+  <!-- Showcase section: shown on landing, hidden when category selected -->
+  <div id="showcase" class="showcase" style="display:none">
+    <div class="showcase-grid" id="showcaseGrid"></div>
+    <div class="showcase-prompt">
+      <p>Select a category below to explore the collection</p>
+      <small>or search by title, subject, or keyword</small>
+    </div>
+  </div>
+
   <div class="controls">
     <select class="cat-select" id="catSelect">
       <option value="">— Select a category —</option>
+      <option value="__all__">All paintings (186)</option>
     </select>
     <input type="text" class="search-input" id="searchInput" placeholder="Search…">
   </div>
   <div class="result-count" id="resultCount"></div>
-  <div id="emptyState" class="empty-state">
-    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <rect x="6" y="6" width="36" height="36" rx="4" stroke="#4a6741" stroke-width="2"/>
-      <circle cx="17" cy="19" r="4" stroke="#4a6741" stroke-width="2"/>
-      <path d="M6 34l10-8 8 6 8-10 10 12" stroke="#4a6741" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    </svg>
-    <p>Select a category to view paintings</p>
-    <small>or type in the search box to find a specific work</small>
-  </div>
   <div class="grid" id="grid" style="display:none"></div>
 </div>
 
@@ -99,8 +107,8 @@ footer{background:var(--surface);border-top:1px solid var(--border);padding:12px
 </footer>
 
 <div class="modal-bg" id="modalBg">
-  <div class="modal" id="modal">
-    <div class="modal-img-wrap" id="modalImgWrap">
+  <div class="modal">
+    <div class="modal-img-wrap">
       <button class="modal-close" id="modalClose">&#x2715;</button>
       <img id="modalImg" src="" alt="">
     </div>
@@ -135,7 +143,7 @@ const catNames = {
   'sheep':'Sheep','dandelion':'Dandelion','recipe':'Recipe',
   'trees':'Trees','mushrooms':'Mushrooms','milkweed':'Milkweed',
   'keywest':'Key West','backyard':'Backyard','illustration':'Illustration',
-  'Minneopa':'Minneopa','dayLily':'Day Lily'
+  'Minneopa':'Minneopa','dayLily':'Day Lily','showcase':'Featured'
 };
 function tagLabel(t){ return catNames[t] || t.charAt(0).toUpperCase()+t.slice(1); }
 
@@ -143,9 +151,31 @@ async function init() {
   const res = await fetch('paintings.json');
   paintings = await res.json();
 
-  const tagCounts = {};
-  paintings.forEach(p => p.tags.forEach(t => { tagCounts[t] = (tagCounts[t]||0)+1; }));
+  // Update "All" option with real count
+  document.querySelector('option[value="__all__"]').textContent = `All paintings (${paintings.length})`;
 
+  // Build showcase
+  const showcased = paintings.filter(p => p.tags.includes('showcase'));
+  const showcaseSection = document.getElementById('showcase');
+  if (showcased.length > 0) {
+    const grid = document.getElementById('showcaseGrid');
+    showcased.forEach(p => {
+      const card = document.createElement('div');
+      card.className = 'showcase-card';
+      card.innerHTML = p.image
+        ? `<img src="images/${p.image}" alt="${p.title}" loading="lazy"><div class="showcase-label">${p.title}</div>`
+        : `<div style="width:100%;height:100%;background:#ddd"></div><div class="showcase-label">${p.title}</div>`;
+      card.addEventListener('click', () => openModal(p));
+      grid.appendChild(card);
+    });
+    showcaseSection.style.display = '';
+  }
+
+  // Build category dropdown (excluding 'showcase' tag)
+  const tagCounts = {};
+  paintings.forEach(p => p.tags.filter(t => t !== 'showcase').forEach(t => {
+    tagCounts[t] = (tagCounts[t]||0)+1;
+  }));
   const sorted = Object.entries(tagCounts).sort((a,b) => tagLabel(a[0]).localeCompare(tagLabel(b[0])));
   const sel = document.getElementById('catSelect');
   sorted.forEach(([tag, count]) => {
@@ -174,31 +204,32 @@ async function init() {
 
 function render() {
   const hasFilter = activeTag || searchTerm;
-  const emptyState = document.getElementById('emptyState');
+  const showcase = document.getElementById('showcase');
   const grid = document.getElementById('grid');
 
   if (!hasFilter) {
-    emptyState.style.display = '';
+    showcase.style.display = document.getElementById('showcaseGrid').children.length ? '' : 'none';
     grid.style.display = 'none';
     document.getElementById('resultCount').textContent = '';
     return;
   }
 
-  emptyState.style.display = 'none';
+  showcase.style.display = 'none';
   grid.style.display = '';
 
   const filtered = paintings.filter(p => {
-    if (activeTag && !p.tags.includes(activeTag)) return false;
+    if (activeTag === '__all__') { /* no tag filter */ }
+    else if (activeTag && !p.tags.includes(activeTag)) return false;
     if (searchTerm) {
-      const hay = `${p.title} ${p.tags.join(' ')} ${p.description}`.toLowerCase();
+      const hay = `${p.title} ${p.tags.join(' ')} ${p.description} ${p.medium} ${p.date}`.toLowerCase();
       if (!hay.includes(searchTerm)) return false;
     }
     return true;
   });
 
-  const label = activeTag ? tagLabel(activeTag) : 'search results';
+  const label = activeTag === '__all__' ? 'all paintings' : activeTag ? tagLabel(activeTag) : 'search results';
   document.getElementById('resultCount').textContent =
-    `${filtered.length} painting${filtered.length!==1?'s':''} in ${label}`;
+    `${filtered.length} painting${filtered.length!==1?'s':''} — ${label}`;
 
   grid.innerHTML = '';
   if (!filtered.length) {
@@ -209,11 +240,11 @@ function render() {
   filtered.forEach(p => {
     const card = document.createElement('div');
     card.className = 'painting-card';
-    const imgSrc = p.image ? `images/${p.image}` : '';
-    const tagsHtml = p.tags.map(t=>`<span class="mini-tag">${tagLabel(t)}</span>`).join('');
+    const visibleTags = p.tags.filter(t => t !== 'showcase');
+    const tagsHtml = visibleTags.map(t=>`<span class="mini-tag">${tagLabel(t)}</span>`).join('');
     card.innerHTML = `
       <div class="thumb-wrap">
-        ${imgSrc?`<img src="${imgSrc}" alt="${p.title}" loading="lazy">`:'<div style="width:100%;height:100%;background:#ddd;display:flex;align-items:center;justify-content:center;color:#999;font-size:12px">No image</div>'}
+        ${p.image?`<img src="images/${p.image}" alt="${p.title}" loading="lazy">`:'<div style="width:100%;height:100%;background:#ddd;display:flex;align-items:center;justify-content:center;color:#999;font-size:12px">No image</div>'}
       </div>
       <div class="card-info">
         <div class="card-title">${p.title}</div>
@@ -227,7 +258,8 @@ function render() {
 function openModal(p) {
   document.getElementById('modalImg').src = p.image ? `images/${p.image}` : '';
   document.getElementById('modalTitle').textContent = p.title;
-  document.getElementById('modalTags').innerHTML = p.tags.map(t=>
+  const visibleTags = p.tags.filter(t => t !== 'showcase');
+  document.getElementById('modalTags').innerHTML = visibleTags.map(t=>
     `<span class="modal-tag">${tagLabel(t)}</span>`).join('');
   const metaParts = [];
   if (p.date && p.date!='null') metaParts.push(p.date);

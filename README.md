@@ -77,6 +77,47 @@ Key points:
 
 ---
 
+## Formatting your Description text
+
+The `## Description` section supports lightweight **Markdown**, so you can add
+links, emphasis, and line breaks. Write it in Obsidian as usual; it renders in
+the painting's detail view on the website.
+
+**Links** — square brackets for the words shown, parentheses for the full URL.
+Put a link on its own line with a blank line before it:
+
+```markdown
+Some text about the painting.
+
+[Read about the poem's origin](http://ambitioninthecity.com/2013/06/07/...)
+```
+
+→ shows as a green clickable phrase. (See `bowl2-watercolorKintsugi` for a
+working example.)
+
+**Other formatting that comes through:**
+
+| You write            | You get            |
+|----------------------|--------------------|
+| `**bold**`           | **bold**           |
+| `*italic*`           | *italic*           |
+| `[words](https://…)` | a clickable link   |
+| `![caption](https://…/image.jpg)` | an embedded image |
+| a line break (Return)| a line break       |
+
+Line breaks are preserved, so poems and stanzas keep their shape.
+
+**A caution about images and links to other websites:** linking to or embedding
+an image from someone else's site (e.g. a WordPress page) works, but you don't
+control it — if they move or delete the file, it breaks silently on your site,
+and it adds an outside request each time. For anything you want to keep, prefer
+a plain **text link** to the page. If you truly want an image to live in the
+note, save a copy into that painting's folder — but note the build currently
+publishes only the *main* painting image, so embedding extra local images in a
+Description would need a small build change (just ask Claude).
+
+---
+
 ## Categories
 
 Category labels in the dropdown come from your tags. Friendly display names

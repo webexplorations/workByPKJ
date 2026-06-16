@@ -65,6 +65,7 @@ footer{background:var(--surface);border-top:1px solid var(--border);padding:12px
 .modal-tag{padding:3px 11px;border-radius:20px;background:var(--accent-light);color:var(--accent);font-size:var(--fs-sm);font-weight:600}
 .modal-meta{font-size:var(--fs-sm);color:var(--muted);margin-bottom:8px;line-height:1.6}
 .modal-desc{font-size:var(--fs-sm);color:var(--muted);line-height:1.6;font-style:italic}
+.modal-desc a{color:var(--accent);font-weight:600}
 .modal-copy{font-size:10px;color:var(--muted);margin-top:12px;letter-spacing:.3px;line-height:1.4;border-top:1px solid var(--border);padding-top:8px}
 </style>
 </head>
@@ -255,6 +256,24 @@ function render() {
   });
 }
 
+// Render a description's lightweight Markdown (links, images, bold/italic,
+// line breaks) to safe HTML. Content is the artist's own, escaped first.
+function renderDesc(text) {
+  let s = text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  // images: ![alt](url)
+  s = s.replace(/!\[([^\]]*)\]\(([^)\s]+)[^)]*\)/g,
+    '<img src="$2" alt="$1" style="max-width:100%;border-radius:6px;margin:8px 0;box-shadow:0 3px 10px rgba(0,0,0,.25)">');
+  // links: [text](url)  (text may now contain an <img> from above)
+  s = s.replace(/\[([^\]]+)\]\(([^)\s]+)[^)]*\)/g,
+    '<a href="$2" target="_blank" rel="noopener">$1</a>');
+  // bold then italic
+  s = s.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+  s = s.replace(/\*([^*]+)\*/g, '<em>$1</em>');
+  // line breaks
+  s = s.replace(/\n/g, '<br>');
+  return s;
+}
+
 function openModal(p) {
   document.getElementById('modalImg').src = p.image ? `images/${p.image}` : '';
   document.getElementById('modalTitle').textContent = p.title;
@@ -269,7 +288,7 @@ function openModal(p) {
   metaEl.textContent = metaParts.join(' · ');
   metaEl.style.display = metaParts.length ? '' : 'none';
   const descEl = document.getElementById('modalDesc');
-  descEl.textContent = p.description || '';
+  descEl.innerHTML = p.description ? renderDesc(p.description) : '';
   descEl.style.display = p.description ? '' : 'none';
   document.getElementById('modalBg').classList.add('open');
   document.body.style.overflow = 'hidden';

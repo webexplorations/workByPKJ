@@ -3,7 +3,17 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0">
-<title>Work by PKJ</title>
+<title>Work by PKJ — A Painting Journal</title>
+<meta name="description" content="Watercolor and mixed-media paintings by Peter K. Johnson.">
+<!-- Favicon: small green monogram -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2032%2032'%3E%3Crect%20width='32'%20height='32'%20rx='7'%20fill='%234a6741'/%3E%3Ctext%20x='16'%20y='23'%20font-family='Georgia,serif'%20font-size='19'%20font-weight='bold'%20fill='%23f7f5f0'%20text-anchor='middle'%3EP%3C/text%3E%3C/svg%3E">
+<!-- Share/link previews (Open Graph + Twitter) -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Work by PKJ — A Painting Journal">
+<meta property="og:description" content="Watercolor and mixed-media paintings by Peter K. Johnson.">
+<meta property="og:image" content="https://webexplorations.github.io/workByPKJ/og-image.jpg">
+<meta property="og:url" content="https://webexplorations.github.io/workByPKJ/">
+<meta name="twitter:card" content="summary_large_image">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
 :root{
@@ -67,6 +77,19 @@ footer{background:var(--surface);border-top:1px solid var(--border);padding:12px
 .modal-desc{font-size:var(--fs-sm);color:var(--muted);line-height:1.6;font-style:italic}
 .modal-desc a{color:var(--accent);font-weight:600}
 .modal-copy{font-size:10px;color:var(--muted);margin-top:12px;letter-spacing:.3px;line-height:1.4;border-top:1px solid var(--border);padding-top:8px}
+.modal-nav{position:absolute;top:50%;transform:translateY(-50%);background:rgba(255,255,255,.92);border:none;border-radius:50%;width:42px;height:42px;font-size:20px;cursor:pointer;display:flex;align-items:center;justify-content:center;color:var(--text);z-index:10;box-shadow:0 2px 8px rgba(0,0,0,.25);font-weight:700}
+.modal-nav:hover{background:#fff}
+.modal-nav.prev{left:12px}
+.modal-nav.next{right:12px}
+.modal-share{display:inline-flex;align-items:center;gap:6px;margin-top:14px;padding:8px 14px;background:var(--accent-light);color:var(--accent);border:none;border-radius:10px;font-family:'Source Sans 3',sans-serif;font-size:var(--fs-sm);font-weight:600;cursor:pointer}
+.modal-share:hover{filter:brightness(.97)}
+/* Header about link + sort control */
+.about-link{background:none;border:1px solid var(--border-med);color:var(--accent);border-radius:20px;padding:5px 14px;font-family:'Source Sans 3',sans-serif;font-size:var(--fs-xs);font-weight:600;cursor:pointer;margin-bottom:8px}
+.about-link:hover{background:var(--accent-light)}
+.sort-select{background:var(--surface);border:1.5px solid var(--border-med);border-radius:12px;padding:11px 14px;color:var(--text);font-family:'Source Sans 3',sans-serif;font-size:var(--fs-sm);outline:none;cursor:pointer;box-shadow:0 1px 4px rgba(0,0,0,.05);appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%236b6b60' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 12px center;padding-right:32px}
+.about-body{font-size:var(--fs-sm);color:var(--text);line-height:1.7}
+.about-body p{margin-bottom:12px}
+.about-body a{color:var(--accent);font-weight:600}
 </style>
 </head>
 <body>
@@ -77,6 +100,7 @@ footer{background:var(--surface);border-top:1px solid var(--border);padding:12px
     <div class="stat"><span class="stat-num" id="totalCount">0</span><span class="stat-label">paintings</span></div>
     <div class="stat"><span class="stat-num" id="catCount">0</span><span class="stat-label">categories</span></div>
   </div>
+  <button class="about-link" id="aboutBtn">About the Artist</button>
   <div class="header-copy">&copy; 2025 Peter K. Johnson &mdash; All rights reserved. Unauthorized reproduction or use prohibited.</div>
 </header>
 
@@ -96,6 +120,11 @@ footer{background:var(--surface);border-top:1px solid var(--border);padding:12px
       <option value="__all__">All paintings (186)</option>
     </select>
     <input type="text" class="search-input" id="searchInput" placeholder="Search…">
+    <select class="sort-select" id="sortSelect" title="Sort paintings">
+      <option value="az">Sort: A–Z</option>
+      <option value="newest">Newest first</option>
+      <option value="oldest">Oldest first</option>
+    </select>
   </div>
   <div class="result-count" id="resultCount"></div>
   <div class="grid" id="grid" style="display:none"></div>
@@ -109,8 +138,10 @@ footer{background:var(--surface);border-top:1px solid var(--border);padding:12px
 
 <div class="modal-bg" id="modalBg">
   <div class="modal">
-    <div class="modal-img-wrap">
+    <div class="modal-img-wrap" id="modalImgWrap">
       <button class="modal-close" id="modalClose">&#x2715;</button>
+      <button class="modal-nav prev" id="modalPrev" aria-label="Previous painting">&#8249;</button>
+      <button class="modal-nav next" id="modalNext" aria-label="Next painting">&#8250;</button>
       <img id="modalImg" src="" alt="">
     </div>
     <div class="modal-body">
@@ -118,7 +149,24 @@ footer{background:var(--surface);border-top:1px solid var(--border);padding:12px
       <div class="modal-tags" id="modalTags"></div>
       <div class="modal-meta" id="modalMeta"></div>
       <div class="modal-desc" id="modalDesc"></div>
+      <button class="modal-share" id="modalShare">&#128279; Copy link to this painting</button>
       <div class="modal-copy">&copy; 2025 Peter K. Johnson. All rights reserved. Unauthorized reproduction or use of this image is strictly prohibited.</div>
+    </div>
+  </div>
+</div>
+
+<div class="modal-bg" id="aboutBg">
+  <div class="modal" style="max-width:480px">
+    <div class="modal-body" style="padding:26px 24px 24px">
+      <button class="modal-close" id="aboutClose" style="position:static;float:right;margin:-8px -6px 0 0">&#x2715;</button>
+      <div class="modal-title" style="margin-bottom:14px">About the Artist</div>
+      <div class="about-body" id="aboutBody">
+        <!-- ABOUT-TEXT-START -->
+        <p>Peter K. Johnson is a painter working in watercolor and mixed media.
+        This site is a journal of his work.</p>
+        <p><em>(Placeholder bio — send Claude your preferred text and it will be dropped in here.)</em></p>
+        <!-- ABOUT-TEXT-END -->
+      </div>
     </div>
   </div>
 </div>
@@ -130,6 +178,10 @@ document.addEventListener('dragstart', e => e.preventDefault());
 let paintings = [];
 let activeTag = '';
 let searchTerm = '';
+let sortMode = 'az';
+let currentFiltered = [];   // the set currently shown in the grid
+let navList = [];           // the set the open modal navigates through
+let navIndex = 0;
 
 const catNames = {
   'flowers':'Flowers','mankato':'Mankato','MemoryPlace':'Memory Places',
@@ -166,7 +218,7 @@ async function init() {
       card.innerHTML = p.image
         ? `<img src="images/${p.image}" alt="${p.title}" loading="lazy"><div class="showcase-label">${p.title}</div>`
         : `<div style="width:100%;height:100%;background:#ddd"></div><div class="showcase-label">${p.title}</div>`;
-      card.addEventListener('click', () => openModal(p));
+      card.addEventListener('click', () => openModal(p, showcased));
       grid.appendChild(card);
     });
     showcaseSection.style.display = '';
@@ -197,10 +249,61 @@ async function init() {
     searchTerm = e.target.value.toLowerCase();
     render();
   });
+  document.getElementById('sortSelect').addEventListener('change', e => {
+    sortMode = e.target.value;
+    render();
+  });
+
+  // Painting modal controls
   document.getElementById('modalClose').addEventListener('click', closeModal);
   document.getElementById('modalBg').addEventListener('click', e => {
     if (e.target === document.getElementById('modalBg')) closeModal();
   });
+  document.getElementById('modalPrev').addEventListener('click', () => navTo(-1));
+  document.getElementById('modalNext').addEventListener('click', () => navTo(1));
+  document.getElementById('modalShare').addEventListener('click', sharePainting);
+
+  // About modal
+  document.getElementById('aboutBtn').addEventListener('click', () => openSheet('aboutBg'));
+  document.getElementById('aboutClose').addEventListener('click', () => closeSheet('aboutBg'));
+  document.getElementById('aboutBg').addEventListener('click', e => {
+    if (e.target === document.getElementById('aboutBg')) closeSheet('aboutBg');
+  });
+
+  // Keyboard: Esc closes, arrows navigate the open painting
+  document.addEventListener('keydown', e => {
+    if (document.getElementById('aboutBg').classList.contains('open') && e.key === 'Escape') {
+      closeSheet('aboutBg'); return;
+    }
+    if (!document.getElementById('modalBg').classList.contains('open')) return;
+    if (e.key === 'Escape') closeModal();
+    else if (e.key === 'ArrowLeft') navTo(-1);
+    else if (e.key === 'ArrowRight') navTo(1);
+  });
+
+  // Swipe on the image to navigate (mobile)
+  let touchX = null;
+  const wrap = document.getElementById('modalImgWrap');
+  wrap.addEventListener('touchstart', e => { touchX = e.changedTouches[0].clientX; }, {passive:true});
+  wrap.addEventListener('touchend', e => {
+    if (touchX === null) return;
+    const dx = e.changedTouches[0].clientX - touchX;
+    if (Math.abs(dx) > 40) navTo(dx < 0 ? 1 : -1);
+    touchX = null;
+  }, {passive:true});
+
+  // Deep link: open a painting if the URL has #id
+  openFromHash();
+  window.addEventListener('hashchange', openFromHash);
+}
+
+function openFromHash() {
+  const id = decodeURIComponent(location.hash.replace(/^#/, ''));
+  if (!id) return;
+  const p = paintings.find(x => x.id === id);
+  if (p && !document.getElementById('modalBg').classList.contains('open')) {
+    openModal(p, paintings);
+  }
 }
 
 function render() {
@@ -218,7 +321,7 @@ function render() {
   showcase.style.display = 'none';
   grid.style.display = '';
 
-  const filtered = paintings.filter(p => {
+  let filtered = paintings.filter(p => {
     if (activeTag === '__all__') { /* no tag filter */ }
     else if (activeTag && !p.tags.includes(activeTag)) return false;
     if (searchTerm) {
@@ -227,6 +330,8 @@ function render() {
     }
     return true;
   });
+  filtered = sortPaintings(filtered);
+  currentFiltered = filtered;
 
   const label = activeTag === '__all__' ? 'all paintings' : activeTag ? tagLabel(activeTag) : 'search results';
   document.getElementById('resultCount').textContent =
@@ -251,9 +356,26 @@ function render() {
         <div class="card-title">${p.title}</div>
         <div class="card-tags">${tagsHtml}</div>
       </div>`;
-    card.addEventListener('click', () => openModal(p));
+    card.addEventListener('click', () => openModal(p, currentFiltered));
     grid.appendChild(card);
   });
+}
+
+function sortPaintings(list) {
+  const arr = [...list];
+  if (sortMode === 'az') {
+    arr.sort((a, b) => a.title.toLowerCase().localeCompare(b.title.toLowerCase()));
+  } else {
+    const val = p => { const t = Date.parse(p.date); return isNaN(t) ? null : t; };
+    arr.sort((a, b) => {
+      const av = val(a), bv = val(b);
+      if (av === null && bv === null) return a.title.toLowerCase().localeCompare(b.title.toLowerCase());
+      if (av === null) return 1;          // undated items sink to the bottom
+      if (bv === null) return -1;
+      return sortMode === 'newest' ? bv - av : av - bv;
+    });
+  }
+  return arr;
 }
 
 // Render a description's lightweight Markdown (links, images, bold/italic,
@@ -274,7 +396,16 @@ function renderDesc(text) {
   return s;
 }
 
-function openModal(p) {
+function openModal(p, list) {
+  navList = (list && list.length) ? list : [p];
+  navIndex = Math.max(0, navList.indexOf(p));
+  showPainting();
+  document.getElementById('modalBg').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function showPainting() {
+  const p = navList[navIndex];
   document.getElementById('modalImg').src = p.image ? `images/${p.image}` : '';
   document.getElementById('modalTitle').textContent = p.title;
   const visibleTags = p.tags.filter(t => t !== 'showcase');
@@ -290,14 +421,45 @@ function openModal(p) {
   const descEl = document.getElementById('modalDesc');
   descEl.innerHTML = p.description ? renderDesc(p.description) : '';
   descEl.style.display = p.description ? '' : 'none';
-  document.getElementById('modalBg').classList.add('open');
-  document.body.style.overflow = 'hidden';
+  // show prev/next only when there's more than one to browse
+  const multi = navList.length > 1;
+  document.getElementById('modalPrev').style.display = multi ? '' : 'none';
+  document.getElementById('modalNext').style.display = multi ? '' : 'none';
+  // reflect the painting in the URL (no scroll/history spam)
+  history.replaceState(null, '', '#' + encodeURIComponent(p.id));
+  document.querySelector('.modal').scrollTop = 0;
+}
+
+function navTo(step) {
+  if (navList.length < 2) return;
+  navIndex = (navIndex + step + navList.length) % navList.length;
+  showPainting();
+}
+
+function sharePainting() {
+  const p = navList[navIndex];
+  const url = location.origin + location.pathname + '#' + encodeURIComponent(p.id);
+  const btn = document.getElementById('modalShare');
+  const done = () => { btn.innerHTML = '&#10003; Link copied!'; setTimeout(() => {
+    btn.innerHTML = '&#128279; Copy link to this painting'; }, 1800); };
+  if (navigator.clipboard) navigator.clipboard.writeText(url).then(done, done);
+  else { prompt('Copy this link:', url); }
 }
 
 function closeModal() {
   document.getElementById('modalBg').classList.remove('open');
   document.body.style.overflow = '';
   document.getElementById('modalImg').src = '';
+  history.replaceState(null, '', location.pathname);
+}
+
+function openSheet(id) {
+  document.getElementById(id).classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+function closeSheet(id) {
+  document.getElementById(id).classList.remove('open');
+  document.body.style.overflow = '';
 }
 
 init();

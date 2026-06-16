@@ -17,8 +17,10 @@
     "date": "05-16-2024",
     "medium": "Watercolor",
     "dimensions": "",
-    "tags": [],
-    "description": "This is from a small sketchbook I started using reference photos I have taken when driving back and forth between Mankato and Minneapolis. I always enjoy how the sun reflects bright on one edge of the metal silos. Even though it doesn\u2019t look like a four-lane highway, that is Highway 169 just beyond the fence. The geometric shapes of a farm site always intrigue me.",
+    "tags": [
+      "highway169"
+    ],
+    "description": "This is from a small sketchbook I started using reference photos I have taken when driving back and forth between Mankato and Minneapolis. I always enjoy how the sun reflects bright on one edge of the metal silos. Even though it doesn\u2019t look like a four-lane highway, that is Highway 169 just beyond the fence. The geometric shapes of a farm site always intrigue me. The metal structures almost always have a band of shine where the light hits them directly.",
     "image": "169-3.png"
   },
   {
@@ -50,11 +52,13 @@
     "title": "4personalLandscapes",
     "date": "1926-03-04",
     "medium": "watercolor",
-    "dimensions": "",
+    "dimensions": "4 - 3x4 rectangles",
     "tags": [
-      "showcase"
+      "showcase",
+      "noltecards",
+      "zen"
     ],
-    "description": "",
+    "description": "Marianne and I wanted to make special notecards for members of her sangha. After painting them I cut them up and mounted them on notecards, sending the originals to each person. The\u00a0_ens\u014d_\u00a0symbolizes absolute\u00a0enlightenment, strength, elegance, the universe (Dharma), and\u00a0mu or emptiness.",
     "image": "4personalLandscapes.jpeg"
   },
   {
@@ -66,18 +70,6 @@
     "tags": [],
     "description": "This is the house I grew up in. Now it is beige. The car in the driveway is my brother\u2019s 57 Chevy. I painted this using a recent photo I took and was surprised later, when watching an old VCR tape, that all of the trees behind the house were small and hidden by the house. So, this is a juxtaposition of now as well as then. A lot of memories showed up while I was working on this painting. Mom teaching piano in the front room, digging up worms for fishing in the rhubarb bed next to the back door, the small and big hill in the backyard which was perfect for sledding in the winter. And, the upstairs window and my room just beyond it.",
     "image": "8242Queen.png"
-  },
-  {
-    "id": "NDE",
-    "title": "NDE",
-    "date": "",
-    "medium": "",
-    "dimensions": "",
-    "tags": [
-      "MemoryPlace"
-    ],
-    "description": "",
-    "image": "NDE.png"
   },
   {
     "id": "RasmussenWoodEast",
@@ -92,16 +84,30 @@
     "image": "RasmussenWoodEast.jpg"
   },
   {
-    "id": "RiverStudy",
-    "title": "RiverStudy",
+    "id": "RiverStudy1",
+    "title": "RiverStudy1",
     "date": "",
     "medium": "",
     "dimensions": "",
     "tags": [
-      "art-class"
+      "art-class",
+      "landscape"
     ],
     "description": "The assignment was to paint a landscape with a two-color palette. One version I did was Purple and Orange and the second one was Indigo with Quinacridone Gold.",
-    "image": "RiverStudy.png"
+    "image": "RiverStudy1.png"
+  },
+  {
+    "id": "RiverStudy2",
+    "title": "RiverStudy2",
+    "date": "",
+    "medium": "",
+    "dimensions": "",
+    "tags": [
+      "art-class",
+      "landscape"
+    ],
+    "description": "The assignment was to paint a landscape with a two-color palette. One version I did was Purple and Orange and the second one was Indigo with Quinacridone Gold.",
+    "image": "RiverStudy2.png"
   },
   {
     "id": "ZenQuartet",
@@ -122,7 +128,7 @@
     "medium": "watercolor",
     "dimensions": "",
     "tags": [],
-    "description": "Alane gave us a lily when they were visiting. Every year it comes up with bright happy pink blooms with yellow stamens. I tried to capture the fragility of the petals as well as the lush green of the leaves.",
+    "description": "Alane gave us a lily when they were visiting. Every year it comes up with bright happy pink blooms with yellow stamens. I tried to capture the fragility of the petals as well as the lush green of the leaves staying as loose as possible. You can probably tell that I also love spattering. Such fun!",
     "image": "alanesLily2.jpeg"
   },
   {
@@ -134,7 +140,7 @@
     "tags": [
       "urban-sketching"
     ],
-    "description": "Although the perspective is off I really like this drawing. Notice the window on far right, third floor. It has a door in it. In the background are the silos that were painted by the Australian muralist Guido van Helten. In January 2026 the milling company pulled out and the building is currently vacant.",
+    "description": "Although the perspective is off I really like this drawing. Notice the window on far right, third floor. It has a door in it. In the background are the silos that were painted by the Australian muralist Guido van Helten. In January 2026 the milling company pulled out and the building is currently vacant.\n\nAs I\u2019m drawing I was trying to imagine the bricklayers building that chimney. (They would be appalled on how I have it tipping), It\u2019s an amazing piece of brick work.",
     "image": "ardentMillsBuilding.png"
   },
   {
@@ -159,252 +165,217 @@
     "tags": [
       "art-class"
     ],
-    "description": "This was so much fun because I could use splatter and then some more splatter. I mixed up my sparkling colors so the confetti in the original painting shine and glimmer.",
+    "description": "This was so much fun because I could use splatter and then some more splatter. I mixed up my sparkling colors so the confetti in the original painting shines and glimmers.",
     "image": "balloon.png"
-  },
-  {
-    "id": "barnLandscape",
-    "title": "barnLandscape",
-    "date": "",
-    "medium": "",
-    "dimensions": "",
-    "tags": [],
-    "description": "",
-    "image": "barnLandscape.jpeg"
   },
   {
     "id": "barnTreeSilouetteStolzmanRoad",
     "title": "barnTreeSilouetteStolzmanRoad",
-    "date": "",
-    "medium": "",
+    "date": "2025-01-08",
+    "medium": "Watercolor",
     "dimensions": "",
-    "tags": [],
-    "description": "",
+    "tags": [
+      "highway169"
+    ],
+    "description": "This scene isn\u2019t actually on highway 169. I delivered a painting I did of a couple\u2019s house outside of Mankato off of Stoltzman Road. On the way back to town I spotted this barn through the trees and decided it would be a good painting of the farms along the area highways.",
     "image": "barnTreeSilouetteStolzmanRoad.png"
   },
   {
     "id": "beyone02242025",
     "title": "beyone02242025",
     "date": "2025-02-24",
-    "medium": "",
-    "dimensions": "",
+    "medium": "Watercolor",
+    "dimensions": "8x10",
     "tags": [
       "showcase"
     ],
-    "description": "",
+    "description": "I am working on the world unseen, the place that is beyond the veil of our everyday physical world. This was one idea, of painting a cosmic landscape framed by the trees outside my studio window. I have this one framed and hanging up in my studio.",
     "image": "beyone02242025.png"
-  },
-  {
-    "id": "birch1",
-    "title": "birch1",
-    "date": "",
-    "medium": "",
-    "dimensions": "",
-    "tags": [
-      "birch"
-    ],
-    "description": "",
-    "image": "birch1.jpg"
-  },
-  {
-    "id": "birch2",
-    "title": "birch2",
-    "date": "",
-    "medium": "",
-    "dimensions": "",
-    "tags": [
-      "birch"
-    ],
-    "description": "",
-    "image": "birch2.jpg"
-  },
-  {
-    "id": "birch3",
-    "title": "birch3",
-    "date": "",
-    "medium": "",
-    "dimensions": "",
-    "tags": [
-      "birch"
-    ],
-    "description": "",
-    "image": "birch3.jpg"
   },
   {
     "id": "birchForMom",
     "title": "birchForMom",
-    "date": "",
+    "date": "2000-01-01",
     "medium": "watercolor",
     "dimensions": "",
     "tags": [
       "birch"
     ],
-    "description": "",
+    "description": "I painted this around early 2000 and gave it to my Mom. She had it hanging in her bathroom for over 15 years. I painted this using a palette knife and I think some brush work. It certainly surprised me as it flowed out and across the paper. The river flowing off into the background was a quick, last minute swirl with the brush.\n\nWhen Mom moved out of her apartment into memory care, I made sure to rescue this painting and now have it hanging in our living room.",
     "image": "birchForMom.jpg"
   },
   {
     "id": "birchForMoninne",
     "title": "birchForMoninne",
-    "date": "",
-    "medium": "",
-    "dimensions": "",
+    "date": "2022-12-01",
+    "medium": "watercolor",
+    "dimensions": "8x10",
     "tags": [
       "birch"
     ],
-    "description": "",
+    "description": "When Moninne Hardie first saw the birch tree painting I did for Marianne she wanted one for her partner. I used the same technique with the Minnesota River and Blue Earth River confluence in mind even though I doubt if there are any birch trees on that river bank.",
     "image": "birchForMoninne.jpg"
   },
   {
     "id": "birchInPurple",
     "title": "birchInPurple",
-    "date": "",
-    "medium": "",
-    "dimensions": "",
+    "date": "2026-01-01",
+    "medium": "Watercolor and ink",
+    "dimensions": "3x5",
     "tags": [
-      "showcase"
+      "showcase",
+      "birch"
     ],
-    "description": "",
+    "description": "I did some quick washes  on a small irregular watercolor block that I had laying around for years.  The two colors are indigo and royal purple. While the wash was still wet I went in with Dr. Martin\u2019s opaque white for the birch trees. Do you see how the white pigment bloomed into the purples? Delicious. Then, using a fountain pen with purple ink I added in the line details. This tiny little piece of watercolor delights me every time I look at it.",
     "image": "birchInPurple.jpeg"
   },
   {
     "id": "birchesForMarianne",
     "title": "birchesForMarianne",
-    "date": "",
-    "medium": "",
-    "dimensions": "",
+    "date": "2022-01-01",
+    "medium": "Watercolor",
+    "dimensions": "8x10",
     "tags": [
       "birch",
       "showcase"
     ],
-    "description": "",
+    "description": "After lots of birch tree paintings this suddenly erupted. Like magic. Marianne fell in love with it on first sight and we have it hanging in our living room. A year or two after painting this I offered to do a painting for a friend of my mother. She looked at all my work and choose this one. So, I did a second one for her, matching this style. It was good, but it didn\u2019t have the magic that this one projects.",
     "image": "birchesForMarianne.jpeg"
   },
   {
     "id": "blueberries",
     "title": "blueberries",
-    "date": "",
-    "medium": "",
+    "date": "2024-01-01",
+    "medium": "gouache",
     "dimensions": "",
-    "tags": [],
-    "description": "",
+    "tags": [
+      "art-class",
+      "food"
+    ],
+    "description": "This was done from a reference photo during a Zoom group working with gouache.",
     "image": "blueberries.png"
   },
   {
     "id": "bodyBreathMantra",
     "title": "bodyBreathMantra",
     "date": "",
-    "medium": "",
-    "dimensions": "",
+    "medium": "Watercolor and ink",
+    "dimensions": "8x10",
     "tags": [
       "zen"
     ],
-    "description": "",
+    "description": "Marianne developed this personal mantra during her studies. I decided to create a painting that she could put on her altar. Ultramarine Blue with Royal Purple and the black ink work so well together.",
     "image": "bodyBreathMantra.png"
   },
   {
     "id": "bookmarkOctopus",
     "title": "bookmarkOctopus",
-    "date": "",
-    "medium": "",
+    "date": "2024-03-13",
+    "medium": "Watercolor",
     "dimensions": "",
     "tags": [
-      "bookmark"
+      "bookmark",
+      "wildlife"
     ],
-    "description": "",
+    "description": "Emily gave me a copy of Remarkably Bright Creatures by Shelby Van Pelt as a gift. About a quarter into the book and I had to paint a portrait of the main character. I painted two bookmarks and sent one to Emily. She wrote later on how envious her book club was when she showed it off.",
     "image": "bookmarkOctopus.png"
   },
   {
     "id": "bowl1",
     "title": "bowl1",
-    "date": "",
-    "medium": "",
-    "dimensions": "",
+    "date": "2023-01-01",
+    "medium": "Watercolor",
+    "dimensions": "8x11",
     "tags": [
       "stilllife"
     ],
-    "description": "",
+    "description": "I found an online tutorial showing how to paint this bowl, focusing on adding in the shadows. The wall pattern matching the bowl was my brushes idea.",
     "image": "bowl1.jpeg"
   },
   {
     "id": "bowl2-watercolorKintsugi",
     "title": "bowl2-watercolorKintsugi",
-    "date": "",
-    "medium": "",
-    "dimensions": "",
+    "date": "2024-01-01",
+    "medium": "watercolor",
+    "dimensions": "9 3/4\u201d x 13\u201d",
     "tags": [
       "stilllife"
     ],
-    "description": "",
+    "description": "After I painted the first bowl I decided to break the bowl and use Kintsugi to take it beyond what it was originally. I wanted to add a window as well as a poem in the back wall. The poem on the wall is by Peter Meyer: \nI\u2019m like one of those Japanese bowls  \nThat were made long ago  \nI have some cracks in me  \nThey have been filled with gold\n\nThat\u2019s what they used back then[![04_03](https://ambitioninthecity.wordpress.com/wp-content/uploads/2013/06/04_03.jpg?w=240&h=192)](http://ambitioninthecity.com/2013/06/07/japanese-bowl-refelctions-of-a-poem-by-peter-mayer/04_03/)  \nWhen they had a bowl to mend  \nIt did not hide the cracks  \nIt made them shine instead\n\nSo now every old scar shows  \nfrom every time I broke  \nAnd anyone\u2019s eyes can see  \nI\u2019m not what I used to be\n\nBut in a collector\u2019s mind  \nAll of these jagged lines  \nMake me more beautiful  \nAnd worth a higher price\n\nI\u2019m like one of those Japanese bowls  \nI was made long ago  \nI have some cracks you can see  \nSee how they shine of gold.  \n-Peter Mayer",
     "image": "bowl2-watercolorKintsugi.jpeg"
-  },
-  {
-    "id": "bowlOfCherries",
-    "title": "bowlOfCherries",
-    "date": "",
-    "medium": "",
-    "dimensions": "",
-    "tags": [
-      "stilllife"
-    ],
-    "description": "",
-    "image": "bowlOfCherries.png"
   },
   {
     "id": "buddhaWeek2",
     "title": "buddhaWeek2",
-    "date": "",
-    "medium": "",
-    "dimensions": "",
+    "date": "2023-06-16",
+    "medium": "charcoal pencil",
+    "dimensions": "8x10",
     "tags": [
       "zen"
     ],
-    "description": "",
+    "description": "This is a drawing of a small statuette that is about 3\u201d high. I was experimenting with a charcoal pencil and using an eraser to create highlights.",
     "image": "buddhaWeek2.png"
   },
   {
-    "id": "cannonBeachORLowRes",
-    "title": "cannonBeachORLowRes",
-    "date": "",
-    "medium": "",
+    "id": "calderFlamingo",
+    "title": "calderFlamingo",
+    "date": "2024-06-03",
+    "medium": "watercolor and ink",
     "dimensions": "",
-    "tags": [],
-    "description": "",
-    "image": "cannonBeachORLowRes.jpg"
+    "tags": [
+      "art-class",
+      "urban-sketching"
+    ],
+    "description": "The Zoom urban sketching group used a reference photo of the Calder sculpture in downtown Chicago.",
+    "image": "calderFlamingo.png"
+  },
+  {
+    "id": "cannonBeachOR",
+    "title": "cannonBeachOR",
+    "date": "2023-10-02",
+    "medium": "Watercolor",
+    "dimensions": "6 - 3x3",
+    "tags": [
+      "art-class",
+      "landscape"
+    ],
+    "description": "Looking at a single reference photo of a rocky coastline with the Zoom watercolor group. I decided to speed paint six paintings as quickly and as loosely as possible, trying to capture the dynamics of the ocean with the solid rocks.",
+    "image": "cannonBeachOR.jpg"
   },
   {
     "id": "chickadee",
     "title": "chickadee",
-    "date": "",
-    "medium": "",
+    "date": "2023-08-29",
+    "medium": "watercolor",
     "dimensions": "",
     "tags": [
       "bird"
     ],
-    "description": "",
+    "description": "I love the chickadees.",
     "image": "chickadee.jpeg"
   },
   {
     "id": "chicken1",
     "title": "chicken1",
-    "date": "",
-    "medium": "",
-    "dimensions": "",
+    "date": "2023-08-06",
+    "medium": "Watercolor",
+    "dimensions": "5x7",
     "tags": [
       "bird"
     ],
-    "description": "",
+    "description": "I painted two chickens in under an hour during a Zoom art session with the group. I love the attitude that popped out as this hen revealed herself to my brushes.",
     "image": "chicken1.jpeg"
   },
   {
     "id": "chicken2",
     "title": "chicken2",
-    "date": "",
-    "medium": "",
-    "dimensions": "",
+    "date": "2023-08-06",
+    "medium": "Watercolor",
+    "dimensions": "5x7",
     "tags": [
       "bird"
     ],
-    "description": "",
+    "description": "I painted two chickens in under an hour during a Zoom art session with the group.This one reminded me of my Rhode Island Reds that I had in Florida. (I was really happy how the eye turned out, it gives that sparkle to the whole painting.)",
     "image": "chicken2.jpeg"
   },
   {
@@ -419,30 +390,6 @@
     ],
     "description": "",
     "image": "chittaHeartPoem.png"
-  },
-  {
-    "id": "churchFirstPresbeterian",
-    "title": "churchFirstPresbeterian",
-    "date": "01-02-1924",
-    "medium": "",
-    "dimensions": "",
-    "tags": [
-      "mankato"
-    ],
-    "description": "",
-    "image": "churchFirstPresbeterian.jpg"
-  },
-  {
-    "id": "cityParkDenver",
-    "title": "cityParkDenver",
-    "date": "",
-    "medium": "",
-    "dimensions": "",
-    "tags": [
-      "art-class"
-    ],
-    "description": "",
-    "image": "cityParkDenver.jpeg"
   },
   {
     "id": "coffeeHag01-04-25",
@@ -497,54 +444,6 @@
     "image": "coffeeHag2022.png"
   },
   {
-    "id": "coneFlowerGarden",
-    "title": "coneFlowerGarden",
-    "date": "",
-    "medium": "",
-    "dimensions": "",
-    "tags": [
-      "flowers"
-    ],
-    "description": "",
-    "image": "coneFlowerGarden.png"
-  },
-  {
-    "id": "confluence",
-    "title": "confluence",
-    "date": "",
-    "medium": "",
-    "dimensions": "",
-    "tags": [
-      "confluence"
-    ],
-    "description": "",
-    "image": "confluence.png"
-  },
-  {
-    "id": "confluence02-29-2024",
-    "title": "confluence02-29-2024",
-    "date": "2024-02-29",
-    "medium": "",
-    "dimensions": "",
-    "tags": [
-      "confluence"
-    ],
-    "description": "",
-    "image": "confluence02-29-2024.png"
-  },
-  {
-    "id": "confluence060624",
-    "title": "confluence060624",
-    "date": "2024-06-06",
-    "medium": "",
-    "dimensions": "",
-    "tags": [
-      "confluence"
-    ],
-    "description": "",
-    "image": "confluence060624.png"
-  },
-  {
     "id": "conyers",
     "title": "conyers",
     "date": "",
@@ -579,18 +478,6 @@
     ],
     "description": "",
     "image": "courtHouseInk.jpg"
-  },
-  {
-    "id": "courthouse2022",
-    "title": "courthouse2022",
-    "date": "2022",
-    "medium": "",
-    "dimensions": "",
-    "tags": [
-      "courthouse"
-    ],
-    "description": "",
-    "image": "courthouse2022.jpeg"
   },
   {
     "id": "cupcake",
@@ -631,14 +518,14 @@
   {
     "id": "dandelion060124",
     "title": "dandelion060124",
-    "date": "2024-06-01",
-    "medium": "",
-    "dimensions": "",
+    "date": "2024-01-01",
+    "medium": "watercolor and gouache",
+    "dimensions": "3.5 x 5",
     "tags": [
       "flowers",
       "dandelion"
     ],
-    "description": "",
+    "description": "This is one of those paintings that just spontaneously happen. I love it when all the pieces end up sitting on the paper so well together. That\u2019s Quinacridon Gold in the background, set against Indigo.",
     "image": "dandelion060124.png"
   },
   {
@@ -790,23 +677,26 @@
   {
     "id": "facingTheFuture",
     "title": "facingTheFuture",
-    "date": "",
-    "medium": "",
-    "dimensions": "",
-    "tags": [],
-    "description": "",
+    "date": "2025-03-16",
+    "medium": "watercolor and ink and markers",
+    "dimensions": "8x10",
+    "tags": [
+      "showcase"
+    ],
+    "description": "I painted this after my brother was hospitalized once again. No planning or thumbnail sketches, this one just developed on its own.",
     "image": "facingTheFuture.jpg"
   },
   {
     "id": "featherForMoe",
     "title": "featherForMoe",
-    "date": "",
-    "medium": "",
-    "dimensions": "",
+    "date": "2026-05-13",
+    "medium": "Watercolor on toned paper",
+    "dimensions": "5x7",
     "tags": [
-      "bird"
+      "bird",
+      "showcase"
     ],
-    "description": "",
+    "description": "A birthday card for Moninne. We had the date wrong on our calendar and gave this to her a month early. She kept the card anyway ;-)",
     "image": "featherForMoe.jpeg"
   },
   {
@@ -905,19 +795,6 @@
     "image": "goodCounsel.jpg"
   },
   {
-    "id": "goodCounsel2",
-    "title": "goodCounsel2",
-    "date": "",
-    "medium": "",
-    "dimensions": "",
-    "tags": [
-      "MemoryPlace",
-      "mankato"
-    ],
-    "description": "",
-    "image": "goodCounsel2.jpeg"
-  },
-  {
     "id": "hamburger",
     "title": "hamburger",
     "date": "",
@@ -987,18 +864,6 @@
     "image": "indianLake.jpeg"
   },
   {
-    "id": "invernessCastle",
-    "title": "invernessCastle",
-    "date": "",
-    "medium": "",
-    "dimensions": "",
-    "tags": [
-      "art-class"
-    ],
-    "description": "",
-    "image": "invernessCastle.jpeg"
-  },
-  {
     "id": "invernessCastle2",
     "title": "invernessCastle2",
     "date": "",
@@ -1038,50 +903,50 @@
   {
     "id": "keywestLighthouse",
     "title": "keywestLighthouse",
-    "date": "",
-    "medium": "",
-    "dimensions": "",
+    "date": "2024-01-01",
+    "medium": "gouache",
+    "dimensions": "5x7",
     "tags": [
       "MemoryPlace",
       "keywest"
     ],
-    "description": "",
+    "description": "I lived a few blocks from this lighthouse which is across the street from the Hemingway House. Painting this brought back lots of memories, riding my bicycle through the streets of Key West when I was stationed there with the Navy. I was a photographer back then for the Navy and the local newspaper. Little did I imagine that I would be painting one day.",
     "image": "keywestLighthouse.png"
   },
   {
     "id": "kiwi",
     "title": "kiwi",
     "date": "",
-    "medium": "",
+    "medium": "watercolor",
     "dimensions": "",
     "tags": [
       "food"
     ],
-    "description": "",
+    "description": "Part of the series of food paintings I worked on.",
     "image": "kiwi.png"
   },
   {
     "id": "komodoDragonBlue",
     "title": "komodoDragonBlue",
-    "date": "",
-    "medium": "",
+    "date": "2023-12-10",
+    "medium": "gouache",
     "dimensions": "",
     "tags": [
       "wildlife"
     ],
-    "description": "",
+    "description": "The kimono dragons always intrigued me. Thought I\u2019d paint one bright blue.",
     "image": "komodoDragonBlue.png"
   },
   {
     "id": "koyFish",
     "title": "koyFish",
-    "date": "",
-    "medium": "",
-    "dimensions": "",
+    "date": "2024-05-21",
+    "medium": "watercolor and ink",
+    "dimensions": "8x10",
     "tags": [
       "wildlife"
     ],
-    "description": "",
+    "description": "Wanting to catch the movement of Koy fish in a pond. I also painted a similar painting on a CD-ROM coated with watercolor ground but this one turned out much more dynamic.",
     "image": "koyFish.png"
   },
   {
@@ -1099,13 +964,13 @@
   {
     "id": "leavingTaylors",
     "title": "leavingTaylors",
-    "date": "",
-    "medium": "",
+    "date": "2023-12-14",
+    "medium": "watercolor and ink on antique paper",
     "dimensions": "",
     "tags": [
       "MemoryPlace"
     ],
-    "description": "",
+    "description": "Our neighbor,. Gretchen Taylor needed help getting her garbage cans out to the curb every week. They have a very long drive. As I was leaving one morning I noticed this scene and decided to paint it in this fat journal of antique paper. That\u2019s Tom Hager\u2019s house in the background. (Our house is to the right of his, but off the edge of the page. It\u2019s bright blue and would have ruined the composition)\n\nGretchen is now in a nursing home and Tom has passed. But, I still have this memory captured that December morning.",
     "image": "leavingTaylors.jpg"
   },
   {
@@ -1167,18 +1032,6 @@
     ],
     "description": "",
     "image": "lookingOutMyBathroomWindow0001.jpg"
-  },
-  {
-    "id": "lookingTowardTheFuture",
-    "title": "lookingTowardTheFuture",
-    "date": "",
-    "medium": "",
-    "dimensions": "",
-    "tags": [
-      "rasmussenWoods"
-    ],
-    "description": "",
-    "image": "lookingTowardTheFuture.png"
   },
   {
     "id": "lupineGarden",
@@ -1412,14 +1265,14 @@
   {
     "id": "mushroom2",
     "title": "mushroom2",
-    "date": "",
-    "medium": "",
-    "dimensions": "",
+    "date": "2023-01-01",
+    "medium": "watercolor",
+    "dimensions": "9x12",
     "tags": [
       "flowers",
       "mushrooms"
     ],
-    "description": "",
+    "description": "Psilocybin mushrooms. They speak for themselves. The square in the background is symbolic of the other portals that these mushrooms sometimes reveal.",
     "image": "mushroom2.jpeg"
   },
   {
@@ -1518,18 +1371,6 @@
     ],
     "description": "",
     "image": "petersKitchen.jpeg"
-  },
-  {
-    "id": "poemChitta-Heart",
-    "title": "poemChitta-Heart",
-    "date": "",
-    "medium": "",
-    "dimensions": "",
-    "tags": [
-      "poem"
-    ],
-    "description": "",
-    "image": null
   },
   {
     "id": "poemPunna-Full",
@@ -1764,18 +1605,6 @@
     "image": "sibleyHerEyesight.jpeg"
   },
   {
-    "id": "sibleyHill",
-    "title": "sibleyHill",
-    "date": "",
-    "medium": "",
-    "dimensions": "",
-    "tags": [
-      "Sibley"
-    ],
-    "description": "",
-    "image": "sibleyHill.png"
-  },
-  {
     "id": "sibleyPark04061",
     "title": "sibleyPark04061",
     "date": "",
@@ -1786,18 +1615,6 @@
     ],
     "description": "",
     "image": "sibleyPark04061.png"
-  },
-  {
-    "id": "sibleyPark042524-2",
-    "title": "sibleyPark042524-2",
-    "date": "2024-04-25",
-    "medium": "",
-    "dimensions": "",
-    "tags": [
-      "Sibley"
-    ],
-    "description": "",
-    "image": "sibleyPark042524-2.png"
   },
   {
     "id": "sibleyParkHill",
@@ -2029,6 +1846,32 @@
     "image": "timeToTrimTheSumac.png"
   },
   {
+    "id": "tomatoes1",
+    "title": "tomatoes1",
+    "date": "2024-04-16",
+    "medium": "pencil on toned paper",
+    "dimensions": "5x7",
+    "tags": [
+      "food",
+      "stilllife"
+    ],
+    "description": "Three tomatoes walked into a bar. Later, i'll paint the same tomatoes using color with wax pastels",
+    "image": "tomatoes1.png"
+  },
+  {
+    "id": "tomatoes2",
+    "title": "tomatoes2",
+    "date": "2024-05-16",
+    "medium": "wax pastels on toned paper",
+    "dimensions": "5x7",
+    "tags": [
+      "food",
+      "stilllife"
+    ],
+    "description": "I originally drew this using pencil and then revisited it to experiment with my wax pastels.",
+    "image": "tomatoes2.png"
+  },
+  {
     "id": "treeRings",
     "title": "treeRings",
     "date": "",
@@ -2051,19 +1894,6 @@
     ],
     "description": "",
     "image": "treeVignette.png"
-  },
-  {
-    "id": "trumpHouse",
-    "title": "trumpHouse",
-    "date": "",
-    "medium": "",
-    "dimensions": "",
-    "tags": [
-      "mankato",
-      "urban-sketching"
-    ],
-    "description": "",
-    "image": "trumpHouse.png"
   },
   {
     "id": "unsettledDamStore",
@@ -2116,18 +1946,6 @@
     "image": "violet.png"
   },
   {
-    "id": "walkingOnions",
-    "title": "walkingOnions",
-    "date": "",
-    "medium": "",
-    "dimensions": "",
-    "tags": [
-      "flowers"
-    ],
-    "description": "",
-    "image": "walkingOnions.png"
-  },
-  {
     "id": "washingtonAndBroad",
     "title": "washingtonAndBroad",
     "date": "",
@@ -2139,6 +1957,18 @@
     ],
     "description": "",
     "image": "washingtonAndBroad.jpeg"
+  },
+  {
+    "id": "waterDroplets",
+    "title": "waterDroplets",
+    "date": "2024-05-28",
+    "medium": "white and black pencil on toned paper",
+    "dimensions": "5x7",
+    "tags": [
+      "nature"
+    ],
+    "description": "Trying to capture the sparkle of waterdrops on a spider web and plant stems.",
+    "image": "waterDroplets.png"
   },
   {
     "id": "watermelon",
@@ -2205,14 +2035,14 @@
   {
     "id": "wineglass",
     "title": "wineglass",
-    "date": "",
+    "date": "2024-01-01",
     "medium": "gouache",
-    "dimensions": "",
+    "dimensions": "8x10",
     "tags": [
       "stilllife",
       "art-class"
     ],
-    "description": "",
+    "description": "This was a Zoom art session with the group as part of an introduction to gouache. I\u2019d be afraid to drink a second glass of wine from a glass with a neck this slender but I love how it accentuates the painting. This is when I fell in love with gouache.",
     "image": "wineglass.png"
   },
   {

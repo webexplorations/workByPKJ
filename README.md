@@ -2,9 +2,32 @@
 
 A website showcasing Peter K. Johnson's paintings, published with GitHub Pages.
 
-- **Live site:** https://webexplorations.github.io/workByPKJ/
+- **Live site:** https://workbypkj.webexplorations.com/
+  (also reachable at https://webexplorations.github.io/workByPKJ/)
 - **Local copy:** `/Users/peterj1/Documents/workByPKJ/`
 - **GitHub repo:** https://github.com/webexplorations/workByPKJ
+
+### Custom domain
+
+The site is served at `workbypkj.webexplorations.com` via a `CNAME` record
+(host `workbypkj` → `webexplorations.github.io`) plus the `CNAME` file in this
+repo. After DNS resolves, enable **Settings → Pages → Enforce HTTPS** in GitHub.
+
+### Editing the "About the Artist" text
+
+The bio lives in `index.html` between the `<!-- ABOUT-TEXT-START -->` and
+`<!-- ABOUT-TEXT-END -->` comments. Edit the text there (or ask Claude to), each
+paragraph wrapped in `<p>…</p>`.
+
+### Other features
+
+- **Sort** control (A–Z / Newest / Oldest) — uses each painting's `date`.
+- **Lightbox navigation** — arrows, keyboard (Esc / ← / →), and swipe.
+- **Share links** — each painting has a "Copy link" button; a link like
+  `…/#sunflower` opens straight to that painting.
+- **Share previews** — the `og-image.jpg` and meta tags control how the link
+  looks when posted/messaged. To refresh the preview image, regenerate
+  `og-image.jpg` from a painting (ask Claude).
 
 ---
 

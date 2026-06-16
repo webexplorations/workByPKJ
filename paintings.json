@@ -9,7 +9,9 @@
       "highway169"
     ],
     "description": "Another painting from my Highway 169 sketchbook. This is on the east side of the highway around LeSuer, MN. I originally named each painting using the lat/long of the location but the computer didn\u2019t like that so much.",
-    "image": "169-2.png"
+    "image": "169-2.png",
+    "w": 600,
+    "h": 404
   },
   {
     "id": "169-3",
@@ -21,7 +23,9 @@
       "highway169"
     ],
     "description": "This is from a small sketchbook I started using reference photos I have taken when driving back and forth between Mankato and Minneapolis. I always enjoy how the sun reflects bright on one edge of the metal silos. Even though it doesn\u2019t look like a four-lane highway, that is Highway 169 just beyond the fence. The geometric shapes of a farm site always intrigue me. The metal structures almost always have a band of shine where the light hits them directly.",
-    "image": "169-3.png"
+    "image": "169-3.png",
+    "w": 600,
+    "h": 409
   },
   {
     "id": "169-4",
@@ -33,7 +37,9 @@
       "highway169"
     ],
     "description": "There is an old, abandoned trailer just off Highway 169. Often I would think about pulling into the driveway and exploring around. On this trip I simply stopped and took a photo. The fields had just been plowed and the light and shadow was interesting on the end of the trailer.",
-    "image": "169-4.png"
+    "image": "169-4.png",
+    "w": 600,
+    "h": 412
   },
   {
     "id": "169-5",
@@ -45,7 +51,9 @@
       "highway169"
     ],
     "description": "Driving South, right past the World\u2019s Largest (and most yellow) Candy Store, there is an open prairie littered with erratic boulders left-over from the glaciers. Every time I drive that way the prairie looks different and I see different configurations with the colors and the light.",
-    "image": "169-5.jpeg"
+    "image": "169-5.jpeg",
+    "w": 600,
+    "h": 381
   },
   {
     "id": "4personalLandscapes",
@@ -59,7 +67,9 @@
       "zen"
     ],
     "description": "Marianne and I wanted to make special notecards for members of her sangha. After painting them I cut them up and mounted them on notecards, sending the originals to each person. The\u00a0_ens\u014d_\u00a0symbolizes absolute\u00a0enlightenment, strength, elegance, the universe (Dharma), and\u00a0mu or emptiness.",
-    "image": "4personalLandscapes.jpeg"
+    "image": "4personalLandscapes.jpeg",
+    "w": 463,
+    "h": 600
   },
   {
     "id": "8242Queen",
@@ -69,7 +79,9 @@
     "dimensions": "8x10",
     "tags": [],
     "description": "This is the house I grew up in. Now it is beige. The car in the driveway is my brother\u2019s 57 Chevy. I painted this using a recent photo I took and was surprised later, when watching an old VCR tape, that all of the trees behind the house were small and hidden by the house. So, this is a juxtaposition of now as well as then. A lot of memories showed up while I was working on this painting. Mom teaching piano in the front room, digging up worms for fishing in the rhubarb bed next to the back door, the small and big hill in the backyard which was perfect for sledding in the winter. And, the upstairs window and my room just beyond it.",
-    "image": "8242Queen.png"
+    "image": "8242Queen.png",
+    "w": 600,
+    "h": 380
   },
   {
     "id": "RasmussenWoodEast",
@@ -81,7 +93,9 @@
       "rasmussenWoods"
     ],
     "description": "",
-    "image": "RasmussenWoodEast.jpg"
+    "image": "RasmussenWoodEast.jpg",
+    "w": 600,
+    "h": 450
   },
   {
     "id": "RiverStudy1",
@@ -94,7 +108,9 @@
       "landscape"
     ],
     "description": "The assignment was to paint a landscape with a two-color palette. One version I did was Purple and Orange and the second one was Indigo with Quinacridone Gold.",
-    "image": "RiverStudy1.png"
+    "image": "RiverStudy1.png",
+    "w": 600,
+    "h": 455
   },
   {
     "id": "RiverStudy2",
@@ -107,7 +123,9 @@
       "landscape"
     ],
     "description": "The assignment was to paint a landscape with a two-color palette. One version I did was Purple and Orange and the second one was Indigo with Quinacridone Gold.",
-    "image": "RiverStudy2.png"
+    "image": "RiverStudy2.png",
+    "w": 600,
+    "h": 423
   },
   {
     "id": "ZenQuartet",
@@ -119,7 +137,9 @@
       "zen"
     ],
     "description": "",
-    "image": "ZenQuartet.png"
+    "image": "ZenQuartet.png",
+    "w": 600,
+    "h": 467
   },
   {
     "id": "alanesLily2",
@@ -129,7 +149,9 @@
     "dimensions": "",
     "tags": [],
     "description": "Alane gave us a lily when they were visiting. Every year it comes up with bright happy pink blooms with yellow stamens. I tried to capture the fragility of the petals as well as the lush green of the leaves staying as loose as possible. You can probably tell that I also love spattering. Such fun!",
-    "image": "alanesLily2.jpeg"
+    "image": "alanesLily2.jpeg",
+    "w": 469,
+    "h": 600
   },
   {
     "id": "ardentMillsBuilding",
@@ -141,7 +163,9 @@
       "urban-sketching"
     ],
     "description": "Although the perspective is off I really like this drawing. Notice the window on far right, third floor. It has a door in it. In the background are the silos that were painted by the Australian muralist Guido van Helten. In January 2026 the milling company pulled out and the building is currently vacant.\n\nAs I\u2019m drawing I was trying to imagine the bricklayers building that chimney. (They would be appalled on how I have it tipping), It\u2019s an amazing piece of brick work.",
-    "image": "ardentMillsBuilding.png"
+    "image": "ardentMillsBuilding.png",
+    "w": 600,
+    "h": 469
   },
   {
     "id": "autumnLeaf",
@@ -154,7 +178,9 @@
       "showcase"
     ],
     "description": "The challenge for this art class was to paint fall leaves. I wanted to get the feel of the leaves falling off our maple tree outside my studio so I tilted the horizon and overlapped the leaves, each having a separate plane as it fell from the tree. I really like how the warm and cool colors work together as well as the shadows on the ground.",
-    "image": "autumnLeaf.jpeg"
+    "image": "autumnLeaf.jpeg",
+    "w": 600,
+    "h": 386
   },
   {
     "id": "balloon",
@@ -166,7 +192,9 @@
       "art-class"
     ],
     "description": "This was so much fun because I could use splatter and then some more splatter. I mixed up my sparkling colors so the confetti in the original painting shines and glimmers.",
-    "image": "balloon.png"
+    "image": "balloon.png",
+    "w": 430,
+    "h": 600
   },
   {
     "id": "barnTreeSilouetteStolzmanRoad",
@@ -178,7 +206,9 @@
       "highway169"
     ],
     "description": "This scene isn\u2019t actually on highway 169. I delivered a painting I did of a couple\u2019s house outside of Mankato off of Stoltzman Road. On the way back to town I spotted this barn through the trees and decided it would be a good painting of the farms along the area highways.",
-    "image": "barnTreeSilouetteStolzmanRoad.png"
+    "image": "barnTreeSilouetteStolzmanRoad.png",
+    "w": 600,
+    "h": 392
   },
   {
     "id": "beyone02242025",
@@ -190,7 +220,9 @@
       "showcase"
     ],
     "description": "I am working on the world unseen, the place that is beyond the veil of our everyday physical world. This was one idea, of painting a cosmic landscape framed by the trees outside my studio window. I have this one framed and hanging up in my studio.",
-    "image": "beyone02242025.png"
+    "image": "beyone02242025.png",
+    "w": 600,
+    "h": 482
   },
   {
     "id": "birchForMom",
@@ -202,7 +234,9 @@
       "birch"
     ],
     "description": "I painted this around early 2000 and gave it to my Mom. She had it hanging in her bathroom for over 15 years. I painted this using a palette knife and I think some brush work. It certainly surprised me as it flowed out and across the paper. The river flowing off into the background was a quick, last minute swirl with the brush.\n\nWhen Mom moved out of her apartment into memory care, I made sure to rescue this painting and now have it hanging in our living room.",
-    "image": "birchForMom.jpg"
+    "image": "birchForMom.jpg",
+    "w": 600,
+    "h": 450
   },
   {
     "id": "birchForMoninne",
@@ -214,7 +248,9 @@
       "birch"
     ],
     "description": "When Moninne Hardie first saw the birch tree painting I did for Marianne she wanted one for her partner. I used the same technique with the Minnesota River and Blue Earth River confluence in mind even though I doubt if there are any birch trees on that river bank.",
-    "image": "birchForMoninne.jpg"
+    "image": "birchForMoninne.jpg",
+    "w": 600,
+    "h": 450
   },
   {
     "id": "birchInPurple",
@@ -227,7 +263,9 @@
       "birch"
     ],
     "description": "I did some quick washes  on a small irregular watercolor block that I had laying around for years.  The two colors are indigo and royal purple. While the wash was still wet I went in with Dr. Martin\u2019s opaque white for the birch trees. Do you see how the white pigment bloomed into the purples? Delicious. Then, using a fountain pen with purple ink I added in the line details. This tiny little piece of watercolor delights me every time I look at it.",
-    "image": "birchInPurple.jpeg"
+    "image": "birchInPurple.jpeg",
+    "w": 306,
+    "h": 600
   },
   {
     "id": "birchesForMarianne",
@@ -240,7 +278,9 @@
       "showcase"
     ],
     "description": "After lots of birch tree paintings this suddenly erupted. Like magic. Marianne fell in love with it on first sight and we have it hanging in our living room. A year or two after painting this I offered to do a painting for a friend of my mother. She looked at all my work and choose this one. So, I did a second one for her, matching this style. It was good, but it didn\u2019t have the magic that this one projects.",
-    "image": "birchesForMarianne.jpeg"
+    "image": "birchesForMarianne.jpeg",
+    "w": 600,
+    "h": 483
   },
   {
     "id": "blueberries",
@@ -253,7 +293,9 @@
       "food"
     ],
     "description": "This was done from a reference photo during a Zoom group working with gouache.",
-    "image": "blueberries.png"
+    "image": "blueberries.png",
+    "w": 424,
+    "h": 600
   },
   {
     "id": "bodyBreathMantra",
@@ -265,7 +307,9 @@
       "zen"
     ],
     "description": "Marianne developed this personal mantra during her studies. I decided to create a painting that she could put on her altar. Ultramarine Blue with Royal Purple and the black ink work so well together.",
-    "image": "bodyBreathMantra.png"
+    "image": "bodyBreathMantra.png",
+    "w": 600,
+    "h": 424
   },
   {
     "id": "bookmarkOctopus",
@@ -278,7 +322,9 @@
       "wildlife"
     ],
     "description": "Emily gave me a copy of Remarkably Bright Creatures by Shelby Van Pelt as a gift. About a quarter into the book and I had to paint a portrait of the main character. I painted two bookmarks and sent one to Emily. She wrote later on how envious her book club was when she showed it off.",
-    "image": "bookmarkOctopus.png"
+    "image": "bookmarkOctopus.png",
+    "w": 600,
+    "h": 131
   },
   {
     "id": "bowl1",
@@ -290,7 +336,9 @@
       "stilllife"
     ],
     "description": "I found an online tutorial showing how to paint this bowl, focusing on adding in the shadows. The wall pattern matching the bowl was my brushes idea.",
-    "image": "bowl1.jpeg"
+    "image": "bowl1.jpeg",
+    "w": 600,
+    "h": 450
   },
   {
     "id": "bowl2-watercolorKintsugi",
@@ -302,7 +350,9 @@
       "stilllife"
     ],
     "description": "After I painted the first bowl I decided to break the bowl and use Kintsugi to take it beyond what it was originally. I wanted to add a window as well as a poem in the back wall. The poem on the wall is by Peter Meyer: \nI\u2019m like one of those Japanese bowls  \nThat were made long ago  \nI have some cracks in me  \nThey have been filled with gold\n\nThat\u2019s what they used back then[![04_03](https://ambitioninthecity.wordpress.com/wp-content/uploads/2013/06/04_03.jpg?w=240&h=192)](http://ambitioninthecity.com/2013/06/07/japanese-bowl-refelctions-of-a-poem-by-peter-mayer/04_03/)  \nWhen they had a bowl to mend  \nIt did not hide the cracks  \nIt made them shine instead\n\nSo now every old scar shows  \nfrom every time I broke  \nAnd anyone\u2019s eyes can see  \nI\u2019m not what I used to be\n\nBut in a collector\u2019s mind  \nAll of these jagged lines  \nMake me more beautiful  \nAnd worth a higher price\n\nI\u2019m like one of those Japanese bowls  \nI was made long ago  \nI have some cracks you can see  \nSee how they shine of gold.  \n-Peter Mayer",
-    "image": "bowl2-watercolorKintsugi.jpeg"
+    "image": "bowl2-watercolorKintsugi.jpeg",
+    "w": 600,
+    "h": 450
   },
   {
     "id": "buddhaWeek2",
@@ -314,7 +364,9 @@
       "zen"
     ],
     "description": "This is a drawing of a small statuette that is about 3\u201d high. I was experimenting with a charcoal pencil and using an eraser to create highlights.",
-    "image": "buddhaWeek2.png"
+    "image": "buddhaWeek2.png",
+    "w": 492,
+    "h": 600
   },
   {
     "id": "calderFlamingo",
@@ -327,7 +379,9 @@
       "urban-sketching"
     ],
     "description": "The Zoom urban sketching group used a reference photo of the Calder sculpture in downtown Chicago.",
-    "image": "calderFlamingo.png"
+    "image": "calderFlamingo.png",
+    "w": 600,
+    "h": 419
   },
   {
     "id": "cannonBeachOR",
@@ -340,7 +394,9 @@
       "landscape"
     ],
     "description": "Looking at a single reference photo of a rocky coastline with the Zoom watercolor group. I decided to speed paint six paintings as quickly and as loosely as possible, trying to capture the dynamics of the ocean with the solid rocks.",
-    "image": "cannonBeachOR.jpg"
+    "image": "cannonBeachOR.jpg",
+    "w": 438,
+    "h": 600
   },
   {
     "id": "chickadee",
@@ -352,7 +408,9 @@
       "bird"
     ],
     "description": "I love the chickadees.",
-    "image": "chickadee.jpeg"
+    "image": "chickadee.jpeg",
+    "w": 600,
+    "h": 428
   },
   {
     "id": "chicken1",
@@ -364,7 +422,9 @@
       "bird"
     ],
     "description": "I painted two chickens in under an hour during a Zoom art session with the group. I love the attitude that popped out as this hen revealed herself to my brushes.",
-    "image": "chicken1.jpeg"
+    "image": "chicken1.jpeg",
+    "w": 427,
+    "h": 600
   },
   {
     "id": "chicken2",
@@ -376,7 +436,9 @@
       "bird"
     ],
     "description": "I painted two chickens in under an hour during a Zoom art session with the group.This one reminded me of my Rhode Island Reds that I had in Florida. (I was really happy how the eye turned out, it gives that sparkle to the whole painting.)",
-    "image": "chicken2.jpeg"
+    "image": "chicken2.jpeg",
+    "w": 506,
+    "h": 600
   },
   {
     "id": "chittaHeartPoem",
@@ -389,7 +451,9 @@
       "zen"
     ],
     "description": "",
-    "image": "chittaHeartPoem.png"
+    "image": "chittaHeartPoem.png",
+    "w": 600,
+    "h": 484
   },
   {
     "id": "coffeeHag01-04-25",
@@ -402,7 +466,9 @@
       "coffeeHag"
     ],
     "description": "",
-    "image": "coffeeHag01-04-25.jpeg"
+    "image": "coffeeHag01-04-25.jpeg",
+    "w": 449,
+    "h": 600
   },
   {
     "id": "coffeeHag04-08-25",
@@ -415,7 +481,9 @@
       "coffeeHag"
     ],
     "description": "",
-    "image": "coffeeHag04-08-25.jpeg"
+    "image": "coffeeHag04-08-25.jpeg",
+    "w": 382,
+    "h": 600
   },
   {
     "id": "coffeeHag082925",
@@ -428,7 +496,9 @@
       "coffeeHag"
     ],
     "description": "",
-    "image": "coffeeHag082925.png"
+    "image": "coffeeHag082925.png",
+    "w": 379,
+    "h": 600
   },
   {
     "id": "coffeeHag2022",
@@ -441,7 +511,9 @@
       "coffeeHag"
     ],
     "description": "",
-    "image": "coffeeHag2022.png"
+    "image": "coffeeHag2022.png",
+    "w": 600,
+    "h": 414
   },
   {
     "id": "conyers",
@@ -453,7 +525,9 @@
       "zen"
     ],
     "description": "",
-    "image": "conyers.png"
+    "image": "conyers.png",
+    "w": 600,
+    "h": 480
   },
   {
     "id": "courtHouseColor",
@@ -465,7 +539,9 @@
       "courthouse"
     ],
     "description": "",
-    "image": "courtHouseColor.jpg"
+    "image": "courtHouseColor.jpg",
+    "w": 600,
+    "h": 386
   },
   {
     "id": "courtHouseInk",
@@ -477,7 +553,9 @@
       "courthouse"
     ],
     "description": "",
-    "image": "courtHouseInk.jpg"
+    "image": "courtHouseInk.jpg",
+    "w": 600,
+    "h": 400
   },
   {
     "id": "cupcake",
@@ -489,7 +567,9 @@
       "food"
     ],
     "description": "",
-    "image": "cupcake.png"
+    "image": "cupcake.png",
+    "w": 421,
+    "h": 600
   },
   {
     "id": "daffodil",
@@ -501,7 +581,9 @@
       "flowers"
     ],
     "description": "",
-    "image": "daffodil.png"
+    "image": "daffodil.png",
+    "w": 381,
+    "h": 600
   },
   {
     "id": "daffodil04272024",
@@ -513,7 +595,9 @@
       "flowers"
     ],
     "description": "",
-    "image": "daffodil04272024.png"
+    "image": "daffodil04272024.png",
+    "w": 600,
+    "h": 407
   },
   {
     "id": "dandelion060124",
@@ -526,7 +610,9 @@
       "dandelion"
     ],
     "description": "This is one of those paintings that just spontaneously happen. I love it when all the pieces end up sitting on the paper so well together. That\u2019s Quinacridon Gold in the background, set against Indigo.",
-    "image": "dandelion060124.png"
+    "image": "dandelion060124.png",
+    "w": 600,
+    "h": 415
   },
   {
     "id": "dandelionDream",
@@ -539,7 +625,9 @@
       "dandelion"
     ],
     "description": "",
-    "image": "dandelionDream.jpeg"
+    "image": "dandelionDream.jpeg",
+    "w": 600,
+    "h": 399
   },
   {
     "id": "daylily",
@@ -552,7 +640,9 @@
       "dayLily"
     ],
     "description": "",
-    "image": "daylily.png"
+    "image": "daylily.png",
+    "w": 600,
+    "h": 482
   },
   {
     "id": "deepWaterPassageBookmark",
@@ -564,7 +654,9 @@
       "bookmark"
     ],
     "description": "",
-    "image": "deepWaterPassageBookmark.jpeg"
+    "image": "deepWaterPassageBookmark.jpeg",
+    "w": 600,
+    "h": 89
   },
   {
     "id": "divineTowers1",
@@ -576,7 +668,9 @@
       "mankato"
     ],
     "description": "",
-    "image": "divineTowers1.jpeg"
+    "image": "divineTowers1.jpeg",
+    "w": 600,
+    "h": 417
   },
   {
     "id": "door",
@@ -588,7 +682,9 @@
       "door"
     ],
     "description": "",
-    "image": "door.png"
+    "image": "door.png",
+    "w": 418,
+    "h": 600
   },
   {
     "id": "door2nowhere",
@@ -600,7 +696,9 @@
       "door"
     ],
     "description": "",
-    "image": "door2nowhere.jpeg"
+    "image": "door2nowhere.jpeg",
+    "w": 376,
+    "h": 600
   },
   {
     "id": "doorPinkAndBlue",
@@ -612,7 +710,9 @@
       "door"
     ],
     "description": "",
-    "image": "doorPinkAndBlue.png"
+    "image": "doorPinkAndBlue.png",
+    "w": 393,
+    "h": 600
   },
   {
     "id": "driftwood",
@@ -624,7 +724,9 @@
       "confluence"
     ],
     "description": "",
-    "image": "driftwood.jpeg"
+    "image": "driftwood.jpeg",
+    "w": 600,
+    "h": 537
   },
   {
     "id": "egret",
@@ -636,7 +738,9 @@
       "bird"
     ],
     "description": "",
-    "image": "egret.jpeg"
+    "image": "egret.jpeg",
+    "w": 479,
+    "h": 600
   },
   {
     "id": "engine2584",
@@ -648,7 +752,9 @@
       "MemoryPlace"
     ],
     "description": "",
-    "image": "engine2584.jpeg"
+    "image": "engine2584.jpeg",
+    "w": 600,
+    "h": 361
   },
   {
     "id": "erraticMemories",
@@ -660,7 +766,9 @@
       "rasmussenWoods"
     ],
     "description": "",
-    "image": "erraticMemories.jpeg"
+    "image": "erraticMemories.jpeg",
+    "w": 600,
+    "h": 487
   },
   {
     "id": "externsteine",
@@ -672,7 +780,9 @@
       "MemoryPlace"
     ],
     "description": "",
-    "image": "externsteine.jpg"
+    "image": "externsteine.jpg",
+    "w": 600,
+    "h": 400
   },
   {
     "id": "facingTheFuture",
@@ -684,7 +794,9 @@
       "showcase"
     ],
     "description": "I painted this after my brother was hospitalized once again. No planning or thumbnail sketches, this one just developed on its own.",
-    "image": "facingTheFuture.jpg"
+    "image": "facingTheFuture.jpg",
+    "w": 600,
+    "h": 375
   },
   {
     "id": "featherForMoe",
@@ -697,7 +809,9 @@
       "showcase"
     ],
     "description": "A birthday card for Moninne. We had the date wrong on our calendar and gave this to her a month early. She kept the card anyway ;-)",
-    "image": "featherForMoe.jpeg"
+    "image": "featherForMoe.jpeg",
+    "w": 447,
+    "h": 600
   },
   {
     "id": "ferns",
@@ -709,7 +823,9 @@
       "flowers"
     ],
     "description": "",
-    "image": "ferns.png"
+    "image": "ferns.png",
+    "w": 401,
+    "h": 600
   },
   {
     "id": "flowerDandelion",
@@ -721,7 +837,9 @@
       "flowers"
     ],
     "description": "",
-    "image": "flowerDandelion.jpeg"
+    "image": "flowerDandelion.jpeg",
+    "w": 471,
+    "h": 600
   },
   {
     "id": "forest",
@@ -731,7 +849,9 @@
     "dimensions": "",
     "tags": [],
     "description": "",
-    "image": "forest.png"
+    "image": "forest.png",
+    "w": 600,
+    "h": 450
   },
   {
     "id": "geranium2",
@@ -743,7 +863,9 @@
       "flowers"
     ],
     "description": "",
-    "image": "geranium2.jpg"
+    "image": "geranium2.jpg",
+    "w": 423,
+    "h": 600
   },
   {
     "id": "germanCastleHotel",
@@ -755,7 +877,9 @@
       "MemoryPlace"
     ],
     "description": "",
-    "image": "germanCastleHotel.png"
+    "image": "germanCastleHotel.png",
+    "w": 600,
+    "h": 364
   },
   {
     "id": "goldenGate",
@@ -767,7 +891,9 @@
       "MemoryPlace"
     ],
     "description": "",
-    "image": "goldenGate.jpeg"
+    "image": "goldenGate.jpeg",
+    "w": 600,
+    "h": 429
   },
   {
     "id": "goldenLoctus",
@@ -779,7 +905,9 @@
       "tree"
     ],
     "description": "",
-    "image": "goldenLoctus.jpg"
+    "image": "goldenLoctus.jpg",
+    "w": 429,
+    "h": 600
   },
   {
     "id": "goodCounsel",
@@ -792,7 +920,9 @@
       "mankato"
     ],
     "description": "",
-    "image": "goodCounsel.jpg"
+    "image": "goodCounsel.jpg",
+    "w": 600,
+    "h": 204
   },
   {
     "id": "hamburger",
@@ -804,7 +934,9 @@
       "food"
     ],
     "description": "",
-    "image": "hamburger.png"
+    "image": "hamburger.png",
+    "w": 600,
+    "h": 384
   },
   {
     "id": "handprint",
@@ -814,7 +946,9 @@
     "dimensions": "",
     "tags": [],
     "description": "",
-    "image": "handprint.jpg"
+    "image": "handprint.jpg",
+    "w": 600,
+    "h": 478
   },
   {
     "id": "hangingOutInSibley",
@@ -827,7 +961,9 @@
       "tree"
     ],
     "description": "",
-    "image": "hangingOutInSibley.png"
+    "image": "hangingOutInSibley.png",
+    "w": 600,
+    "h": 429
   },
   {
     "id": "heron",
@@ -839,7 +975,9 @@
       "bird"
     ],
     "description": "",
-    "image": "heron.png"
+    "image": "heron.png",
+    "w": 600,
+    "h": 428
   },
   {
     "id": "houseOnBroadStreet",
@@ -851,7 +989,9 @@
       "mankato"
     ],
     "description": "",
-    "image": "houseOnBroadStreet.jpeg"
+    "image": "houseOnBroadStreet.jpeg",
+    "w": 600,
+    "h": 467
   },
   {
     "id": "indianLake",
@@ -861,7 +1001,9 @@
     "dimensions": "",
     "tags": [],
     "description": "",
-    "image": "indianLake.jpeg"
+    "image": "indianLake.jpeg",
+    "w": 600,
+    "h": 411
   },
   {
     "id": "invernessCastle2",
@@ -873,7 +1015,9 @@
       "art-class"
     ],
     "description": "",
-    "image": "invernessCastle2.jpeg"
+    "image": "invernessCastle2.jpeg",
+    "w": 600,
+    "h": 459
   },
   {
     "id": "johnnyJumpUp",
@@ -885,7 +1029,9 @@
       "flowers"
     ],
     "description": "",
-    "image": "johnnyJumpUp.png"
+    "image": "johnnyJumpUp.png",
+    "w": 600,
+    "h": 484
   },
   {
     "id": "keyWest",
@@ -898,7 +1044,9 @@
       "keywest"
     ],
     "description": "",
-    "image": "keyWest.png"
+    "image": "keyWest.png",
+    "w": 432,
+    "h": 600
   },
   {
     "id": "keywestLighthouse",
@@ -911,7 +1059,9 @@
       "keywest"
     ],
     "description": "I lived a few blocks from this lighthouse which is across the street from the Hemingway House. Painting this brought back lots of memories, riding my bicycle through the streets of Key West when I was stationed there with the Navy. I was a photographer back then for the Navy and the local newspaper. Little did I imagine that I would be painting one day.",
-    "image": "keywestLighthouse.png"
+    "image": "keywestLighthouse.png",
+    "w": 600,
+    "h": 422
   },
   {
     "id": "kiwi",
@@ -923,7 +1073,9 @@
       "food"
     ],
     "description": "Part of the series of food paintings I worked on.",
-    "image": "kiwi.png"
+    "image": "kiwi.png",
+    "w": 600,
+    "h": 363
   },
   {
     "id": "komodoDragonBlue",
@@ -935,7 +1087,9 @@
       "wildlife"
     ],
     "description": "The kimono dragons always intrigued me. Thought I\u2019d paint one bright blue.",
-    "image": "komodoDragonBlue.png"
+    "image": "komodoDragonBlue.png",
+    "w": 600,
+    "h": 439
   },
   {
     "id": "koyFish",
@@ -947,7 +1101,9 @@
       "wildlife"
     ],
     "description": "Wanting to catch the movement of Koy fish in a pond. I also painted a similar painting on a CD-ROM coated with watercolor ground but this one turned out much more dynamic.",
-    "image": "koyFish.png"
+    "image": "koyFish.png",
+    "w": 600,
+    "h": 429
   },
   {
     "id": "landscapeflower",
@@ -959,7 +1115,9 @@
       "flowers"
     ],
     "description": "",
-    "image": "landscapeflower.png"
+    "image": "landscapeflower.png",
+    "w": 600,
+    "h": 412
   },
   {
     "id": "leavingTaylors",
@@ -971,7 +1129,9 @@
       "MemoryPlace"
     ],
     "description": "Our neighbor,. Gretchen Taylor needed help getting her garbage cans out to the curb every week. They have a very long drive. As I was leaving one morning I noticed this scene and decided to paint it in this fat journal of antique paper. That\u2019s Tom Hager\u2019s house in the background. (Our house is to the right of his, but off the edge of the page. It\u2019s bright blue and would have ruined the composition)\n\nGretchen is now in a nursing home and Tom has passed. But, I still have this memory captured that December morning.",
-    "image": "leavingTaylors.jpg"
+    "image": "leavingTaylors.jpg",
+    "w": 399,
+    "h": 600
   },
   {
     "id": "lighthouse2",
@@ -983,7 +1143,9 @@
       "lighthouse"
     ],
     "description": "",
-    "image": "lighthouse2.png"
+    "image": "lighthouse2.png",
+    "w": 600,
+    "h": 416
   },
   {
     "id": "lighthouseOregonCoast",
@@ -995,7 +1157,9 @@
       "lighthouse"
     ],
     "description": "",
-    "image": "lighthouseOregonCoast.png"
+    "image": "lighthouseOregonCoast.png",
+    "w": 600,
+    "h": 436
   },
   {
     "id": "littleRockOnThePrairie",
@@ -1007,7 +1171,9 @@
       "highway169"
     ],
     "description": "",
-    "image": "littleRockOnThePrairie.jpeg"
+    "image": "littleRockOnThePrairie.jpeg",
+    "w": 493,
+    "h": 600
   },
   {
     "id": "lizann01-18-25",
@@ -1019,7 +1185,9 @@
       "portrait"
     ],
     "description": "",
-    "image": "lizann01-18-25.jpeg"
+    "image": "lizann01-18-25.jpeg",
+    "w": 379,
+    "h": 600
   },
   {
     "id": "lookingOutMyBathroomWindow0001",
@@ -1031,7 +1199,9 @@
       "tree"
     ],
     "description": "",
-    "image": "lookingOutMyBathroomWindow0001.jpg"
+    "image": "lookingOutMyBathroomWindow0001.jpg",
+    "w": 600,
+    "h": 452
   },
   {
     "id": "lupineGarden",
@@ -1043,7 +1213,9 @@
       "flowers"
     ],
     "description": "",
-    "image": "lupineGarden.jpeg"
+    "image": "lupineGarden.jpeg",
+    "w": 424,
+    "h": 600
   },
   {
     "id": "mammothSprings0001",
@@ -1055,7 +1227,9 @@
       "MemoryPlace"
     ],
     "description": "",
-    "image": "mammothSprings0001.jpg"
+    "image": "mammothSprings0001.jpg",
+    "w": 600,
+    "h": 153
   },
   {
     "id": "manOfWar",
@@ -1067,7 +1241,9 @@
       "wildlife"
     ],
     "description": "",
-    "image": "manOfWar.png"
+    "image": "manOfWar.png",
+    "w": 484,
+    "h": 600
   },
   {
     "id": "mankatoClinicParkingLot",
@@ -1079,7 +1255,9 @@
       "mankato"
     ],
     "description": "",
-    "image": "mankatoClinicParkingLot.jpeg"
+    "image": "mankatoClinicParkingLot.jpeg",
+    "w": 387,
+    "h": 600
   },
   {
     "id": "mapleLeafTransparent",
@@ -1091,7 +1269,9 @@
       "trees"
     ],
     "description": "",
-    "image": "mapleLeafTransparent.jpeg"
+    "image": "mapleLeafTransparent.jpeg",
+    "w": 600,
+    "h": 488
   },
   {
     "id": "mayoHospital",
@@ -1103,7 +1283,9 @@
       "mankato"
     ],
     "description": "",
-    "image": "mayoHospital.jpg"
+    "image": "mayoHospital.jpg",
+    "w": 600,
+    "h": 358
   },
   {
     "id": "meeko",
@@ -1115,7 +1297,9 @@
       "wildlife"
     ],
     "description": "",
-    "image": "meeko.png"
+    "image": "meeko.png",
+    "w": 600,
+    "h": 479
   },
   {
     "id": "migration",
@@ -1127,7 +1311,9 @@
       "landscape"
     ],
     "description": "",
-    "image": "migration.png"
+    "image": "migration.png",
+    "w": 600,
+    "h": 485
   },
   {
     "id": "milkCan",
@@ -1139,7 +1325,9 @@
       "mankato"
     ],
     "description": "",
-    "image": "milkCan.jpg"
+    "image": "milkCan.jpg",
+    "w": 452,
+    "h": 600
   },
   {
     "id": "milkCanTwoDaysLater",
@@ -1151,7 +1339,9 @@
       "mankato"
     ],
     "description": "",
-    "image": "milkCanTwoDaysLater.jpg"
+    "image": "milkCanTwoDaysLater.jpg",
+    "w": 400,
+    "h": 600
   },
   {
     "id": "milkweed",
@@ -1164,7 +1354,9 @@
       "milkweed"
     ],
     "description": "",
-    "image": "milkweed.jpeg"
+    "image": "milkweed.jpeg",
+    "w": 421,
+    "h": 600
   },
   {
     "id": "milkweedPod",
@@ -1177,7 +1369,9 @@
       "milkweed"
     ],
     "description": "",
-    "image": "milkweedPod.png"
+    "image": "milkweedPod.png",
+    "w": 429,
+    "h": 600
   },
   {
     "id": "missionSanLuisObispoDeTolos",
@@ -1189,7 +1383,9 @@
       "art-class"
     ],
     "description": "",
-    "image": "missionSanLuisObispoDeTolos.png"
+    "image": "missionSanLuisObispoDeTolos.png",
+    "w": 600,
+    "h": 427
   },
   {
     "id": "mom",
@@ -1201,7 +1397,9 @@
       "portrait"
     ],
     "description": "",
-    "image": "mom.png"
+    "image": "mom.png",
+    "w": 436,
+    "h": 600
   },
   {
     "id": "monarch",
@@ -1213,7 +1411,9 @@
       "flowers"
     ],
     "description": "",
-    "image": "monarch.jpeg"
+    "image": "monarch.jpeg",
+    "w": 395,
+    "h": 600
   },
   {
     "id": "moth",
@@ -1225,7 +1425,9 @@
       "wildlife"
     ],
     "description": "",
-    "image": "moth.png"
+    "image": "moth.png",
+    "w": 580,
+    "h": 600
   },
   {
     "id": "mountainVillage1",
@@ -1235,7 +1437,9 @@
     "dimensions": "",
     "tags": [],
     "description": "",
-    "image": "mountainVillage1.jpeg"
+    "image": "mountainVillage1.jpeg",
+    "w": 597,
+    "h": 600
   },
   {
     "id": "mtRanier",
@@ -1247,7 +1451,9 @@
       "MemoryPlace"
     ],
     "description": "",
-    "image": "mtRanier.png"
+    "image": "mtRanier.png",
+    "w": 600,
+    "h": 424
   },
   {
     "id": "mushroom",
@@ -1260,7 +1466,9 @@
       "mushrooms"
     ],
     "description": "",
-    "image": "mushroom.jpeg"
+    "image": "mushroom.jpeg",
+    "w": 600,
+    "h": 423
   },
   {
     "id": "mushroom2",
@@ -1273,7 +1481,9 @@
       "mushrooms"
     ],
     "description": "Psilocybin mushrooms. They speak for themselves. The square in the background is symbolic of the other portals that these mushrooms sometimes reveal.",
-    "image": "mushroom2.jpeg"
+    "image": "mushroom2.jpeg",
+    "w": 600,
+    "h": 480
   },
   {
     "id": "ocean",
@@ -1285,7 +1495,9 @@
       "landscape"
     ],
     "description": "",
-    "image": "ocean.png"
+    "image": "ocean.png",
+    "w": 473,
+    "h": 600
   },
   {
     "id": "oriole",
@@ -1297,7 +1509,9 @@
       "bird"
     ],
     "description": "",
-    "image": "oriole.jpeg"
+    "image": "oriole.jpeg",
+    "w": 600,
+    "h": 465
   },
   {
     "id": "ottCabin",
@@ -1310,7 +1524,9 @@
       "Sibley"
     ],
     "description": "",
-    "image": "ottCabin.jpeg"
+    "image": "ottCabin.jpeg",
+    "w": 600,
+    "h": 370
   },
   {
     "id": "pattisTrainRide",
@@ -1322,7 +1538,9 @@
       "landscape"
     ],
     "description": "",
-    "image": "pattisTrainRide.png"
+    "image": "pattisTrainRide.png",
+    "w": 600,
+    "h": 420
   },
   {
     "id": "peaceLilyForCheryl",
@@ -1334,7 +1552,9 @@
       "flowers"
     ],
     "description": "",
-    "image": "peaceLilyForCheryl.jpeg"
+    "image": "peaceLilyForCheryl.jpeg",
+    "w": 487,
+    "h": 600
   },
   {
     "id": "pears",
@@ -1346,7 +1566,9 @@
       "food"
     ],
     "description": "",
-    "image": "pears.png"
+    "image": "pears.png",
+    "w": 482,
+    "h": 600
   },
   {
     "id": "penquin",
@@ -1358,7 +1580,9 @@
       "wildlife"
     ],
     "description": "",
-    "image": "penquin.png"
+    "image": "penquin.png",
+    "w": 428,
+    "h": 600
   },
   {
     "id": "petersKitchen",
@@ -1370,7 +1594,9 @@
       "MemoryPlace"
     ],
     "description": "",
-    "image": "petersKitchen.jpeg"
+    "image": "petersKitchen.jpeg",
+    "w": 600,
+    "h": 213
   },
   {
     "id": "poemPunna-Full",
@@ -1382,7 +1608,9 @@
       "poem"
     ],
     "description": "",
-    "image": "poemPunna-Full.png"
+    "image": "poemPunna-Full.png",
+    "w": 600,
+    "h": 464
   },
   {
     "id": "poemPunna-FullPrelim",
@@ -1394,7 +1622,9 @@
       "zen"
     ],
     "description": "",
-    "image": "poemPunna-FullPrelim.png"
+    "image": "poemPunna-FullPrelim.png",
+    "w": 405,
+    "h": 600
   },
   {
     "id": "poemVija-Victor",
@@ -1406,7 +1636,9 @@
       "poem"
     ],
     "description": "",
-    "image": "poemVija-Victor.png"
+    "image": "poemVija-Victor.png",
+    "w": 600,
+    "h": 481
   },
   {
     "id": "pudgetSound",
@@ -1418,7 +1650,9 @@
       "MemoryPlace"
     ],
     "description": "",
-    "image": "pudgetSound.jpg"
+    "image": "pudgetSound.jpg",
+    "w": 600,
+    "h": 210
   },
   {
     "id": "rabbit",
@@ -1430,7 +1664,9 @@
       "wildlife"
     ],
     "description": "",
-    "image": "rabbit.png"
+    "image": "rabbit.png",
+    "w": 458,
+    "h": 600
   },
   {
     "id": "radish",
@@ -1442,7 +1678,9 @@
       "food"
     ],
     "description": "",
-    "image": "radish.png"
+    "image": "radish.png",
+    "w": 600,
+    "h": 420
   },
   {
     "id": "rainbowBookmark",
@@ -1454,7 +1692,9 @@
       "bookmark"
     ],
     "description": "",
-    "image": "rainbowBookmark.jpeg"
+    "image": "rainbowBookmark.jpeg",
+    "w": 600,
+    "h": 98
   },
   {
     "id": "rainbowFlowers",
@@ -1466,7 +1706,9 @@
       "flowers"
     ],
     "description": "",
-    "image": "rainbowFlowers.jpeg"
+    "image": "rainbowFlowers.jpeg",
+    "w": 473,
+    "h": 600
   },
   {
     "id": "rainbowTrout",
@@ -1478,7 +1720,9 @@
       "wildlife"
     ],
     "description": "",
-    "image": "rainbowTrout.png"
+    "image": "rainbowTrout.png",
+    "w": 600,
+    "h": 447
   },
   {
     "id": "recipe",
@@ -1490,7 +1734,9 @@
       "recipe"
     ],
     "description": "",
-    "image": "recipe.png"
+    "image": "recipe.png",
+    "w": 463,
+    "h": 600
   },
   {
     "id": "rockAndRiverfront",
@@ -1503,7 +1749,9 @@
       "urban-sketching"
     ],
     "description": "",
-    "image": "rockAndRiverfront.png"
+    "image": "rockAndRiverfront.png",
+    "w": 600,
+    "h": 401
   },
   {
     "id": "sakatahTrail082924",
@@ -1515,7 +1763,9 @@
       "sakatah"
     ],
     "description": "",
-    "image": "sakatahTrail082924.png"
+    "image": "sakatahTrail082924.png",
+    "w": 600,
+    "h": 401
   },
   {
     "id": "sakatahTrailBridge",
@@ -1527,7 +1777,9 @@
       "sakatah"
     ],
     "description": "",
-    "image": "sakatahTrailBridge.png"
+    "image": "sakatahTrailBridge.png",
+    "w": 600,
+    "h": 415
   },
   {
     "id": "sakatahTrailMorningGlory",
@@ -1539,7 +1791,9 @@
       "sakatah"
     ],
     "description": "",
-    "image": "sakatahTrailMorningGlory.jpeg"
+    "image": "sakatahTrailMorningGlory.jpeg",
+    "w": 600,
+    "h": 394
   },
   {
     "id": "seashell081824",
@@ -1551,7 +1805,9 @@
       "wildlife"
     ],
     "description": "",
-    "image": "seashell081824.png"
+    "image": "seashell081824.png",
+    "w": 600,
+    "h": 418
   },
   {
     "id": "sheepInTheSky",
@@ -1564,7 +1820,9 @@
       "sheep"
     ],
     "description": "",
-    "image": "sheepInTheSky.jpeg"
+    "image": "sheepInTheSky.jpeg",
+    "w": 600,
+    "h": 483
   },
   {
     "id": "sheepPortrait",
@@ -1577,7 +1835,9 @@
       "sheep"
     ],
     "description": "",
-    "image": "sheepPortrait.jpeg"
+    "image": "sheepPortrait.jpeg",
+    "w": 451,
+    "h": 600
   },
   {
     "id": "sibleyBarn",
@@ -1590,7 +1850,9 @@
       "mankato"
     ],
     "description": "",
-    "image": "sibleyBarn.png"
+    "image": "sibleyBarn.png",
+    "w": 374,
+    "h": 600
   },
   {
     "id": "sibleyHerEyesight",
@@ -1602,7 +1864,9 @@
       "Sibley"
     ],
     "description": "",
-    "image": "sibleyHerEyesight.jpeg"
+    "image": "sibleyHerEyesight.jpeg",
+    "w": 600,
+    "h": 429
   },
   {
     "id": "sibleyPark04061",
@@ -1614,7 +1878,9 @@
       "Sibley"
     ],
     "description": "",
-    "image": "sibleyPark04061.png"
+    "image": "sibleyPark04061.png",
+    "w": 419,
+    "h": 600
   },
   {
     "id": "sibleyParkHill",
@@ -1626,7 +1892,9 @@
       "Sibley"
     ],
     "description": "",
-    "image": "sibleyParkHill.jpg"
+    "image": "sibleyParkHill.jpg",
+    "w": 600,
+    "h": 418
   },
   {
     "id": "sibleyParkHillside",
@@ -1638,7 +1906,9 @@
       "Sibley"
     ],
     "description": "",
-    "image": "sibleyParkHillside.png"
+    "image": "sibleyParkHillside.png",
+    "w": 600,
+    "h": 481
   },
   {
     "id": "sibleyParkHilltop042624",
@@ -1650,7 +1920,9 @@
       "Sibley"
     ],
     "description": "",
-    "image": "sibleyParkHilltop042624.png"
+    "image": "sibleyParkHilltop042624.png",
+    "w": 479,
+    "h": 600
   },
   {
     "id": "sibleyParkSurveyingTheFlood",
@@ -1662,7 +1934,9 @@
       "Sibley"
     ],
     "description": "",
-    "image": "sibleyParkSurveyingTheFlood.png"
+    "image": "sibleyParkSurveyingTheFlood.png",
+    "w": 393,
+    "h": 600
   },
   {
     "id": "skull",
@@ -1674,7 +1948,9 @@
       "MemoryPlace"
     ],
     "description": "",
-    "image": "skull.png"
+    "image": "skull.png",
+    "w": 600,
+    "h": 463
   },
   {
     "id": "snail",
@@ -1686,7 +1962,9 @@
       "art-class"
     ],
     "description": "",
-    "image": "snail.png"
+    "image": "snail.png",
+    "w": 600,
+    "h": 472
   },
   {
     "id": "snowOn169",
@@ -1698,7 +1976,9 @@
       "highway169"
     ],
     "description": "",
-    "image": "snowOn169.png"
+    "image": "snowOn169.png",
+    "w": 600,
+    "h": 359
   },
   {
     "id": "splitRockLighthouse",
@@ -1710,7 +1990,9 @@
       "lighthouse"
     ],
     "description": "",
-    "image": "splitRockLighthouse.jpg"
+    "image": "splitRockLighthouse.jpg",
+    "w": 424,
+    "h": 600
   },
   {
     "id": "springLakePark",
@@ -1722,7 +2004,9 @@
       "birch"
     ],
     "description": "",
-    "image": "springLakePark.png"
+    "image": "springLakePark.png",
+    "w": 600,
+    "h": 423
   },
   {
     "id": "stawberryMountains",
@@ -1734,7 +2018,9 @@
       "food"
     ],
     "description": "",
-    "image": "stawberryMountains.png"
+    "image": "stawberryMountains.png",
+    "w": 600,
+    "h": 422
   },
   {
     "id": "stormBirds1",
@@ -1746,7 +2032,9 @@
       "wildlife"
     ],
     "description": "",
-    "image": "stormBirds1.jpeg"
+    "image": "stormBirds1.jpeg",
+    "w": 600,
+    "h": 304
   },
   {
     "id": "strawberry",
@@ -1758,7 +2046,9 @@
       "food"
     ],
     "description": "",
-    "image": "strawberry.jpeg"
+    "image": "strawberry.jpeg",
+    "w": 600,
+    "h": 417
   },
   {
     "id": "sunflower",
@@ -1770,7 +2060,9 @@
       "MemoryPlace"
     ],
     "description": "",
-    "image": "sunflower.png"
+    "image": "sunflower.png",
+    "w": 600,
+    "h": 433
   },
   {
     "id": "supplies",
@@ -1782,7 +2074,9 @@
       "illustration"
     ],
     "description": "",
-    "image": "supplies.png"
+    "image": "supplies.png",
+    "w": 600,
+    "h": 385
   },
   {
     "id": "sweetPea",
@@ -1794,7 +2088,9 @@
       "flowers"
     ],
     "description": "",
-    "image": "sweetPea.jpg"
+    "image": "sweetPea.jpg",
+    "w": 600,
+    "h": 463
   },
   {
     "id": "sweetpea09062024",
@@ -1806,7 +2102,9 @@
       "flowers"
     ],
     "description": "",
-    "image": "sweetpea09062024.png"
+    "image": "sweetpea09062024.png",
+    "w": 600,
+    "h": 387
   },
   {
     "id": "taylorsNeighbor",
@@ -1818,7 +2116,9 @@
       "mankato"
     ],
     "description": "",
-    "image": "taylorsNeighbor.png"
+    "image": "taylorsNeighbor.png",
+    "w": 600,
+    "h": 428
   },
   {
     "id": "theWhiteHat",
@@ -1830,7 +2130,9 @@
       "portrait"
     ],
     "description": "",
-    "image": "theWhiteHat.png"
+    "image": "theWhiteHat.png",
+    "w": 600,
+    "h": 428
   },
   {
     "id": "timeToTrimTheSumac",
@@ -1843,7 +2145,9 @@
       "backyard"
     ],
     "description": "",
-    "image": "timeToTrimTheSumac.png"
+    "image": "timeToTrimTheSumac.png",
+    "w": 600,
+    "h": 471
   },
   {
     "id": "tomatoes1",
@@ -1856,7 +2160,9 @@
       "stilllife"
     ],
     "description": "Three tomatoes walked into a bar. Later, i'll paint the same tomatoes using color with wax pastels",
-    "image": "tomatoes1.png"
+    "image": "tomatoes1.png",
+    "w": 600,
+    "h": 442
   },
   {
     "id": "tomatoes2",
@@ -1869,7 +2175,9 @@
       "stilllife"
     ],
     "description": "I originally drew this using pencil and then revisited it to experiment with my wax pastels.",
-    "image": "tomatoes2.png"
+    "image": "tomatoes2.png",
+    "w": 600,
+    "h": 447
   },
   {
     "id": "treeRings",
@@ -1881,7 +2189,9 @@
       "flowers"
     ],
     "description": "",
-    "image": "treeRings.png"
+    "image": "treeRings.png",
+    "w": 600,
+    "h": 419
   },
   {
     "id": "treeVignette",
@@ -1893,7 +2203,9 @@
       "trees"
     ],
     "description": "",
-    "image": "treeVignette.png"
+    "image": "treeVignette.png",
+    "w": 453,
+    "h": 600
   },
   {
     "id": "unsettledDamStore",
@@ -1905,7 +2217,9 @@
       "mankato"
     ],
     "description": "",
-    "image": "unsettledDamStore.png"
+    "image": "unsettledDamStore.png",
+    "w": 600,
+    "h": 424
   },
   {
     "id": "urbanSketchers11-24-25",
@@ -1918,7 +2232,9 @@
       "mankato"
     ],
     "description": "",
-    "image": "urbanSketchers11-24-25.jpeg"
+    "image": "urbanSketchers11-24-25.jpeg",
+    "w": 600,
+    "h": 476
   },
   {
     "id": "victoryDrive",
@@ -1931,7 +2247,9 @@
       "urban-sketching"
     ],
     "description": "",
-    "image": "victoryDrive.jpeg"
+    "image": "victoryDrive.jpeg",
+    "w": 600,
+    "h": 370
   },
   {
     "id": "violet",
@@ -1943,7 +2261,9 @@
       "flowers"
     ],
     "description": "",
-    "image": "violet.png"
+    "image": "violet.png",
+    "w": 474,
+    "h": 600
   },
   {
     "id": "washingtonAndBroad",
@@ -1956,7 +2276,9 @@
       "urban-sketching"
     ],
     "description": "",
-    "image": "washingtonAndBroad.jpeg"
+    "image": "washingtonAndBroad.jpeg",
+    "w": 600,
+    "h": 424
   },
   {
     "id": "waterDroplets",
@@ -1968,7 +2290,9 @@
       "nature"
     ],
     "description": "Trying to capture the sparkle of waterdrops on a spider web and plant stems.",
-    "image": "waterDroplets.png"
+    "image": "waterDroplets.png",
+    "w": 437,
+    "h": 600
   },
   {
     "id": "watermelon",
@@ -1980,7 +2304,9 @@
       "food"
     ],
     "description": "",
-    "image": "watermelon.jpg"
+    "image": "watermelon.jpg",
+    "w": 412,
+    "h": 600
   },
   {
     "id": "whiteBuffaloWoman",
@@ -1993,7 +2319,9 @@
       "mankato"
     ],
     "description": "",
-    "image": "whiteBuffaloWoman.jpeg"
+    "image": "whiteBuffaloWoman.jpeg",
+    "w": 600,
+    "h": 391
   },
   {
     "id": "whiteSage",
@@ -2005,7 +2333,9 @@
       "flowers"
     ],
     "description": "",
-    "image": "whiteSage.png"
+    "image": "whiteSage.png",
+    "w": 600,
+    "h": 409
   },
   {
     "id": "windowWasher",
@@ -2018,7 +2348,9 @@
       "urban-sketching"
     ],
     "description": "",
-    "image": "windowWasher.jpeg"
+    "image": "windowWasher.jpeg",
+    "w": 600,
+    "h": 407
   },
   {
     "id": "windyMorning",
@@ -2030,7 +2362,9 @@
       "tree"
     ],
     "description": "",
-    "image": "windyMorning.jpeg"
+    "image": "windyMorning.jpeg",
+    "w": 406,
+    "h": 600
   },
   {
     "id": "wineglass",
@@ -2043,7 +2377,9 @@
       "art-class"
     ],
     "description": "This was a Zoom art session with the group as part of an introduction to gouache. I\u2019d be afraid to drink a second glass of wine from a glass with a neck this slender but I love how it accentuates the painting. This is when I fell in love with gouache.",
-    "image": "wineglass.png"
+    "image": "wineglass.png",
+    "w": 482,
+    "h": 600
   },
   {
     "id": "winterFarmOn169B",
@@ -2055,7 +2391,9 @@
       "highway169"
     ],
     "description": "",
-    "image": "winterFarmOn169B.jpg"
+    "image": "winterFarmOn169B.jpg",
+    "w": 600,
+    "h": 176
   },
   {
     "id": "winterSunriseOn169",
@@ -2067,7 +2405,9 @@
       "highway169"
     ],
     "description": "",
-    "image": "winterSunriseOn169.png"
+    "image": "winterSunriseOn169.png",
+    "w": 600,
+    "h": 378
   },
   {
     "id": "zubriac",
@@ -2079,6 +2419,8 @@
       "recipe"
     ],
     "description": "",
-    "image": "zubriac.jpeg"
+    "image": "zubriac.jpeg",
+    "w": 472,
+    "h": 600
   }
 ]

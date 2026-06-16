@@ -92,8 +92,7 @@ Some text about the painting.
 [Read about the poem's origin](http://ambitioninthecity.com/2013/06/07/...)
 ```
 
-→ shows as a green clickable phrase. (See `bowl2-watercolorKintsugi` for a
-working example.)
+→ shows as a green clickable phrase in the painting's detail view.
 
 **Other formatting that comes through:**
 

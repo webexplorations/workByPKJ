@@ -9,9 +9,24 @@ A website showcasing Peter K. Johnson's paintings, published with GitHub Pages.
 
 ### Custom domain
 
-The site is served at `workbypkj.webexplorations.com` via a `CNAME` record
-(host `workbypkj` → `webexplorations.github.io`) plus the `CNAME` file in this
-repo. After DNS resolves, enable **Settings → Pages → Enforce HTTPS** in GitHub.
+The site is served at `workbypkj.webexplorations.com`. This is set up by two
+things working together:
+
+1. A **CNAME DNS record** — host `workbypkj` → target `webexplorations.github.io`,
+   set to **DNS only** (not proxied). **Important:** `webexplorations.com` DNS is
+   managed at **Cloudflare**, *not* BlueHost — add/edit records in the Cloudflare
+   dashboard (DNS → Records). A record added at BlueHost has no effect.
+2. The **`CNAME` file** in this repo, which tells GitHub Pages to accept that
+   hostname.
+
+`webexplorations.com` is **email-only** (ProtonMail); there is no website at the
+apex, so Cloudflare's "visitors cannot reach webexplorations.com / www" notices
+are expected and harmless. The painting site lives only on the `workbypkj`
+subdomain and doesn't touch the email (MX / SPF / DKIM / DMARC) records.
+
+**Last step:** in repo **Settings → Pages**, tick **Enforce HTTPS** (available
+once GitHub has issued the certificate). The old `webexplorations.github.io/workByPKJ/`
+address 301-redirects to the custom domain, so previously shared links keep working.
 
 ### Editing the "About the Artist" text
 
@@ -59,8 +74,11 @@ then ask Claude to rebuild and publish.
    - Regenerate `paintings.json`
    - Commit and push to GitHub (the live site updates in ~1 minute)
 
-That's it. If you'd rather do it yourself, the build logic is a Python script
-Claude runs — just ask Claude to show it to you.
+That's it. The build logic is `build.py` in this folder (kept local / not
+published, since it contains machine-specific paths). Running `python3 build.py`
+re-scans the vault, regenerates `paintings.json`, resizes new images to 600px,
+records each image's dimensions, and removes images for paintings no longer
+tagged `book`.
 
 ---
 
@@ -156,7 +174,10 @@ list.
 | `index.html`       | The entire website (HTML, CSS, JavaScript in one file).  |
 | `paintings.json`   | Generated data: one entry per painting. Do not hand-edit.|
 | `images/`          | Web-sized (600px) copies of each painting.               |
+| `og-image.jpg`     | Share/link-preview image (1200×630).                     |
+| `CNAME`            | Tells GitHub Pages the custom domain.                    |
 | `README.md`        | This file.                                               |
+| `build.py`         | Build script (local only — gitignored; has machine paths).|
 
 ---
 

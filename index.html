@@ -5,176 +5,235 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0">
 <title>Work by PKJ — A Painting Journal</title>
 <meta name="description" content="Watercolor and mixed-media paintings by Peter K. Johnson.">
-<!-- Favicon: small green monogram -->
-<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2032%2032'%3E%3Crect%20width='32'%20height='32'%20rx='7'%20fill='%234a6741'/%3E%3Ctext%20x='16'%20y='23'%20font-family='Georgia,serif'%20font-size='19'%20font-weight='bold'%20fill='%23f7f5f0'%20text-anchor='middle'%3EP%3C/text%3E%3C/svg%3E">
-<!-- Share/link previews (Open Graph + Twitter) -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2032%2032'%3E%3Crect%20width='32'%20height='32'%20rx='7'%20fill='%237c5cc4'/%3E%3Ctext%20x='16'%20y='23'%20font-family='Georgia,serif'%20font-size='19'%20font-weight='bold'%20fill='%23f6f4ee'%20text-anchor='middle'%3EP%3C/text%3E%3C/svg%3E">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Work by PKJ — A Painting Journal">
 <meta property="og:description" content="Watercolor and mixed-media paintings by Peter K. Johnson.">
-<meta property="og:image" content="https://workbypkj.webexplorations.com/og-image.jpg">
-<meta property="og:url" content="https://workbypkj.webexplorations.com/">
+<meta property="og:image" content="https://webexplorations.github.io/workByPKJ/og-image.jpg">
+<meta property="og:url" content="https://webexplorations.github.io/workByPKJ/">
 <meta name="twitter:card" content="summary_large_image">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
 :root{
-  --bg:#f7f5f0;--surface:#fff;--card:#fff;--border:rgba(0,0,0,.09);--border-med:rgba(0,0,0,.16);
-  --accent:#4a6741;--accent-light:#e8f0e6;--text:#1a1a16;--muted:#6b6b60;
-  --fs:16px;--fs-sm:14px;--fs-xs:12px;--fs-lg:20px;--fs-xl:28px
+  --bg:#e9e7e0;--surface:#f6f4ee;--text:#2a2730;--muted:#8a8590;--soft:#4f4a57;
+  --accent:#7c5cc4;--accent-soft:rgba(124,92,196,.1);--border:rgba(60,50,75,.2);
+  --card-border:rgba(60,50,75,.18);
+  --mono:'IBM Plex Mono',monospace;--serif:'Spectral',Georgia,serif;
 }
 *{box-sizing:border-box;margin:0;padding:0}
-body{background:var(--bg);color:var(--text);font-family:'Source Sans 3',sans-serif;font-size:var(--fs);min-height:100vh;-webkit-user-select:none;user-select:none;display:flex;flex-direction:column}
-img{-webkit-user-drag:none;user-drag:none;pointer-events:none}
-header{background:var(--surface);border-bottom:1px solid var(--border);padding:18px 20px 14px;text-align:center;position:sticky;top:0;z-index:50;box-shadow:0 2px 8px rgba(0,0,0,.06)}
-.logo{font-family:'Playfair Display',serif;font-size:var(--fs-xl);font-weight:600;color:var(--accent);margin-bottom:2px;letter-spacing:.5px}
-.subtitle{font-size:var(--fs-xs);color:var(--muted);letter-spacing:2px;text-transform:uppercase;margin-bottom:12px}
-.stats-bar{display:flex;gap:8px;justify-content:center;margin-bottom:8px}
-.stat{background:var(--accent-light);border-radius:20px;padding:5px 14px;text-align:center}
-.stat-num{font-family:'Playfair Display',serif;font-size:var(--fs);font-weight:600;color:var(--accent)}
-.stat-label{font-size:var(--fs-xs);color:var(--muted);font-weight:600;margin-left:4px}
-.header-copy{font-size:10px;color:var(--muted);letter-spacing:.3px;line-height:1.4}
-/* Showcase */
-.showcase{padding:24px 16px 0}
-.showcase-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:14px;margin-bottom:20px}
-.showcase-card{border-radius:14px;overflow:hidden;cursor:pointer;position:relative;box-shadow:0 4px 16px rgba(0,0,0,.12);transition:box-shadow .2s,transform .15s;aspect-ratio:1}
-.showcase-card:hover{box-shadow:0 8px 28px rgba(0,0,0,.2);transform:translateY(-3px)}
-.showcase-card img{width:100%;height:100%;object-fit:cover;display:block}
-.showcase-label{position:absolute;bottom:0;left:0;right:0;padding:28px 12px 10px;background:linear-gradient(transparent,rgba(0,0,0,.6));color:#fff;font-size:var(--fs-sm);font-weight:600;line-height:1.3}
-.intro-prompt{text-align:center;padding:18px 16px 4px}
-.intro-prompt p{font-family:'Playfair Display',serif;font-size:var(--fs-lg);color:var(--muted);margin-bottom:4px}
-.intro-prompt small{font-size:var(--fs-sm);color:var(--muted)}
+body{background:var(--bg);color:var(--text);font-family:var(--serif);min-height:100vh;display:flex;flex-direction:column;-webkit-user-select:none;user-select:none}
+img{-webkit-user-drag:none;user-drag:none}
+::selection{background:rgba(124,92,196,.25)}
+
+/* Top bar: copyright + About */
+.topbar{max-width:1120px;width:100%;margin:0 auto;padding:18px 32px 0;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.topcopy{font-family:var(--mono);font-size:10px;letter-spacing:.03em;color:var(--muted)}
+.about-link{font-family:var(--serif);font-size:14px;color:#3a3640;background:rgba(255,255,255,.6);border:1px solid var(--border);border-radius:100px;padding:9px 18px;cursor:pointer;transition:background .2s ease}
+.about-link:hover{background:rgba(255,255,255,.95)}
+
+/* Header */
+header{max-width:1120px;width:100%;margin:0 auto;padding:30px 32px 18px}
+.title-row{display:flex;align-items:baseline;justify-content:center;gap:14px;flex-wrap:wrap}
+.logo{font-weight:500;font-size:30px;letter-spacing:-.01em}
+.subtitle{font-size:11px;letter-spacing:.18em;text-transform:uppercase;font-family:var(--mono);color:var(--accent);border:1px solid rgba(124,92,196,.4);padding:3px 9px;border-radius:100px}
+.chips{margin:20px 0 0;display:flex;flex-wrap:wrap;justify-content:center;gap:12px 30px}
+.chip{display:flex;align-items:center;gap:11px;font-size:15px;color:var(--soft)}
+.chip .ico{display:inline-flex;width:32px;height:32px;border-radius:100px;background:var(--accent-soft);align-items:center;justify-content:center;color:var(--accent);flex:none}
+
 /* Controls */
-.controls{padding:14px 16px 0;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
-.cat-select{flex:1;min-width:200px;background:var(--surface);border:1.5px solid var(--border-med);border-radius:12px;padding:11px 14px;color:var(--text);font-family:'Source Sans 3',sans-serif;font-size:var(--fs);outline:none;cursor:pointer;transition:border-color .2s;box-shadow:0 1px 4px rgba(0,0,0,.05);appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%236b6b60' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 14px center;padding-right:36px}
-.cat-select:focus{border-color:var(--accent)}
-.search-input{flex:1;min-width:160px;background:var(--surface);border:1.5px solid var(--border-med);border-radius:12px;padding:11px 14px;color:var(--text);font-family:'Source Sans 3',sans-serif;font-size:var(--fs);outline:none;transition:border-color .2s;box-shadow:0 1px 4px rgba(0,0,0,.05)}
-.search-input:focus{border-color:var(--accent)}
-.result-count{padding:10px 18px 0;font-size:var(--fs-sm);color:var(--muted);font-style:italic}
-.grid{padding:14px 14px 20px;column-width:200px;column-gap:16px}
-.painting-card{break-inside:avoid;margin:0 0 18px;cursor:pointer;display:inline-block;width:100%}
-.thumb-wrap{width:100%;border-radius:8px}
-.thumb-wrap img{width:100%;height:auto;display:block;border-radius:8px;box-shadow:0 5px 16px rgba(0,0,0,.32);transition:box-shadow .2s,transform .15s}
-.painting-card:hover .thumb-wrap img{box-shadow:0 12px 30px rgba(0,0,0,.42);transform:translateY(-2px)}
-.card-info{padding:9px 4px 0}
-.card-title{font-size:var(--fs-sm);font-weight:600;line-height:1.3;margin-bottom:5px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-.card-tags{display:flex;flex-wrap:wrap;gap:3px}
-.mini-tag{font-size:10px;padding:2px 7px;border-radius:10px;background:var(--accent-light);color:var(--accent);font-weight:600}
-.no-results{grid-column:1/-1;text-align:center;padding:60px 20px;color:var(--muted);font-size:var(--fs);font-style:italic}
-footer{background:var(--surface);border-top:1px solid var(--border);padding:12px 20px;text-align:center;margin-top:auto}
-.footer-copy{font-size:10px;color:var(--muted);letter-spacing:.3px;line-height:1.6}
-/* Modal */
-.modal-bg{display:none;position:fixed;inset:0;background:rgba(0,0,0,.75);z-index:200;overflow-y:auto;padding:20px;-webkit-overflow-scrolling:touch}
-.modal-bg.open{display:flex;align-items:flex-start;justify-content:center}
-.modal{background:var(--surface);border-radius:20px;width:100%;max-width:560px;margin:auto;overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,.4)}
-.modal-img-wrap{width:100%;background:#111;position:relative;display:flex;align-items:center;justify-content:center}
-.modal-img-wrap img{width:100%;height:auto;max-height:75vh;object-fit:contain;display:block}
-.modal-close{position:absolute;top:12px;right:12px;background:rgba(255,255,255,.92);border:none;border-radius:50%;width:36px;height:36px;font-size:18px;cursor:pointer;display:flex;align-items:center;justify-content:center;color:var(--text);z-index:10;box-shadow:0 2px 6px rgba(0,0,0,.2);font-weight:700}
-.modal-close:hover{background:#fff}
-.modal-body{padding:16px 20px 20px}
-.modal-title{font-family:'Playfair Display',serif;font-size:var(--fs-lg);font-weight:600;line-height:1.3;margin-bottom:8px}
-.modal-tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px}
-.modal-tag{padding:3px 11px;border-radius:20px;background:var(--accent-light);color:var(--accent);font-size:var(--fs-sm);font-weight:600}
-.modal-meta{font-size:var(--fs-sm);color:var(--muted);margin-bottom:8px;line-height:1.6}
-.modal-desc{font-size:var(--fs-sm);color:var(--muted);line-height:1.6;font-style:italic}
-.modal-desc a{color:var(--accent);font-weight:600}
-.modal-copy{font-size:10px;color:var(--muted);margin-top:12px;letter-spacing:.3px;line-height:1.4;border-top:1px solid var(--border);padding-top:8px}
-.modal-nav{position:absolute;top:50%;transform:translateY(-50%);background:rgba(255,255,255,.92);border:none;border-radius:50%;width:42px;height:42px;font-size:20px;cursor:pointer;display:flex;align-items:center;justify-content:center;color:var(--text);z-index:10;box-shadow:0 2px 8px rgba(0,0,0,.25);font-weight:700}
-.modal-nav:hover{background:#fff}
-.modal-nav.prev{left:12px}
-.modal-nav.next{right:12px}
-.modal-share{display:inline-flex;align-items:center;gap:6px;margin-top:14px;padding:8px 14px;background:var(--accent-light);color:var(--accent);border:none;border-radius:10px;font-family:'Source Sans 3',sans-serif;font-size:var(--fs-sm);font-weight:600;cursor:pointer}
-.modal-share:hover{filter:brightness(.97)}
-/* Header about link + sort control */
-.about-link{background:none;border:1px solid var(--border-med);color:var(--accent);border-radius:20px;padding:5px 14px;font-family:'Source Sans 3',sans-serif;font-size:var(--fs-xs);font-weight:600;cursor:pointer;margin-bottom:8px}
-.about-link:hover{background:var(--accent-light)}
-.sort-select{background:var(--surface);border:1.5px solid var(--border-med);border-radius:12px;padding:11px 14px;color:var(--text);font-family:'Source Sans 3',sans-serif;font-size:var(--fs-sm);outline:none;cursor:pointer;box-shadow:0 1px 4px rgba(0,0,0,.05);appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%236b6b60' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 12px center;padding-right:32px}
-.about-body{font-size:var(--fs-sm);color:var(--text);line-height:1.7}
-.about-body p{margin-bottom:12px}
-.about-body a{color:var(--accent);font-weight:600}
+.controls{margin:22px auto 0;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:12px;max-width:820px}
+.pill{font-family:var(--serif);font-size:14px;color:#3a3640;background:rgba(255,255,255,.6);border:1px solid var(--border);border-radius:100px;padding:11px 18px;outline:none}
+select.pill{cursor:pointer;appearance:none;padding-right:34px;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%238a8590' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 14px center}
+input.pill{flex:1;min-width:240px}
+.pill:focus{border-color:var(--accent)}
+
+/* Main + result count */
+main{max-width:1120px;width:100%;margin:0 auto;padding:20px 32px 40px;flex:1}
+.result-count{font-family:var(--mono);font-size:11px;letter-spacing:.04em;color:var(--muted);margin:0 0 16px;text-align:center}
+
+/* Intro prompt */
+.intro-prompt{text-align:center;padding:8px 16px 18px}
+.intro-prompt p{font-size:20px;color:var(--soft);margin-bottom:4px}
+.intro-prompt small{font-family:var(--mono);font-size:11px;letter-spacing:.04em;color:var(--muted)}
+
+/* Showcase + grid (masonry, full images) */
+.section-label{font-family:var(--mono);font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);text-align:center;margin:0 0 18px}
+.grid{column-width:240px;column-gap:26px}
+.card{break-inside:avoid;margin:0 0 26px;display:block;width:100%;border:1px solid var(--card-border);background:rgba(255,255,255,.35);padding:14px;border-radius:3px;box-shadow:0 9px 22px rgba(30,20,45,.18);cursor:pointer;text-align:left;font-family:inherit;color:inherit;transition:box-shadow .3s ease,transform .25s ease}
+.card:hover{box-shadow:0 24px 52px rgba(20,12,35,.30);transform:translateY(-3px)}
+.card .frame{overflow:hidden;background:#efece6;margin-bottom:12px}
+.card img{width:100%;height:auto;display:block}
+.card .ctitle{font-size:17px;font-weight:500;line-height:1.25;display:block}
+.card .cmeta{font-family:var(--mono);font-size:11px;letter-spacing:.04em;color:var(--muted);margin-top:3px;display:block}
+.no-results{text-align:center;padding:60px 20px;color:var(--muted);font-size:18px;font-style:italic}
+
+/* Footer */
+footer{max-width:1120px;width:100%;margin:0 auto;padding:6px 32px 48px}
+.footer-copy{font-family:var(--mono);font-size:10px;line-height:1.7;color:var(--muted)}
+
+/* ===== Immersive viewer ===== */
+.viewer{position:fixed;inset:0;z-index:50;background:#131119;display:none;opacity:0;transition:opacity .32s ease}
+.viewer.open{display:block}
+.viewer.shown{opacity:1}
+.v-stage{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;overflow:hidden;touch-action:none;transform-origin:center;transform:scale(.95);opacity:0;transition:transform .34s cubic-bezier(.2,.72,.2,1),opacity .34s ease}
+.viewer.shown .v-stage{transform:scale(1);opacity:1}
+.v-img{max-width:92%;max-height:88%;object-fit:contain;transform-origin:center;user-select:none;will-change:transform;box-shadow:0 30px 90px rgba(0,0,0,.55);cursor:zoom-in}
+.v-top{position:absolute;top:0;left:0;right:0;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:20px 22px;z-index:9;pointer-events:none}
+.v-top > *{pointer-events:auto}
+.v-counter{font-family:var(--mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:rgba(240,238,244,.58)}
+.v-title{font-size:21px;font-weight:500;margin-top:2px;color:#f0eef4}
+.v-actions{display:flex;gap:10px}
+.v-ctrl{border-radius:100px;border:1px solid rgba(255,255,255,.13);background:rgba(255,255,255,.08);color:#f0eef4;cursor:pointer;display:flex;align-items:center;justify-content:center;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);transition:background .2s ease;font-family:inherit}
+.v-ctrl:hover{background:rgba(255,255,255,.2)}
+.v-icon{width:44px;height:44px;font-size:17px}
+.v-detail{height:44px;padding:0 22px;font-size:15px}
+.v-detail.active{background:#f0eef4;color:#131119;border-color:#f0eef4}
+.v-nav{position:absolute;top:50%;transform:translateY(-50%);width:52px;height:52px;font-size:26px;line-height:1;padding-bottom:3px;z-index:9;background:rgba(21,18,28,.7)}
+.v-nav.prev{left:20px}
+.v-nav.next{right:20px}
+.v-zoombar{position:absolute;left:50%;bottom:22px;transform:translateX(-50%);display:flex;align-items:center;gap:6px;z-index:9;background:rgba(21,18,28,.7);border:1px solid rgba(255,255,255,.13);border-radius:100px;padding:5px;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
+.v-pill{width:38px;height:38px;border-radius:100px;border:none;background:transparent;color:#f0eef4;font-size:20px;cursor:pointer;display:flex;align-items:center;justify-content:center;font-family:inherit}
+.v-zlabel{min-width:62px;height:38px;border:none;background:transparent;color:#f0eef4;font-family:var(--mono);font-size:12px;cursor:pointer;border-radius:100px}
+.v-hint{position:absolute;left:50%;bottom:74px;transform:translateX(-50%);font-family:var(--mono);font-size:11px;letter-spacing:.04em;color:rgba(240,238,244,.58);z-index:9;white-space:nowrap}
+.v-copy{position:absolute;left:24px;bottom:24px;max-width:44%;font-family:var(--mono);font-size:10px;line-height:1.5;color:rgba(240,238,244,.58);z-index:7}
+/* Details side panel */
+.v-panel{position:absolute;top:0;right:0;bottom:0;width:min(386px,86vw);overflow-y:auto;background:rgba(21,18,28,.9);color:#f0eef4;backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);z-index:8;border-left:1px solid rgba(255,255,255,.13);padding:74px 36px 36px;transform:translateX(101%);transition:transform .38s cubic-bezier(.22,.72,.2,1)}
+.v-panel.open{transform:translateX(0)}
+.v-panel .plabel{font-family:var(--mono);font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:rgba(240,238,244,.58);margin-bottom:8px}
+.v-panel h2{font-weight:500;font-size:26px;line-height:1.15;margin:0 0 18px}
+.v-panel dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:10px 20px;align-items:baseline}
+.v-panel dt{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:rgba(240,238,244,.58)}
+.v-panel dd{margin:0;font-size:16px}
+.v-desc{margin:20px 0 0;font-size:16px;line-height:1.6;color:rgba(240,238,244,.78);border-top:1px solid rgba(255,255,255,.13);padding-top:18px}
+.v-desc a{color:#b69ce8;font-weight:500}
+.v-share{margin-top:18px;display:inline-flex;align-items:center;gap:7px;font-family:var(--serif);font-size:14px;color:#f0eef4;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.13);border-radius:100px;padding:9px 16px;cursor:pointer}
+.v-share:hover{background:rgba(255,255,255,.18)}
+.v-help{margin-top:26px;border:1px solid rgba(255,255,255,.13);border-radius:14px;padding:18px 20px;display:flex;flex-direction:column;gap:14px}
+.v-help .hl{font-family:var(--mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:rgba(240,238,244,.58)}
+.v-help .row{display:flex;align-items:center;gap:12px;font-size:15px}
+.v-help .row .ico{display:inline-flex;width:30px;height:30px;border-radius:100px;background:rgba(182,156,232,.16);align-items:center;justify-content:center;color:#b69ce8;flex:none}
+
+/* About modal */
+.about-bg{position:fixed;inset:0;z-index:60;background:rgba(20,18,26,.55);backdrop-filter:blur(3px);-webkit-backdrop-filter:blur(3px);display:none;align-items:center;justify-content:center;padding:24px}
+.about-bg.open{display:flex}
+.about-modal{position:relative;background:var(--surface);border:1px solid rgba(60,50,75,.16);border-radius:6px;max-width:540px;width:100%;padding:44px;box-shadow:0 40px 90px rgba(20,12,35,.45)}
+.about-modal .x{position:absolute;top:18px;right:18px;width:38px;height:38px;border-radius:100px;border:1px solid var(--card-border);background:transparent;color:#3a3640;font-size:16px;cursor:pointer}
+.about-modal .plabel{font-family:var(--mono);font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);margin-bottom:10px}
+.about-modal h2{font-weight:500;font-size:26px;color:var(--text);margin:0 0 18px}
+.about-modal p{font-size:16px;line-height:1.65;color:var(--soft);margin:0 0 14px}
+.about-modal p:last-child{margin-bottom:0}
+
+@media (max-width:560px){
+  .topbar,header,main,footer{padding-left:18px;padding-right:18px}
+  .logo{font-size:24px}
+  .v-title{font-size:17px}
+}
 </style>
 </head>
 <body>
-<header>
-  <div class="logo">Work by PKJ</div>
-  <div class="subtitle">A Painting Journal</div>
-  <div class="stats-bar">
-    <div class="stat"><span class="stat-num" id="totalCount">0</span><span class="stat-label">paintings</span></div>
-    <div class="stat"><span class="stat-num" id="catCount">0</span><span class="stat-label">categories</span></div>
-  </div>
+
+<div class="topbar">
+  <span class="topcopy">&copy; 2025 Peter K. Johnson — All rights reserved. Unauthorized reproduction or use prohibited.</span>
   <button class="about-link" id="aboutBtn">About the Artist</button>
-  <div class="header-copy">&copy; 2025 Peter K. Johnson &mdash; All rights reserved. Unauthorized reproduction or use prohibited.</div>
-</header>
+</div>
 
-<div id="app">
-  <!-- Directive + controls at the top, just under the header -->
-  <div id="introPrompt" class="intro-prompt" style="display:none">
-    <p>Select a category below to explore the collection</p>
-    <small>or search by title, subject, or keyword</small>
+<header>
+  <div class="title-row">
+    <h1 class="logo">Work by PKJ</h1>
+    <span class="subtitle">A Painting Journal</span>
   </div>
-
+  <div class="chips">
+    <div class="chip">
+      <span class="ico"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3H4a1 1 0 0 0-1 1v4"></path><path d="M16 3h4a1 1 0 0 1 1 1v4"></path><path d="M16 21h4a1 1 0 0 0 1-1v-4"></path><path d="M8 21H4a1 1 0 0 1-1-1v-4"></path></svg></span>
+      Click an image to open
+    </div>
+    <div class="chip">
+      <span class="ico"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1.2"></rect><rect x="14" y="3" width="7" height="7" rx="1.2"></rect><rect x="3" y="14" width="7" height="7" rx="1.2"></rect><rect x="14" y="14" width="7" height="7" rx="1.2"></rect></svg></span>
+      <span id="totalLabel">0 paintings</span>
+    </div>
+  </div>
   <div class="controls">
-    <select class="cat-select" id="catSelect">
+    <select class="pill" id="catSelect">
       <option value="">— Select a category —</option>
-      <option value="__all__">All paintings (186)</option>
+      <option value="__all__">All paintings</option>
     </select>
-    <input type="text" class="search-input" id="searchInput" placeholder="Search…">
-    <select class="sort-select" id="sortSelect" title="Sort paintings">
+    <input type="text" class="pill" id="searchInput" placeholder="Search by title, subject, or keyword">
+    <select class="pill" id="sortSelect">
       <option value="az">Sort: A–Z</option>
       <option value="newest">Newest first</option>
       <option value="oldest">Oldest first</option>
     </select>
   </div>
-  <div class="result-count" id="resultCount"></div>
+</header>
 
-  <!-- Featured paintings: shown on landing, hidden when filtering -->
-  <div id="showcase" class="showcase" style="display:none">
-    <div class="showcase-grid" id="showcaseGrid"></div>
+<main>
+  <div id="introPrompt" class="intro-prompt" style="display:none">
+    <p>Select a category to explore the collection</p>
+    <small>or search by title, subject, or keyword</small>
   </div>
-
+  <div id="showcaseWrap" style="display:none">
+    <div class="section-label">Featured</div>
+    <div class="grid" id="showcaseGrid"></div>
+  </div>
+  <div class="result-count" id="resultCount"></div>
   <div class="grid" id="grid" style="display:none"></div>
-</div>
+</main>
 
 <footer>
-  <div class="footer-copy">
-    &copy; 2025 Peter K. Johnson. All rights reserved. No portion of the artwork on this site may be reproduced, distributed, transmitted, displayed, or used in any form or by any means without the prior written permission of the artist. Unauthorized use is strictly prohibited.
-  </div>
+  <p class="footer-copy">&copy; 2025 Peter K. Johnson. All rights reserved. No portion of the artwork on this site may be reproduced, distributed, transmitted, displayed, or used in any form or by any means without the prior written permission of the artist. Unauthorized use is strictly prohibited.</p>
 </footer>
 
-<div class="modal-bg" id="modalBg">
-  <div class="modal">
-    <div class="modal-img-wrap" id="modalImgWrap">
-      <button class="modal-close" id="modalClose">&#x2715;</button>
-      <button class="modal-nav prev" id="modalPrev" aria-label="Previous painting">&#8249;</button>
-      <button class="modal-nav next" id="modalNext" aria-label="Next painting">&#8250;</button>
-      <img id="modalImg" src="" alt="">
+<!-- Immersive viewer -->
+<div class="viewer" id="viewer">
+  <div class="v-stage" id="vStage">
+    <img class="v-img" id="vImg" src="" alt="" draggable="false">
+  </div>
+  <div class="v-top">
+    <div>
+      <div class="v-counter" id="vCounter"></div>
+      <div class="v-title" id="vTitle"></div>
     </div>
-    <div class="modal-body">
-      <div class="modal-title" id="modalTitle"></div>
-      <div class="modal-tags" id="modalTags"></div>
-      <div class="modal-meta" id="modalMeta"></div>
-      <div class="modal-desc" id="modalDesc"></div>
-      <button class="modal-share" id="modalShare">&#128279; Copy link to this painting</button>
-      <div class="modal-copy">&copy; 2025 Peter K. Johnson. All rights reserved. Unauthorized reproduction or use of this image is strictly prohibited.</div>
+    <div class="v-actions">
+      <button class="v-ctrl v-detail" id="vDetail"><b>Details</b></button>
+      <button class="v-ctrl v-icon" id="vClose" aria-label="Close">✕</button>
+    </div>
+  </div>
+  <button class="v-ctrl v-nav prev" id="vPrev" aria-label="Previous">‹</button>
+  <button class="v-ctrl v-nav next" id="vNext" aria-label="Next">›</button>
+  <div class="v-zoombar">
+    <button class="v-pill" id="vZoomOut" aria-label="Zoom out">−</button>
+    <button class="v-zlabel" id="vZoomReset">100%</button>
+    <button class="v-pill" id="vZoomIn" aria-label="Zoom in">+</button>
+  </div>
+  <div class="v-hint" id="vHint">scroll · pinch · double-click to zoom</div>
+  <div class="v-copy">&copy; 2025 Peter K. Johnson — All rights reserved. Unauthorized reproduction or use prohibited.</div>
+  <div class="v-panel" id="vPanel">
+    <div class="plabel">Details</div>
+    <h2 id="vPanelTitle"></h2>
+    <dl id="vFields"></dl>
+    <p class="v-desc" id="vDesc" style="display:none"></p>
+    <button class="v-share" id="vShare">&#128279; Copy link to this painting</button>
+    <div class="v-help">
+      <div class="hl">How to explore</div>
+      <div class="row"><span class="ico"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"></circle><line x1="16" y1="16" x2="21" y2="21"></line><line x1="8" y1="11" x2="14" y2="11"></line><line x1="11" y1="8" x2="11" y2="14"></line></svg></span>Scroll or pinch to zoom</div>
+      <div class="row"><span class="ico"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="4" x2="12" y2="20"></line><line x1="4" y1="12" x2="20" y2="12"></line><path d="M9 7l3-3 3 3"></path><path d="M9 17l3 3 3-3"></path><path d="M7 9l-3 3 3 3"></path><path d="M17 9l3 3-3 3"></path></svg></span>Drag to pan</div>
+      <div class="row"><span class="ico"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><line x1="12" y1="11" x2="12" y2="16.5"></line><circle cx="12" cy="7.7" r="0.5" fill="currentColor"></circle></svg></span>Tap Details to toggle this info</div>
     </div>
   </div>
 </div>
 
-<div class="modal-bg" id="aboutBg">
-  <div class="modal" style="max-width:480px">
-    <div class="modal-body" style="padding:26px 24px 24px">
-      <button class="modal-close" id="aboutClose" style="position:static;float:right;margin:-8px -6px 0 0">&#x2715;</button>
-      <div class="modal-title" style="margin-bottom:14px">About the Artist</div>
-      <div class="about-body" id="aboutBody">
-        <!-- ABOUT-TEXT-START -->
-        <p>Peter Kendrick Johnson lives in Southern Minnesota and has been
-        drawing and painting for several years. Every Saturday he is co-host
-        with the Urban Sketching group held at Sidetracked, a poetry and art
-        supply shop in downtown Mankato.</p>
-        <p>In his past lives he has been a photographer in the Navy, a
-        programmer, president of a corporation, and a computer programming
-        instructor.</p>
-        <!-- ABOUT-TEXT-END -->
-      </div>
-    </div>
+<!-- About modal -->
+<div class="about-bg" id="aboutBg">
+  <div class="about-modal">
+    <button class="x" id="aboutClose" aria-label="Close">✕</button>
+    <div class="plabel">About the Artist</div>
+    <h2>Peter Kendrick Johnson</h2>
+    <!-- ABOUT-TEXT-START -->
+    <p>Peter Kendrick Johnson lives in Southern Minnesota and has been drawing and painting for several years. Every Saturday he is co-host with the Urban Sketching group held at Sidetracked, a poetry and art supply shop in downtown Mankato.</p>
+    <p>In his past lives he has been a photographer in the Navy, a programmer, president of a corporation, and a computer programming instructor.</p>
+    <!-- ABOUT-TEXT-END -->
   </div>
 </div>
 
@@ -186,9 +245,10 @@ let paintings = [];
 let activeTag = '';
 let searchTerm = '';
 let sortMode = 'az';
-let currentFiltered = [];   // the set currently shown in the grid
-let navList = [];           // the set the open modal navigates through
+let currentFiltered = [];
+let navList = [];
 let navIndex = 0;
+let infoOpen = true;
 
 const catNames = {
   'flowers':'Flowers','mankato':'Mankato','MemoryPlace':'Memory Places',
@@ -203,140 +263,121 @@ const catNames = {
   'sheep':'Sheep','dandelion':'Dandelion','recipe':'Recipe',
   'trees':'Trees','mushrooms':'Mushrooms','milkweed':'Milkweed',
   'keywest':'Key West','backyard':'Backyard','illustration':'Illustration',
-  'Minneopa':'Minneopa','dayLily':'Day Lily','showcase':'Featured'
+  'Minneopa':'Minneopa','dayLily':'Day Lily','notecard':'Notecards','showcase':'Featured'
 };
 function tagLabel(t){ return catNames[t] || t.charAt(0).toUpperCase()+t.slice(1); }
+function visibleTags(p){ return p.tags.filter(t => t !== 'showcase'); }
+function yearOf(p){ const m = (p.date||'').match(/^(\d{4})/); return m ? m[1] : ''; }
+function metaLine(p){
+  const yr = yearOf(p);
+  const cat = visibleTags(p)[0] ? tagLabel(visibleTags(p)[0]) : '';
+  return [yr, cat].filter(Boolean).join(' · ');
+}
 
-async function init() {
+/* ---- Markdown for descriptions (links, images, bold/italic, breaks) ---- */
+function renderDesc(text){
+  let s = text.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  s = s.replace(/!\[([^\]]*)\]\(([^)\s]+)[^)]*\)/g,'<img src="$2" alt="$1" style="max-width:100%;border-radius:6px;margin:8px 0">');
+  s = s.replace(/\[([^\]]+)\]\(([^)\s]+)[^)]*\)/g,'<a href="$2" target="_blank" rel="noopener">$1</a>');
+  s = s.replace(/\*\*([^*]+)\*\*/g,'<strong>$1</strong>');
+  s = s.replace(/\*([^*]+)\*/g,'<em>$1</em>');
+  return s.replace(/\n/g,'<br>');
+}
+
+async function init(){
   const res = await fetch('paintings.json?v=' + Date.now());
   paintings = await res.json();
 
-  // Update "All" option with real count
+  document.getElementById('totalLabel').textContent = `${paintings.length} paintings`;
   document.querySelector('option[value="__all__"]').textContent = `All paintings (${paintings.length})`;
 
-  // Build showcase
+  // showcase
   const showcased = paintings.filter(p => p.tags.includes('showcase'));
-  const showcaseSection = document.getElementById('showcase');
-  if (showcased.length > 0) {
-    const grid = document.getElementById('showcaseGrid');
-    showcased.forEach(p => {
-      const card = document.createElement('div');
-      card.className = 'showcase-card';
-      card.innerHTML = p.image
-        ? `<img src="images/${p.image}" alt="${p.title}" loading="lazy"><div class="showcase-label">${p.title}</div>`
-        : `<div style="width:100%;height:100%;background:#ddd"></div><div class="showcase-label">${p.title}</div>`;
-      card.addEventListener('click', () => openModal(p, showcased));
-      grid.appendChild(card);
-    });
-    showcaseSection.style.display = '';
+  if (showcased.length){
+    const sg = document.getElementById('showcaseGrid');
+    showcased.forEach(p => sg.appendChild(makeCard(p, showcased)));
+    document.getElementById('showcaseWrap').style.display = '';
     document.getElementById('introPrompt').style.display = '';
   }
 
-  // Build category dropdown (excluding 'showcase' tag)
-  const tagCounts = {};
-  paintings.forEach(p => p.tags.filter(t => t !== 'showcase').forEach(t => {
-    tagCounts[t] = (tagCounts[t]||0)+1;
-  }));
-  const sorted = Object.entries(tagCounts).sort((a,b) => tagLabel(a[0]).localeCompare(tagLabel(b[0])));
+  // category dropdown from tags
+  const counts = {};
+  paintings.forEach(p => visibleTags(p).forEach(t => { counts[t] = (counts[t]||0)+1; }));
+  const sorted = Object.entries(counts).sort((a,b)=>tagLabel(a[0]).localeCompare(tagLabel(b[0])));
   const sel = document.getElementById('catSelect');
-  sorted.forEach(([tag, count]) => {
-    const opt = document.createElement('option');
-    opt.value = tag;
-    opt.textContent = `${tagLabel(tag)} (${count})`;
-    sel.appendChild(opt);
+  sorted.forEach(([tag,c])=>{
+    const o = document.createElement('option');
+    o.value = tag; o.textContent = `${tagLabel(tag)} (${c})`;
+    sel.appendChild(o);
   });
 
-  document.getElementById('catCount').textContent = sorted.length;
-  document.getElementById('totalCount').textContent = paintings.length;
+  sel.addEventListener('change', ()=>{ activeTag = sel.value; render(); });
+  document.getElementById('searchInput').addEventListener('input', e=>{ searchTerm = e.target.value.toLowerCase(); render(); });
+  document.getElementById('sortSelect').addEventListener('change', e=>{ sortMode = e.target.value; render(); });
 
-  sel.addEventListener('change', () => {
-    activeTag = sel.value;
-    render();
-  });
-  document.getElementById('searchInput').addEventListener('input', e => {
-    searchTerm = e.target.value.toLowerCase();
-    render();
-  });
-  document.getElementById('sortSelect').addEventListener('change', e => {
-    sortMode = e.target.value;
-    render();
-  });
+  document.getElementById('aboutBtn').addEventListener('click', ()=>toggleAbout(true));
+  document.getElementById('aboutClose').addEventListener('click', ()=>toggleAbout(false));
+  document.getElementById('aboutBg').addEventListener('click', e=>{ if(e.target.id==='aboutBg') toggleAbout(false); });
 
-  // Painting modal controls
-  document.getElementById('modalClose').addEventListener('click', closeModal);
-  document.getElementById('modalBg').addEventListener('click', e => {
-    if (e.target === document.getElementById('modalBg')) closeModal();
-  });
-  document.getElementById('modalPrev').addEventListener('click', () => navTo(-1));
-  document.getElementById('modalNext').addEventListener('click', () => navTo(1));
-  document.getElementById('modalShare').addEventListener('click', sharePainting);
-
-  // About modal
-  document.getElementById('aboutBtn').addEventListener('click', () => openSheet('aboutBg'));
-  document.getElementById('aboutClose').addEventListener('click', () => closeSheet('aboutBg'));
-  document.getElementById('aboutBg').addEventListener('click', e => {
-    if (e.target === document.getElementById('aboutBg')) closeSheet('aboutBg');
-  });
-
-  // Keyboard: Esc closes, arrows navigate the open painting
-  document.addEventListener('keydown', e => {
-    if (document.getElementById('aboutBg').classList.contains('open') && e.key === 'Escape') {
-      closeSheet('aboutBg'); return;
-    }
-    if (!document.getElementById('modalBg').classList.contains('open')) return;
-    if (e.key === 'Escape') closeModal();
-    else if (e.key === 'ArrowLeft') navTo(-1);
-    else if (e.key === 'ArrowRight') navTo(1);
-  });
-
-  // Swipe on the image to navigate (mobile)
-  let touchX = null;
-  const wrap = document.getElementById('modalImgWrap');
-  wrap.addEventListener('touchstart', e => { touchX = e.changedTouches[0].clientX; }, {passive:true});
-  wrap.addEventListener('touchend', e => {
-    if (touchX === null) return;
-    const dx = e.changedTouches[0].clientX - touchX;
-    if (Math.abs(dx) > 40) navTo(dx < 0 ? 1 : -1);
-    touchX = null;
-  }, {passive:true});
-
-  // Deep link: open a painting if the URL has #id
+  wireViewer();
   openFromHash();
   window.addEventListener('hashchange', openFromHash);
 }
 
-function openFromHash() {
-  const id = decodeURIComponent(location.hash.replace(/^#/, ''));
-  if (!id) return;
-  const p = paintings.find(x => x.id === id);
-  if (p && !document.getElementById('modalBg').classList.contains('open')) {
-    openModal(p, paintings);
-  }
+function makeCard(p, list){
+  const card = document.createElement('div');
+  card.className = 'card';
+  const dims = (p.w && p.h) ? ` width="${p.w}" height="${p.h}"` : '';
+  const img = p.image
+    ? `<div class="frame"><img src="images/${p.image}" alt="${p.title}" loading="lazy"${dims}></div>`
+    : `<div class="frame" style="aspect-ratio:1;display:flex;align-items:center;justify-content:center;color:#999;font-size:12px">No image</div>`;
+  const ml = metaLine(p);
+  card.innerHTML = img +
+    `<span class="ctitle">${p.title}</span>` +
+    (ml ? `<span class="cmeta">${ml}</span>` : '');
+  card.addEventListener('click', ()=> openFrom(p, card, list));
+  return card;
 }
 
-function render() {
+function sortPaintings(list){
+  const arr = [...list];
+  if (sortMode === 'az'){
+    arr.sort((a,b)=>a.title.toLowerCase().localeCompare(b.title.toLowerCase()));
+  } else {
+    const val = p => { const t = Date.parse(p.date); return isNaN(t) ? null : t; };
+    arr.sort((a,b)=>{
+      const av=val(a), bv=val(b);
+      if(av===null&&bv===null) return a.title.toLowerCase().localeCompare(b.title.toLowerCase());
+      if(av===null) return 1; if(bv===null) return -1;
+      return sortMode==='newest' ? bv-av : av-bv;
+    });
+  }
+  return arr;
+}
+
+function render(){
   const hasFilter = activeTag || searchTerm;
-  const showcase = document.getElementById('showcase');
-  const grid = document.getElementById('grid');
   const intro = document.getElementById('introPrompt');
+  const showcaseWrap = document.getElementById('showcaseWrap');
+  const grid = document.getElementById('grid');
   const hasShowcase = document.getElementById('showcaseGrid').children.length > 0;
 
-  if (!hasFilter) {
-    showcase.style.display = hasShowcase ? '' : 'none';
+  if (!hasFilter){
     intro.style.display = hasShowcase ? '' : 'none';
+    showcaseWrap.style.display = hasShowcase ? '' : 'none';
     grid.style.display = 'none';
     document.getElementById('resultCount').textContent = '';
     return;
   }
 
   intro.style.display = 'none';
-  showcase.style.display = 'none';
+  showcaseWrap.style.display = 'none';
   grid.style.display = '';
 
-  let filtered = paintings.filter(p => {
-    if (activeTag === '__all__') { /* no tag filter */ }
+  let filtered = paintings.filter(p=>{
+    if (activeTag === '__all__'){ /* all */ }
     else if (activeTag && !p.tags.includes(activeTag)) return false;
-    if (searchTerm) {
+    if (searchTerm){
       const hay = `${p.title} ${p.tags.join(' ')} ${p.description} ${p.medium} ${p.date}`.toLowerCase();
       if (!hay.includes(searchTerm)) return false;
     }
@@ -350,128 +391,209 @@ function render() {
     `${filtered.length} painting${filtered.length!==1?'s':''} — ${label}`;
 
   grid.innerHTML = '';
-  if (!filtered.length) {
-    grid.innerHTML = '<div class="no-results">No paintings found</div>';
-    return;
-  }
+  if (!filtered.length){ grid.innerHTML = '<div class="no-results">No paintings found</div>'; return; }
+  filtered.forEach(p => grid.appendChild(makeCard(p, filtered)));
+}
 
-  filtered.forEach(p => {
-    const card = document.createElement('div');
-    card.className = 'painting-card';
-    const visibleTags = p.tags.filter(t => t !== 'showcase');
-    const tagsHtml = visibleTags.map(t=>`<span class="mini-tag">${tagLabel(t)}</span>`).join('');
-    card.innerHTML = `
-      <div class="thumb-wrap">
-        ${p.image?`<img src="images/${p.image}" alt="${p.title}" loading="lazy"${p.w&&p.h?` width="${p.w}" height="${p.h}"`:''}>`:'<div style="width:100%;height:100%;background:#ddd;display:flex;align-items:center;justify-content:center;color:#999;font-size:12px">No image</div>'}
-      </div>
-      <div class="card-info">
-        <div class="card-title">${p.title}</div>
-        <div class="card-tags">${tagsHtml}</div>
-      </div>`;
-    card.addEventListener('click', () => openModal(p, currentFiltered));
-    grid.appendChild(card);
+function toggleAbout(on){
+  document.getElementById('aboutBg').classList.toggle('open', on);
+  document.body.style.overflow = on ? 'hidden' : '';
+}
+
+/* ===================== Immersive viewer ===================== */
+const V = {};   // dom refs
+let t = { scale:1, tx:0, ty:0 };
+const pointers = new Map();
+let dragging=false, last=null, pinchDist=null, pinchScale=1;
+
+function wireViewer(){
+  ['viewer','vStage','vImg','vCounter','vTitle','vDetail','vClose','vPrev','vNext',
+   'vZoomOut','vZoomReset','vZoomIn','vHint','vPanel','vPanelTitle','vFields','vDesc','vShare']
+   .forEach(id => V[id] = document.getElementById(id));
+
+  V.vClose.addEventListener('click', closeViewer);
+  V.vPrev.addEventListener('click', ()=>nav(-1));
+  V.vNext.addEventListener('click', ()=>nav(1));
+  V.vDetail.addEventListener('click', toggleInfo);
+  V.vZoomIn.addEventListener('click', ()=>zoomTo(t.scale*1.5));
+  V.vZoomOut.addEventListener('click', ()=>zoomTo(t.scale/1.5));
+  V.vZoomReset.addEventListener('click', resetT);
+  V.vShare.addEventListener('click', sharePainting);
+
+  const stage = V.vStage;
+  stage.addEventListener('wheel', onWheel, { passive:false });
+  stage.addEventListener('pointerdown', onPointerDown);
+  stage.addEventListener('pointermove', onPointerMove);
+  stage.addEventListener('pointerup', onPointerUp);
+  stage.addEventListener('pointercancel', onPointerUp);
+  stage.addEventListener('dblclick', onDblClick);
+
+  document.addEventListener('keydown', e=>{
+    if (document.getElementById('aboutBg').classList.contains('open') && e.key==='Escape'){ toggleAbout(false); return; }
+    if (!V.viewer.classList.contains('open')) return;
+    if (e.key==='Escape') closeViewer();
+    else if (e.key==='ArrowRight') nav(1);
+    else if (e.key==='ArrowLeft') nav(-1);
+    else if (e.key.toLowerCase()==='i') toggleInfo();
   });
 }
 
-function sortPaintings(list) {
-  const arr = [...list];
-  if (sortMode === 'az') {
-    arr.sort((a, b) => a.title.toLowerCase().localeCompare(b.title.toLowerCase()));
-  } else {
-    const val = p => { const t = Date.parse(p.date); return isNaN(t) ? null : t; };
-    arr.sort((a, b) => {
-      const av = val(a), bv = val(b);
-      if (av === null && bv === null) return a.title.toLowerCase().localeCompare(b.title.toLowerCase());
-      if (av === null) return 1;          // undated items sink to the bottom
-      if (bv === null) return -1;
-      return sortMode === 'newest' ? bv - av : av - bv;
-    });
-  }
-  return arr;
+function openFrom(p, cardEl, list){
+  if (!cardEl){ openViewer(p, list); return; }
+  cardEl.style.transition = 'transform .6s cubic-bezier(.5,0,.75,0), opacity .6s ease';
+  cardEl.style.transformOrigin = 'center';
+  cardEl.style.transform = 'translate(110vw,-60vh) scale(.3) rotate(8deg)';
+  cardEl.style.opacity = '0';
+  setTimeout(()=> openViewer(p, list), 380);
+  setTimeout(()=>{
+    cardEl.style.transition='none'; cardEl.style.transform=''; cardEl.style.opacity='';
+    requestAnimationFrame(()=>{ cardEl.style.transition=''; });
+  }, 1000);
 }
 
-// Render a description's lightweight Markdown (links, images, bold/italic,
-// line breaks) to safe HTML. Content is the artist's own, escaped first.
-function renderDesc(text) {
-  let s = text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-  // images: ![alt](url)
-  s = s.replace(/!\[([^\]]*)\]\(([^)\s]+)[^)]*\)/g,
-    '<img src="$2" alt="$1" style="max-width:100%;border-radius:6px;margin:8px 0;box-shadow:0 3px 10px rgba(0,0,0,.25)">');
-  // links: [text](url)  (text may now contain an <img> from above)
-  s = s.replace(/\[([^\]]+)\]\(([^)\s]+)[^)]*\)/g,
-    '<a href="$2" target="_blank" rel="noopener">$1</a>');
-  // bold then italic
-  s = s.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
-  s = s.replace(/\*([^*]+)\*/g, '<em>$1</em>');
-  // line breaks
-  s = s.replace(/\n/g, '<br>');
-  return s;
-}
-
-function openModal(p, list) {
+function openViewer(p, list){
   navList = (list && list.length) ? list : [p];
   navIndex = Math.max(0, navList.indexOf(p));
-  showPainting();
-  document.getElementById('modalBg').classList.add('open');
+  infoOpen = true;
+  resetT();
+  showCurrent();
+  V.viewer.classList.add('open');
   document.body.style.overflow = 'hidden';
+  requestAnimationFrame(()=>requestAnimationFrame(()=>V.viewer.classList.add('shown')));
 }
 
-function showPainting() {
+function showCurrent(){
   const p = navList[navIndex];
-  document.getElementById('modalImg').src = p.image ? `images/${p.image}` : '';
-  document.getElementById('modalTitle').textContent = p.title;
-  const visibleTags = p.tags.filter(t => t !== 'showcase');
-  document.getElementById('modalTags').innerHTML = visibleTags.map(t=>
-    `<span class="modal-tag">${tagLabel(t)}</span>`).join('');
-  const metaParts = [];
-  if (p.date && p.date!='null') metaParts.push(p.date);
-  if (p.medium && p.medium!='null' && p.medium!='') metaParts.push(p.medium);
-  if (p.dimensions && p.dimensions!='null' && p.dimensions!='') metaParts.push(p.dimensions);
-  const metaEl = document.getElementById('modalMeta');
-  metaEl.textContent = metaParts.join(' · ');
-  metaEl.style.display = metaParts.length ? '' : 'none';
-  const descEl = document.getElementById('modalDesc');
-  descEl.innerHTML = p.description ? renderDesc(p.description) : '';
-  descEl.style.display = p.description ? '' : 'none';
-  // show prev/next only when there's more than one to browse
-  const multi = navList.length > 1;
-  document.getElementById('modalPrev').style.display = multi ? '' : 'none';
-  document.getElementById('modalNext').style.display = multi ? '' : 'none';
-  // reflect the painting in the URL (no scroll/history spam)
-  history.replaceState(null, '', '#' + encodeURIComponent(p.id));
-  document.querySelector('.modal').scrollTop = 0;
+  V.vImg.src = p.image ? `images/${p.image}` : '';
+  V.vImg.alt = p.title;
+  V.vTitle.textContent = p.title;
+  V.vPanelTitle.textContent = p.title;
+  V.vCounter.textContent = `${String(navIndex+1).padStart(2,'0')} / ${String(navList.length).padStart(2,'0')}`;
+
+  // detail fields
+  const defs = [];
+  if (p.date) defs.push(['Date', p.date]);
+  if (p.medium) defs.push(['Medium', p.medium]);
+  if (p.dimensions) defs.push(['Dimensions', p.dimensions]);
+  const cats = visibleTags(p).map(tagLabel);
+  if (cats.length) defs.push(['Categories', cats.join(', ')]);
+  V.vFields.innerHTML = defs.map(([l,v])=>`<dt>${l}</dt><dd>${v}</dd>`).join('');
+
+  if (p.description){ V.vDesc.style.display=''; V.vDesc.innerHTML = renderDesc(p.description); }
+  else V.vDesc.style.display='none';
+
+  V.vPrev.style.display = V.vNext.style.display = navList.length>1 ? '' : 'none';
+  applyInfo();
+  history.replaceState(null,'','#'+encodeURIComponent(p.id));
 }
 
-function navTo(step) {
-  if (navList.length < 2) return;
+function nav(step){
+  if (navList.length<2) return;
   navIndex = (navIndex + step + navList.length) % navList.length;
-  showPainting();
+  resetT();
+  showCurrent();
 }
 
-function sharePainting() {
+function closeViewer(){
+  V.viewer.classList.remove('shown');
+  setTimeout(()=>{ V.viewer.classList.remove('open'); V.vImg.src=''; }, 300);
+  document.body.style.overflow = '';
+  history.replaceState(null,'',location.pathname);
+}
+
+function toggleInfo(){ infoOpen = !infoOpen; applyInfo(); }
+function applyInfo(){
+  V.vPanel.classList.toggle('open', infoOpen);
+  V.vDetail.classList.toggle('active', infoOpen);
+}
+
+function sharePainting(){
   const p = navList[navIndex];
   const url = location.origin + location.pathname + '#' + encodeURIComponent(p.id);
-  const btn = document.getElementById('modalShare');
-  const done = () => { btn.innerHTML = '&#10003; Link copied!'; setTimeout(() => {
-    btn.innerHTML = '&#128279; Copy link to this painting'; }, 1800); };
-  if (navigator.clipboard) navigator.clipboard.writeText(url).then(done, done);
+  const done = ()=>{ V.vShare.innerHTML='&#10003; Link copied!'; setTimeout(()=>{ V.vShare.innerHTML='&#128279; Copy link to this painting'; },1800); };
+  if (navigator.clipboard) navigator.clipboard.writeText(url).then(done,done);
   else { prompt('Copy this link:', url); }
 }
 
-function closeModal() {
-  document.getElementById('modalBg').classList.remove('open');
-  document.body.style.overflow = '';
-  document.getElementById('modalImg').src = '';
-  history.replaceState(null, '', location.pathname);
+function openFromHash(){
+  const id = decodeURIComponent(location.hash.replace(/^#/,''));
+  if (!id) return;
+  const p = paintings.find(x=>x.id===id);
+  if (p && !V.viewer.classList.contains('open')) openViewer(p, paintings);
 }
 
-function openSheet(id) {
-  document.getElementById(id).classList.add('open');
-  document.body.style.overflow = 'hidden';
+/* ---- zoom / pan transform ---- */
+function resetT(){ t = { scale:1, tx:0, ty:0 }; apply(); }
+function clamp(){
+  if(!V.vImg || !V.vStage) return;
+  const sw=V.vStage.clientWidth, sh=V.vStage.clientHeight;
+  const w=V.vImg.offsetWidth*t.scale, h=V.vImg.offsetHeight*t.scale;
+  const mx=Math.max(0,(w-sw)/2), my=Math.max(0,(h-sh)/2);
+  t.tx=Math.min(mx,Math.max(-mx,t.tx));
+  t.ty=Math.min(my,Math.max(-my,t.ty));
 }
-function closeSheet(id) {
-  document.getElementById(id).classList.remove('open');
-  document.body.style.overflow = '';
+function apply(){
+  if(V.vImg){
+    V.vImg.style.transform=`translate(${t.tx}px,${t.ty}px) scale(${t.scale})`;
+    V.vImg.style.cursor = t.scale>1 ? 'grab' : 'zoom-in';
+  }
+  const z = Math.round(t.scale*100);
+  V.vZoomReset.textContent = z + '%';
+  V.vHint.style.display = z<=100 ? '' : 'none';
+}
+function onWheel(e){
+  e.preventDefault();
+  const r=V.vStage.getBoundingClientRect();
+  const cx=e.clientX-r.left-r.width/2, cy=e.clientY-r.top-r.height/2;
+  const prev=t.scale, next=Math.min(6,Math.max(1,prev*Math.exp(-e.deltaY*0.0016)));
+  const ratio=next/prev;
+  t.tx=cx-(cx-t.tx)*ratio; t.ty=cy-(cy-t.ty)*ratio; t.scale=next;
+  if(next===1){ t.tx=0; t.ty=0; }
+  clamp(); apply();
+}
+function onPointerDown(e){
+  pointers.set(e.pointerId,{x:e.clientX,y:e.clientY});
+  if(pointers.size===2){
+    const p=[...pointers.values()];
+    pinchDist=Math.hypot(p[0].x-p[1].x,p[0].y-p[1].y); pinchScale=t.scale; dragging=false;
+  } else if(t.scale>1){
+    dragging=true; last={x:e.clientX,y:e.clientY};
+    if(V.vImg) V.vImg.style.cursor='grabbing';
+    try{ V.vStage.setPointerCapture(e.pointerId); }catch(_){}
+  }
+}
+function onPointerMove(e){
+  if(!pointers.has(e.pointerId)) return;
+  pointers.set(e.pointerId,{x:e.clientX,y:e.clientY});
+  if(pointers.size===2 && pinchDist){
+    const p=[...pointers.values()];
+    const d=Math.hypot(p[0].x-p[1].x,p[0].y-p[1].y);
+    const next=Math.min(6,Math.max(1,pinchScale*(d/pinchDist)));
+    t.scale=next; if(next===1){ t.tx=0; t.ty=0; }
+    clamp(); apply(); return;
+  }
+  if(dragging){
+    t.tx+=e.clientX-last.x; t.ty+=e.clientY-last.y; last={x:e.clientX,y:e.clientY};
+    clamp(); apply();
+  }
+}
+function onPointerUp(e){
+  pointers.delete(e.pointerId);
+  if(pointers.size<2) pinchDist=null;
+  if(pointers.size===0){ dragging=false; if(V.vImg) V.vImg.style.cursor=t.scale>1?'grab':'zoom-in'; }
+}
+function onDblClick(e){
+  const r=V.vStage.getBoundingClientRect();
+  const cx=e.clientX-r.left-r.width/2, cy=e.clientY-r.top-r.height/2;
+  const prev=t.scale, next=prev>1?1:2.6, ratio=next/prev;
+  t.tx=next===1?0:cx-(cx-t.tx)*ratio; t.ty=next===1?0:cy-(cy-t.ty)*ratio; t.scale=next;
+  clamp(); apply();
+}
+function zoomTo(next){
+  const prev=t.scale; next=Math.min(6,Math.max(1,next));
+  const ratio=next/prev; t.tx*=ratio; t.ty*=ratio; t.scale=next;
+  if(next===1){ t.tx=0; t.ty=0; }
+  clamp(); apply();
 }
 
 init();

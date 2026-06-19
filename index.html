@@ -134,8 +134,7 @@ footer{max-width:1120px;width:100%;margin:0 auto;padding:6px 32px 48px}
 </head>
 <body>
 
-<div class="topbar">
-  <span class="topcopy">&copy; 2025 Peter K. Johnson — All rights reserved. Unauthorized reproduction or use prohibited.</span>
+<div class="topbar" style="justify-content:flex-end">
   <button class="about-link" id="aboutBtn">About the Artist</button>
 </div>
 
@@ -166,6 +165,7 @@ footer{max-width:1120px;width:100%;margin:0 auto;padding:6px 32px 48px}
       <option value="oldest">Oldest first</option>
     </select>
   </div>
+  <p class="topcopy" style="text-align:center;margin:16px auto 0">&copy; 2025 Peter K. Johnson — All rights reserved. Unauthorized reproduction or use prohibited.</p>
 </header>
 
 <main>
@@ -454,7 +454,7 @@ function openFrom(p, cardEl, list){
 function openViewer(p, list){
   navList = (list && list.length) ? list : [p];
   navIndex = Math.max(0, navList.indexOf(p));
-  infoOpen = true;
+  infoOpen = false;
   resetT();
   showCurrent();
   V.viewer.classList.add('open');

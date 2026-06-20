@@ -37,7 +37,9 @@ paragraph wrapped in `<p>…</p>`.
 ### Other features
 
 - **Sort** control (A–Z / Newest / Oldest) — uses each painting's `date`.
-- **Lightbox navigation** — arrows, keyboard (Esc / ← / →), and swipe.
+- **Immersive viewer** — full-screen, with zoom & pan (scroll / pinch / drag /
+  double-click), prev/next arrows, keyboard (Esc / ← / → / `i`), and a sliding
+  Details panel (starts closed). Published images are 1600px so zoom is sharp.
 - **Share links** — each painting has a "Copy link" button; a link like
   `…/#sunflower` opens straight to that painting.
 - **Share previews** — the `og-image.jpg` and meta tags control how the link
@@ -59,6 +61,10 @@ Obsidian artwork folders  ──build──▶  paintings.json + resized images 
 You do **not** edit the website by hand. You edit your paintings in Obsidian,
 then ask Claude to rebuild and publish.
 
+> The source painting folders live in the Obsidian vault folder
+> **`workByPKJ`** (formerly named `artwork`). `build.py`'s `ARTWORK` path
+> points there — update it if the vault folder is ever renamed again.
+
 ---
 
 ## To update the site
@@ -70,13 +76,13 @@ then ask Claude to rebuild and publish.
    *"Rebuild the painting site from Obsidian and push it."*
 3. Claude will:
    - Re-scan the Obsidian artwork folders
-   - Resize any new images to 600px
+   - Resize any new images to 1600px
    - Regenerate `paintings.json`
    - Commit and push to GitHub (the live site updates in ~1 minute)
 
 That's it. The build logic is `build.py` in this folder (kept local / not
 published, since it contains machine-specific paths). Running `python3 build.py`
-re-scans the vault, regenerates `paintings.json`, resizes new images to 600px,
+re-scans the vault, regenerates `paintings.json`, resizes new images to 1600px,
 records each image's dimensions, and removes images for paintings no longer
 tagged `book`.
 
@@ -173,7 +179,7 @@ list.
 |--------------------|----------------------------------------------------------|
 | `index.html`       | The entire website (HTML, CSS, JavaScript in one file).  |
 | `paintings.json`   | Generated data: one entry per painting. Do not hand-edit.|
-| `images/`          | Web-sized (600px) copies of each painting.               |
+| `images/`          | Web-sized (1600px) copies of each painting.               |
 | `og-image.jpg`     | Share/link-preview image (1200×630).                     |
 | `CNAME`            | Tells GitHub Pages the custom domain.                    |
 | `README.md`        | This file.                                               |
@@ -183,7 +189,7 @@ list.
 
 ## Image handling
 
-- Source images stay full-resolution in Obsidian; only **600px** copies are
+- Source images stay full-resolution in Obsidian; only **1600px** copies are
   published, to keep the site fast and discourage high-res copying.
 - Basic right-click / drag protection is enabled in the browser.
 - This is a deterrent, **not** true copy protection — anything visible in a

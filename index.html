@@ -326,7 +326,7 @@ function makeCard(p, list){
   card.className = 'card';
   const dims = (p.w && p.h) ? ` width="${p.w}" height="${p.h}"` : '';
   const img = p.image
-    ? `<div class="frame"><img src="images/${p.image}" alt="${p.title}" loading="lazy"${dims}></div>`
+    ? `<div class="frame"><img src="images/thumbs/${p.image}" alt="${p.title}" loading="lazy"${dims}></div>`
     : `<div class="frame" style="aspect-ratio:1;display:flex;align-items:center;justify-content:center;color:#999;font-size:12px">No image</div>`;
   const ml = metaLine(p);
   card.innerHTML = img +

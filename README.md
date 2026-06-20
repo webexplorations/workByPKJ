@@ -189,8 +189,10 @@ list.
 
 ## Image handling
 
-- Source images stay full-resolution in Obsidian; only **1600px** copies are
-  published, to keep the site fast and discourage high-res copying.
+- Source images stay full-resolution in Obsidian. Published copies come in two
+  sizes: a **500px thumbnail** (`images/thumbs/`) for the fast-loading grid, and
+  a **1600px** version (`images/`) for the immersive viewer's zoom. Both are well
+  under print resolution, to discourage high-res copying.
 - Basic right-click / drag protection is enabled in the browser.
 - This is a deterrent, **not** true copy protection — anything visible in a
   browser can ultimately be captured. The small size is the real safeguard.

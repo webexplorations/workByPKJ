@@ -2174,7 +2174,9 @@
       "stilllife"
     ],
     "description": "Three tomatoes walked into a bar. Later, i'll paint the same tomatoes using color with wax pastels",
-    "image": "tomatoes1.png"
+    "image": "tomatoes1.png",
+    "w": 1600,
+    "h": 1179
   },
   {
     "id": "tomatoes2",
@@ -2187,7 +2189,9 @@
       "stilllife"
     ],
     "description": "I originally drew this using pencil and then revisited it to experiment with my wax pastels.",
-    "image": "tomatoes2.png"
+    "image": "tomatoes2.png",
+    "w": 1600,
+    "h": 1192
   },
   {
     "id": "treeRings",

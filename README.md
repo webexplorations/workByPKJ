@@ -39,7 +39,11 @@ paragraph wrapped in `<p>…</p>`.
 - **Sort** control (A–Z / Newest / Oldest) — uses each painting's `date`.
 - **Immersive viewer** — full-screen, with zoom & pan (scroll / pinch / drag /
   double-click), prev/next arrows, keyboard (Esc / ← / → / `i`), and a sliding
-  Details panel (starts closed). Published images are 1600px so zoom is sharp.
+  Details panel (starts closed). Published full images are 1600px so zoom is
+  sharp; the grid uses 500px thumbnails for speed.
+- **Light / dark viewer** — a sun/moon toggle in the viewer's top bar switches
+  the backdrop behind a painting (the grid stays parchment). The choice is
+  remembered per browser.
 - **Share links** — each painting has a "Copy link" button; a link like
   `…/#sunflower` opens straight to that painting.
 - **Share previews** — the `og-image.jpg` and meta tags control how the link

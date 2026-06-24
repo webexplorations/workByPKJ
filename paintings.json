@@ -1741,10 +1741,7 @@
       "zen"
     ],
     "description": "One morning I heard someone read this poem right before a meditation session. I immediately searched for the book and purchased it. The poems were written by the first Buddhist women and this translation was done by Matty Weingas. This is the first painting I did using the poems from the book as inspiration.",
-    "related": [
-      "poemPunna-Full",
-      "poemVija-Victor"
-    ],
+    "related": [],
     "image": "poemChittaHeart.png",
     "w": 1600,
     "h": 1290
@@ -1756,7 +1753,8 @@
     "medium": "watercolor and ink",
     "dimensions": "8x10",
     "tags": [
-      "poem"
+      "poem",
+      "zen"
     ],
     "description": "One morning I heard someone read this poem right before a meditation session. I immediately searched for the book and purchased it. The poems were written by the first Buddhist women and this translation was done by Matty Weingas. This was the second painting I did using the poems from the book as inspiration.",
     "related": [
@@ -1790,12 +1788,13 @@
     "medium": "Watercolor and ink",
     "dimensions": "8x10",
     "tags": [
-      "poem"
+      "poem",
+      "zen"
     ],
     "description": "One morning I heard someone read this poem right before a meditation session. I immediately searched for the book and purchased it. The poems were written by the first Buddhist women and this translation was done by Matty Weingas. This is the last painting I did using the poems from the book as inspiration.",
     "related": [
       "poemPunna-Full",
-      "PoemChittaHeart"
+      "poemChittaHeart"
     ],
     "image": "poemVija-Victor.png",
     "w": 1600,

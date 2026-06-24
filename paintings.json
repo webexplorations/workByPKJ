@@ -9,6 +9,7 @@
       "highway169"
     ],
     "description": "Another painting from my Highway 169 sketchbook. This is on the east side of the highway around LeSuer, MN. I originally named each painting using the lat/long of the location but the computer didn\u2019t like that so much.",
+    "related": [],
     "image": "169-2.png",
     "w": 1600,
     "h": 1078
@@ -23,6 +24,7 @@
       "highway169"
     ],
     "description": "This is from a small sketchbook I started using reference photos I have taken when driving back and forth between Mankato and Minneapolis. I always enjoy how the sun reflects bright on one edge of the metal silos. Even though it doesn\u2019t look like a four-lane highway, that is Highway 169 just beyond the fence. The geometric shapes of a farm site always intrigue me. The metal structures almost always have a band of shine where the light hits them directly.",
+    "related": [],
     "image": "169-3.png",
     "w": 1600,
     "h": 1090
@@ -37,6 +39,7 @@
       "highway169"
     ],
     "description": "There is an old, abandoned trailer just off Highway 169. Often I would think about pulling into the driveway and exploring around. On this trip I simply stopped and took a photo. The fields had just been plowed and the light and shadow was interesting on the end of the trailer.",
+    "related": [],
     "image": "169-4.png",
     "w": 1600,
     "h": 1100
@@ -51,6 +54,7 @@
       "highway169"
     ],
     "description": "Driving South, right past the World\u2019s Largest (and most yellow) Candy Store, there is an open prairie littered with erratic boulders left-over from the glaciers. Every time I drive that way the prairie looks different and I see different configurations with the colors and the light.",
+    "related": [],
     "image": "169-5.jpeg",
     "w": 1600,
     "h": 1016
@@ -67,6 +71,7 @@
       "notecard"
     ],
     "description": "Marianne and I wanted to make special notecards for members of her sangha. After painting them I cut them up and mounted them on notecards, sending the originals to each person. The\u00a0_ens\u014d_\u00a0symbolizes absolute\u00a0enlightenment, strength, elegance, the universe (Dharma), and\u00a0mu or emptiness.",
+    "related": [],
     "image": "4personalLandscapes.jpeg",
     "w": 1236,
     "h": 1600
@@ -79,6 +84,7 @@
     "dimensions": "8x10",
     "tags": [],
     "description": "This is the house I grew up in. Now it is beige. The car in the driveway is my brother\u2019s 57 Chevy. I painted this using a recent photo I took and was surprised later, when watching an old VCR tape, that all of the trees behind the house were small and hidden by the house. So, this is a juxtaposition of now as well as then. A lot of memories showed up while I was working on this painting. Mom teaching piano in the front room, digging up worms for fishing in the rhubarb bed next to the back door, the small and big hill in the backyard which was perfect for sledding in the winter. And, the upstairs window and my room just beyond it.",
+    "related": [],
     "image": "8242Queen.png",
     "w": 1600,
     "h": 1014
@@ -94,6 +100,7 @@
       "mankato"
     ],
     "description": "I took a walk in Rasmussen Woods at the very end of winter. Did a sketch of the cat tails with the trees in the background and a large erratic.",
+    "related": [],
     "image": "RasmussenWoodEast.jpg",
     "w": 1600,
     "h": 1200
@@ -109,6 +116,9 @@
       "landscape"
     ],
     "description": "The assignment was to paint a landscape with a two-color palette. One version I did was Purple and Orange and the second one was Indigo with Quinacridone Gold.",
+    "related": [
+      "RiverPurpleOrange"
+    ],
     "image": "RiverStudy1.png",
     "w": 1600,
     "h": 1213
@@ -124,6 +134,9 @@
       "landscape"
     ],
     "description": "The assignment was to paint a landscape with a two-color palette. This version was Purple and Orange and the second one was Indigo with Quinacridone Gold.",
+    "related": [
+      "RiverStudy1"
+    ],
     "image": "RiverStudy2.png",
     "w": 1600,
     "h": 1129
@@ -138,6 +151,7 @@
       "recipe"
     ],
     "description": "This is one great recipe. (The secret is in the lemon.) Mom used to work in the school cafeteria and she brought home this recipe. It is still a family favorite.",
+    "related": [],
     "image": "SugarCookies.png",
     "w": 1236,
     "h": 1600
@@ -152,6 +166,7 @@
       "zen"
     ],
     "description": "",
+    "related": [],
     "image": "ZenQuartet.png",
     "w": 1600,
     "h": 1247
@@ -164,6 +179,7 @@
     "dimensions": "",
     "tags": [],
     "description": "Alane gave us a lily when they were visiting. Every year it comes up with bright happy pink blooms with yellow stamens. I tried to capture the fragility of the petals as well as the lush green of the leaves staying as loose as possible. You can probably tell that I also love spattering. Such fun!",
+    "related": [],
     "image": "alanesLily2.jpeg",
     "w": 1250,
     "h": 1600
@@ -178,6 +194,7 @@
       "urban-sketching"
     ],
     "description": "Although the perspective is off I really like this drawing. Notice the window on far right, third floor. It has a door in it. In the background are the silos that were painted by the Australian muralist Guido van Helten. In January 2026 the milling company pulled out and the building is currently vacant.\n\nAs I\u2019m drawing I was trying to imagine the bricklayers building that chimney. (They would be appalled on how I have it tipping), It\u2019s an amazing piece of brick work.",
+    "related": [],
     "image": "ardentMillsBuilding.png",
     "w": 1600,
     "h": 1251
@@ -193,6 +210,7 @@
       "showcase"
     ],
     "description": "The challenge for this art class was to paint fall leaves. I wanted to get the feel of the leaves falling off our maple tree outside my studio so I tilted the horizon and overlapped the leaves, each having a separate plane as it fell from the tree. I really like how the warm and cool colors work together as well as the shadows on the ground.",
+    "related": [],
     "image": "autumnLeaf.jpeg",
     "w": 1600,
     "h": 1030
@@ -207,6 +225,7 @@
       "art-class"
     ],
     "description": "This was so much fun because I could use splatter and then some more splatter. I mixed up my sparkling colors so the confetti in the original painting shines and glimmers.",
+    "related": [],
     "image": "balloon.png",
     "w": 1146,
     "h": 1600
@@ -221,6 +240,7 @@
       "highway169"
     ],
     "description": "This scene isn\u2019t actually on highway 169. I delivered a painting I did of a couple\u2019s house outside of Mankato off of Stoltzman Road. On the way back to town I spotted this barn through the trees and decided it would be a good painting of the farms along the area highways.",
+    "related": [],
     "image": "barnTreeSilouetteStolzmanRoad.png",
     "w": 1600,
     "h": 1047
@@ -235,6 +255,7 @@
       "showcase"
     ],
     "description": "I am working on the world unseen, the place that is beyond the veil of our everyday physical world. This was one idea, of painting a cosmic landscape framed by the trees outside my studio window. I have this one framed and hanging up in my studio.",
+    "related": [],
     "image": "beyone02242025.png",
     "w": 1600,
     "h": 1285
@@ -249,6 +270,7 @@
       "birch"
     ],
     "description": "I painted this around early 2000 and gave it to my Mom. She had it hanging in her bathroom for over 15 years. I painted this using a palette knife and I think some brush work. It certainly surprised me as it flowed out and across the paper. The river flowing off into the background was a quick, last minute swirl with the brush.\n\nWhen Mom moved out of her apartment into memory care, I made sure to rescue this painting and now have it hanging in our living room.",
+    "related": [],
     "image": "birchForMom.jpg",
     "w": 1600,
     "h": 1200
@@ -263,6 +285,7 @@
       "birch"
     ],
     "description": "When Moninne Hardie first saw the birch tree painting I did for Marianne she wanted one for her partner. I used the same technique with the Minnesota River and Blue Earth River confluence in mind even though I doubt if there are any birch trees on that river bank.",
+    "related": [],
     "image": "birchForMoninne.jpg",
     "w": 1600,
     "h": 1200
@@ -278,6 +301,7 @@
       "birch"
     ],
     "description": "I did some quick washes  on a small irregular watercolor block that I had laying around for years.  The two colors are indigo and royal purple. While the wash was still wet I went in with Dr. Martin\u2019s opaque white for the birch trees. Do you see how the white pigment bloomed into the purples? Delicious. Then, using a fountain pen with purple ink I added in the line details. This tiny little piece of watercolor delights me every time I look at it.",
+    "related": [],
     "image": "birchInPurple.jpeg",
     "w": 815,
     "h": 1600
@@ -293,6 +317,7 @@
       "showcase"
     ],
     "description": "After lots of birch tree paintings this suddenly erupted. Like magic. Marianne fell in love with it on first sight and we have it hanging in our living room. A year or two after painting this I offered to do a painting for a friend of my mother. She looked at all my work and choose this one. So, I did a second one for her, matching this style. It was good, but it didn\u2019t have the magic that this one projects.",
+    "related": [],
     "image": "birchesForMarianne.jpeg",
     "w": 1600,
     "h": 1288
@@ -308,6 +333,7 @@
       "food"
     ],
     "description": "This was done from a reference photo during a Zoom group working with gouache.",
+    "related": [],
     "image": "blueberries.png",
     "w": 1131,
     "h": 1600
@@ -322,6 +348,7 @@
       "zen"
     ],
     "description": "Marianne developed this personal mantra during her studies. I decided to create a painting that she could put on her altar. Ultramarine Blue with Royal Purple and the black ink work so well together.",
+    "related": [],
     "image": "bodyBreathMantra.png",
     "w": 1600,
     "h": 1131
@@ -337,6 +364,7 @@
       "wildlife"
     ],
     "description": "Emily gave me a copy of Remarkably Bright Creatures by Shelby Van Pelt as a gift. About a quarter into the book and I had to paint a portrait of the main character. I painted two bookmarks and sent one to Emily. She wrote later on how envious her book club was when she showed it off.",
+    "related": [],
     "image": "bookmarkOctopus.png",
     "w": 1600,
     "h": 351
@@ -351,6 +379,7 @@
       "stilllife"
     ],
     "description": "I found an online tutorial showing how to paint this bowl, focusing on adding in the shadows. The wall pattern matching the bowl was my brushes idea.",
+    "related": [],
     "image": "bowl1.jpeg",
     "w": 1600,
     "h": 1200
@@ -365,6 +394,7 @@
       "stilllife"
     ],
     "description": "After I painted the first bowl I decided to break the bowl and use Kintsugi to take it beyond what it was originally. I wanted to add a window as well as a poem in the back wall. The poem on the wall is by Peter Meyer: \nI\u2019m like one of those Japanese bowls  \nThat were made long ago  \nI have some cracks in me  \nThey have been filled with gold\n\nThat\u2019s what they used back then  \nWhen they had a bowl to mend  \nIt did not hide the cracks  \nIt made them shine instead\n\nSo now every old scar shows  \nfrom every time I broke  \nAnd anyone\u2019s eyes can see  \nI\u2019m not what I used to be\n\nBut in a collector\u2019s mind  \nAll of these jagged lines  \nMake me more beautiful  \nAnd worth a higher price\n\nI\u2019m like one of those Japanese bowls  \nI was made long ago  \nI have some cracks you can see  \nSee how they shine of gold.  \n-Peter Mayer",
+    "related": [],
     "image": "bowl2-watercolorKintsugi.jpeg",
     "w": 1600,
     "h": 1200
@@ -379,6 +409,7 @@
       "zen"
     ],
     "description": "This is a drawing of a small statuette that is about 3\u201d high. I was experimenting with a charcoal pencil and using an eraser to create highlights.",
+    "related": [],
     "image": "buddhaWeek2.png",
     "w": 1311,
     "h": 1600
@@ -394,6 +425,7 @@
       "urban-sketching"
     ],
     "description": "The Zoom urban sketching group used a reference photo of the Calder sculpture in downtown Chicago.",
+    "related": [],
     "image": "calderFlamingo.png",
     "w": 1600,
     "h": 1117
@@ -409,6 +441,7 @@
       "landscape"
     ],
     "description": "Looking at a single reference photo of a rocky coastline with the Zoom watercolor group. I decided to speed paint six paintings as quickly and as loosely as possible, trying to capture the dynamics of the ocean with the solid rocks.",
+    "related": [],
     "image": "cannonBeachOR.jpg",
     "w": 1169,
     "h": 1600
@@ -423,6 +456,7 @@
       "bird"
     ],
     "description": "I love chickadees.",
+    "related": [],
     "image": "chickadee.jpeg",
     "w": 1600,
     "h": 1142
@@ -437,6 +471,7 @@
       "bird"
     ],
     "description": "I painted two chickens in under an hour during a Zoom art session with the group. I love the attitude that popped out as this hen revealed herself to my brushes.",
+    "related": [],
     "image": "chicken1.jpeg",
     "w": 1138,
     "h": 1600
@@ -451,6 +486,7 @@
       "bird"
     ],
     "description": "I painted two chickens in under an hour during a Zoom art session with the group.This one reminded me of my Rhode Island Reds that I had in Florida. (I was really happy how the eye turned out, it gives that sparkle to the whole painting.)",
+    "related": [],
     "image": "chicken2.jpeg",
     "w": 1349,
     "h": 1600
@@ -466,6 +502,7 @@
       "coffeeHag"
     ],
     "description": "",
+    "related": [],
     "image": "coffeeHag01-04-25.jpeg",
     "w": 1197,
     "h": 1600
@@ -481,6 +518,7 @@
       "coffeeHag"
     ],
     "description": "",
+    "related": [],
     "image": "coffeeHag04-08-25.jpeg",
     "w": 1020,
     "h": 1600
@@ -496,6 +534,7 @@
       "coffeeHag"
     ],
     "description": "",
+    "related": [],
     "image": "coffeeHag082925.png",
     "w": 1011,
     "h": 1600
@@ -511,6 +550,7 @@
       "coffeeHag"
     ],
     "description": "",
+    "related": [],
     "image": "coffeeHag2022.png",
     "w": 1600,
     "h": 1105
@@ -525,6 +565,7 @@
       "zen"
     ],
     "description": "",
+    "related": [],
     "image": "conyers.png",
     "w": 1600,
     "h": 1282
@@ -539,6 +580,7 @@
       "courthouse"
     ],
     "description": "",
+    "related": [],
     "image": "courtHouseColor.jpg",
     "w": 1600,
     "h": 1029
@@ -553,6 +595,7 @@
       "courthouse"
     ],
     "description": "",
+    "related": [],
     "image": "courtHouseInk.jpg",
     "w": 1600,
     "h": 1066
@@ -567,6 +610,7 @@
       "food"
     ],
     "description": "",
+    "related": [],
     "image": "cupcake.png",
     "w": 1124,
     "h": 1600
@@ -581,6 +625,7 @@
       "flowers"
     ],
     "description": "",
+    "related": [],
     "image": "daffodil.png",
     "w": 1018,
     "h": 1600
@@ -595,6 +640,7 @@
       "flowers"
     ],
     "description": "",
+    "related": [],
     "image": "daffodil04272024.png",
     "w": 1600,
     "h": 1087
@@ -610,6 +656,7 @@
       "dandelion"
     ],
     "description": "This is one of those paintings that just spontaneously happen. I love it when all the pieces end up sitting on the paper so well together. That\u2019s Quinacridon Gold in the background, set against Indigo.",
+    "related": [],
     "image": "dandelion060124.png",
     "w": 1600,
     "h": 1107
@@ -625,6 +672,7 @@
       "dandelion"
     ],
     "description": "",
+    "related": [],
     "image": "dandelionDream.jpeg",
     "w": 1600,
     "h": 1064
@@ -640,6 +688,7 @@
       "dayLily"
     ],
     "description": "",
+    "related": [],
     "image": "daylily.png",
     "w": 1600,
     "h": 1287
@@ -654,6 +703,7 @@
       "bookmark"
     ],
     "description": "",
+    "related": [],
     "image": "deepWaterPassageBookmark.jpeg",
     "w": 1600,
     "h": 239
@@ -668,6 +718,7 @@
       "mankato"
     ],
     "description": "",
+    "related": [],
     "image": "divineTowers1.jpeg",
     "w": 1600,
     "h": 1113
@@ -682,6 +733,7 @@
       "door"
     ],
     "description": "",
+    "related": [],
     "image": "door.png",
     "w": 1116,
     "h": 1600
@@ -696,6 +748,7 @@
       "door"
     ],
     "description": "",
+    "related": [],
     "image": "door2nowhere.jpeg",
     "w": 1004,
     "h": 1600
@@ -710,6 +763,7 @@
       "door"
     ],
     "description": "",
+    "related": [],
     "image": "doorPinkAndBlue.png",
     "w": 1048,
     "h": 1600
@@ -724,6 +778,7 @@
       "confluence"
     ],
     "description": "",
+    "related": [],
     "image": "driftwood.jpeg",
     "w": 1600,
     "h": 1433
@@ -738,6 +793,7 @@
       "bird"
     ],
     "description": "",
+    "related": [],
     "image": "egret.jpeg",
     "w": 1279,
     "h": 1600
@@ -752,6 +808,7 @@
       "MemoryPlace"
     ],
     "description": "",
+    "related": [],
     "image": "engine2584.jpeg",
     "w": 1600,
     "h": 962
@@ -766,6 +823,7 @@
       "rasmussenWoods"
     ],
     "description": "",
+    "related": [],
     "image": "erraticMemories.jpeg",
     "w": 1600,
     "h": 1299
@@ -780,6 +838,7 @@
       "MemoryPlace"
     ],
     "description": "",
+    "related": [],
     "image": "externsteine.jpg",
     "w": 1600,
     "h": 1066
@@ -794,6 +853,7 @@
       "showcase"
     ],
     "description": "I painted this after my brother was hospitalized once again. No planning or thumbnail sketches, this one just developed on its own.",
+    "related": [],
     "image": "facingTheFuture.jpg",
     "w": 1600,
     "h": 1001
@@ -809,6 +869,7 @@
       "showcase"
     ],
     "description": "A birthday card for Moninne. We had the date wrong on our calendar and gave this to her a month early. She kept the card anyway ;-)",
+    "related": [],
     "image": "featherForMoe.jpeg",
     "w": 1192,
     "h": 1600
@@ -823,6 +884,7 @@
       "flowers"
     ],
     "description": "",
+    "related": [],
     "image": "ferns.png",
     "w": 1070,
     "h": 1600
@@ -837,6 +899,7 @@
       "flowers"
     ],
     "description": "",
+    "related": [],
     "image": "flowerDandelion.jpeg",
     "w": 1256,
     "h": 1600
@@ -849,6 +912,7 @@
     "dimensions": "",
     "tags": [],
     "description": "",
+    "related": [],
     "image": "forest.png",
     "w": 1600,
     "h": 1201
@@ -863,6 +927,7 @@
       "flowers"
     ],
     "description": "",
+    "related": [],
     "image": "geranium2.jpg",
     "w": 1127,
     "h": 1600
@@ -877,6 +942,7 @@
       "MemoryPlace"
     ],
     "description": "",
+    "related": [],
     "image": "germanCastleHotel.png",
     "w": 1600,
     "h": 970
@@ -891,6 +957,7 @@
       "MemoryPlace"
     ],
     "description": "",
+    "related": [],
     "image": "goldenGate.jpeg",
     "w": 1600,
     "h": 1145
@@ -905,6 +972,7 @@
       "tree"
     ],
     "description": "",
+    "related": [],
     "image": "goldenLoctus.jpg",
     "w": 1144,
     "h": 1600
@@ -920,6 +988,7 @@
       "mankato"
     ],
     "description": "",
+    "related": [],
     "image": "goodCounsel.jpg",
     "w": 1600,
     "h": 545
@@ -934,6 +1003,7 @@
       "food"
     ],
     "description": "",
+    "related": [],
     "image": "hamburger.png",
     "w": 1600,
     "h": 1024
@@ -946,6 +1016,7 @@
     "dimensions": "",
     "tags": [],
     "description": "",
+    "related": [],
     "image": "handprint.jpg",
     "w": 1600,
     "h": 1274
@@ -961,6 +1032,7 @@
       "tree"
     ],
     "description": "",
+    "related": [],
     "image": "hangingOutInSibley.png",
     "w": 1600,
     "h": 1144
@@ -975,6 +1047,7 @@
       "bird"
     ],
     "description": "",
+    "related": [],
     "image": "heron.png",
     "w": 1600,
     "h": 1141
@@ -989,6 +1062,7 @@
       "mankato"
     ],
     "description": "",
+    "related": [],
     "image": "houseOnBroadStreet.jpeg",
     "w": 1600,
     "h": 1246
@@ -1001,6 +1075,7 @@
     "dimensions": "",
     "tags": [],
     "description": "",
+    "related": [],
     "image": "indianLake.jpeg",
     "w": 1600,
     "h": 1097
@@ -1015,6 +1090,7 @@
       "art-class"
     ],
     "description": "",
+    "related": [],
     "image": "invernessCastle2.jpeg",
     "w": 1600,
     "h": 1224
@@ -1029,6 +1105,7 @@
       "flowers"
     ],
     "description": "",
+    "related": [],
     "image": "johnnyJumpUp.png",
     "w": 1600,
     "h": 1291
@@ -1044,6 +1121,7 @@
       "keywest"
     ],
     "description": "",
+    "related": [],
     "image": "keyWest.png",
     "w": 1152,
     "h": 1600
@@ -1059,6 +1137,7 @@
       "keywest"
     ],
     "description": "I lived a few blocks from this lighthouse which is across the street from the Hemingway House. Painting this brought back lots of memories, riding my bicycle through the streets of Key West when I was stationed there with the Navy. I was a photographer back then for the Navy and the local newspaper. Little did I imagine that I would be painting one day.",
+    "related": [],
     "image": "keywestLighthouse.png",
     "w": 1600,
     "h": 1126
@@ -1073,6 +1152,7 @@
       "food"
     ],
     "description": "Part of the series of food paintings I worked on.",
+    "related": [],
     "image": "kiwi.png",
     "w": 1600,
     "h": 967
@@ -1087,6 +1167,7 @@
       "wildlife"
     ],
     "description": "The kimono dragons always intrigued me. Thought I\u2019d paint one bright blue.",
+    "related": [],
     "image": "komodoDragonBlue.png",
     "w": 1600,
     "h": 1171
@@ -1101,6 +1182,7 @@
       "wildlife"
     ],
     "description": "Wanting to catch the movement of Koy fish in a pond. I also painted a similar painting on a CD-ROM coated with watercolor ground but this one turned out much more dynamic.",
+    "related": [],
     "image": "koyFish.png",
     "w": 1600,
     "h": 1146
@@ -1115,6 +1197,7 @@
       "flowers"
     ],
     "description": "",
+    "related": [],
     "image": "landscapeflower.png",
     "w": 1600,
     "h": 1100
@@ -1129,6 +1212,7 @@
       "MemoryPlace"
     ],
     "description": "Our neighbor,. Gretchen Taylor needed help getting her garbage cans out to the curb every week. They have a very long drive. As I was leaving one morning I noticed this scene and decided to paint it in this fat journal of antique paper. That\u2019s Tom Hager\u2019s house in the background. (Our house is to the right of his, but off the edge of the page. It\u2019s bright blue and would have ruined the composition)\n\nGretchen is now in a nursing home and Tom has passed. But, I still have this memory captured that December morning.",
+    "related": [],
     "image": "leavingTaylors.jpg",
     "w": 1065,
     "h": 1600
@@ -1143,6 +1227,7 @@
       "lighthouse"
     ],
     "description": "",
+    "related": [],
     "image": "lighthouse2.png",
     "w": 1600,
     "h": 1109
@@ -1157,6 +1242,7 @@
       "lighthouse"
     ],
     "description": "",
+    "related": [],
     "image": "lighthouseOregonCoast.png",
     "w": 1600,
     "h": 1164
@@ -1171,6 +1257,7 @@
       "highway169"
     ],
     "description": "",
+    "related": [],
     "image": "littleRockOnThePrairie.jpeg",
     "w": 1316,
     "h": 1600
@@ -1185,6 +1272,7 @@
       "portrait"
     ],
     "description": "",
+    "related": [],
     "image": "lizann01-18-25.jpeg",
     "w": 1010,
     "h": 1600
@@ -1199,6 +1287,7 @@
       "tree"
     ],
     "description": "",
+    "related": [],
     "image": "lookingOutMyBathroomWindow0001.jpg",
     "w": 1600,
     "h": 1205
@@ -1213,6 +1302,7 @@
       "flowers"
     ],
     "description": "",
+    "related": [],
     "image": "lupineGarden.jpeg",
     "w": 1131,
     "h": 1600
@@ -1227,6 +1317,7 @@
       "MemoryPlace"
     ],
     "description": "",
+    "related": [],
     "image": "mammothSprings0001.jpg",
     "w": 1600,
     "h": 407
@@ -1241,6 +1332,7 @@
       "wildlife"
     ],
     "description": "",
+    "related": [],
     "image": "manOfWar.png",
     "w": 1290,
     "h": 1600
@@ -1255,6 +1347,7 @@
       "mankato"
     ],
     "description": "",
+    "related": [],
     "image": "mankatoClinicParkingLot.jpeg",
     "w": 1033,
     "h": 1600
@@ -1269,6 +1362,7 @@
       "trees"
     ],
     "description": "",
+    "related": [],
     "image": "mapleLeafTransparent.jpeg",
     "w": 1600,
     "h": 1303
@@ -1283,6 +1377,7 @@
       "mankato"
     ],
     "description": "",
+    "related": [],
     "image": "mayoHospital.jpg",
     "w": 1600,
     "h": 955
@@ -1297,6 +1392,7 @@
       "wildlife"
     ],
     "description": "",
+    "related": [],
     "image": "meeko.png",
     "w": 1600,
     "h": 1278
@@ -1311,6 +1407,7 @@
       "landscape"
     ],
     "description": "",
+    "related": [],
     "image": "migration.png",
     "w": 1600,
     "h": 1294
@@ -1325,6 +1422,7 @@
       "mankato"
     ],
     "description": "",
+    "related": [],
     "image": "milkCan.jpg",
     "w": 1205,
     "h": 1600
@@ -1339,6 +1437,7 @@
       "mankato"
     ],
     "description": "",
+    "related": [],
     "image": "milkCanTwoDaysLater.jpg",
     "w": 1067,
     "h": 1600
@@ -1354,6 +1453,7 @@
       "milkweed"
     ],
     "description": "",
+    "related": [],
     "image": "milkweed.jpeg",
     "w": 1122,
     "h": 1600
@@ -1369,6 +1469,7 @@
       "milkweed"
     ],
     "description": "",
+    "related": [],
     "image": "milkweedPod.png",
     "w": 1146,
     "h": 1600
@@ -1383,6 +1484,7 @@
       "mankato"
     ],
     "description": "",
+    "related": [],
     "image": "minneopaFalls.jpeg",
     "w": 1275,
     "h": 1600
@@ -1397,6 +1499,7 @@
       "art-class"
     ],
     "description": "",
+    "related": [],
     "image": "missionSanLuisObispoDeTolos.png",
     "w": 1600,
     "h": 1139
@@ -1411,6 +1514,7 @@
       "portrait"
     ],
     "description": "",
+    "related": [],
     "image": "mom.png",
     "w": 1162,
     "h": 1600
@@ -1425,6 +1529,7 @@
       "flowers"
     ],
     "description": "",
+    "related": [],
     "image": "monarch.jpeg",
     "w": 1054,
     "h": 1600
@@ -1439,6 +1544,7 @@
       "wildlife"
     ],
     "description": "",
+    "related": [],
     "image": "moth.png",
     "w": 1548,
     "h": 1600
@@ -1451,6 +1557,7 @@
     "dimensions": "",
     "tags": [],
     "description": "",
+    "related": [],
     "image": "mountainVillage1.jpeg",
     "w": 1594,
     "h": 1600
@@ -1465,6 +1572,7 @@
       "MemoryPlace"
     ],
     "description": "",
+    "related": [],
     "image": "mtRanier.png",
     "w": 1600,
     "h": 1131
@@ -1480,6 +1588,7 @@
       "mushrooms"
     ],
     "description": "",
+    "related": [],
     "image": "mushroom.jpeg",
     "w": 1600,
     "h": 1128
@@ -1495,6 +1604,7 @@
       "mushrooms"
     ],
     "description": "Psilocybin mushrooms. They speak for themselves. The square in the background is symbolic of the other portals that these mushrooms sometimes reveal.",
+    "related": [],
     "image": "mushroom2.jpeg",
     "w": 1600,
     "h": 1281
@@ -1509,6 +1619,7 @@
       "landscape"
     ],
     "description": "",
+    "related": [],
     "image": "ocean.png",
     "w": 1262,
     "h": 1600
@@ -1523,6 +1634,7 @@
       "bird"
     ],
     "description": "",
+    "related": [],
     "image": "oriole.jpeg",
     "w": 1600,
     "h": 1241
@@ -1538,6 +1650,7 @@
       "Sibley"
     ],
     "description": "",
+    "related": [],
     "image": "ottCabin.jpeg",
     "w": 1600,
     "h": 986
@@ -1552,6 +1665,7 @@
       "landscape"
     ],
     "description": "",
+    "related": [],
     "image": "pattisTrainRide.png",
     "w": 1600,
     "h": 1121
@@ -1566,6 +1680,7 @@
       "flowers"
     ],
     "description": "",
+    "related": [],
     "image": "peaceLilyForCheryl.jpeg",
     "w": 1298,
     "h": 1600
@@ -1580,6 +1695,7 @@
       "food"
     ],
     "description": "",
+    "related": [],
     "image": "pears.png",
     "w": 1286,
     "h": 1600
@@ -1594,6 +1710,7 @@
       "wildlife"
     ],
     "description": "",
+    "related": [],
     "image": "penquin.png",
     "w": 1143,
     "h": 1600
@@ -1608,6 +1725,7 @@
       "MemoryPlace"
     ],
     "description": "",
+    "related": [],
     "image": "petersKitchen.jpeg",
     "w": 1600,
     "h": 570
@@ -1623,6 +1741,10 @@
       "zen"
     ],
     "description": "One morning I heard someone read this poem right before a meditation session. I immediately searched for the book and purchased it. The poems were written by the first Buddhist women and this translation was done by Matty Weingas. This is the first painting I did using the poems from the book as inspiration.",
+    "related": [
+      "poemPunna-Full",
+      "poemVija-Victor"
+    ],
     "image": "poemChittaHeart.png",
     "w": 1600,
     "h": 1290
@@ -1637,6 +1759,9 @@
       "poem"
     ],
     "description": "One morning I heard someone read this poem right before a meditation session. I immediately searched for the book and purchased it. The poems were written by the first Buddhist women and this translation was done by Matty Weingas. This was the second painting I did using the poems from the book as inspiration.",
+    "related": [
+      "poemVija-Victor"
+    ],
     "image": "poemPunna-Full.png",
     "w": 1600,
     "h": 1237
@@ -1651,6 +1776,9 @@
       "zen"
     ],
     "description": "This is a detail of the painting for poemPunnaFull before I added the hand-lettering.",
+    "related": [
+      "poemPunna-Full"
+    ],
     "image": "poemPunnaDetail.png",
     "w": 1080,
     "h": 1600
@@ -1665,6 +1793,10 @@
       "poem"
     ],
     "description": "One morning I heard someone read this poem right before a meditation session. I immediately searched for the book and purchased it. The poems were written by the first Buddhist women and this translation was done by Matty Weingas. This is the last painting I did using the poems from the book as inspiration.",
+    "related": [
+      "poemPunna-Full",
+      "PoemChittaHeart"
+    ],
     "image": "poemVija-Victor.png",
     "w": 1600,
     "h": 1284
@@ -1679,6 +1811,7 @@
       "MemoryPlace"
     ],
     "description": "I took a trip to Seattle and the surrounding area with my son. It was exceptionally dry for the Pacific Northwest. After hiking through the forest we came out on this beach with the hikers arriving just as we were.",
+    "related": [],
     "image": null
   },
   {
@@ -1691,6 +1824,7 @@
       "wildlife"
     ],
     "description": "Rabbits hop and nibble outside my studio window. How could I not paint them? This one though was painted using a reference photo. The live one was off on the south side of the house, nibbling on my pea and bean plants.",
+    "related": [],
     "image": "rabbit.png",
     "w": 1223,
     "h": 1600
@@ -1705,6 +1839,7 @@
       "food"
     ],
     "description": "For a while the Zoom art group was focused on painting food items. Cookies, cupcakes, and all types of fruit. This came out of one of those sessions and is hanging in our dining area along with my other \u201cfood\u201d paintings.",
+    "related": [],
     "image": "radish.png",
     "w": 1600,
     "h": 1119
@@ -1719,6 +1854,7 @@
       "bookmark"
     ],
     "description": "Just doodling around one day. Love the long format of a bookmark.",
+    "related": [],
     "image": "rainbowBookmark.jpeg",
     "w": 1600,
     "h": 261
@@ -1733,6 +1869,7 @@
       "flowers"
     ],
     "description": "It was at the end of the season and all the flowers were in full color. My first intention was to capture the explosion of color but then I started thinking about what was happening underground. It\u2019s probably not this colorful but I bet the fungi and carrying on a wonderful conversation with the rest of the plant world.",
+    "related": [],
     "image": "rainbowFlowers.jpeg",
     "w": 1262,
     "h": 1600
@@ -1747,6 +1884,7 @@
       "wildlife"
     ],
     "description": "Working from a reference photo during a Sunday Zoom art group session I was experimenting on getting the subtle layers of color that are so prevalent in the natural world.",
+    "related": [],
     "image": "rainbowTrout.png",
     "w": 1600,
     "h": 1194
@@ -1763,6 +1901,9 @@
       "mankato"
     ],
     "description": "This was an interesting experiment. I wanted to do a value study and picked this photo I had taken outside of Mankato on Stolzman Road. I used Pipestone Genuine. After finishing the painting I shared it along with the reference photo with Claude AI. \n\nClaude analyzed the photo and then gave me some guidelines on making the darks darker, mainly adding a complementary color to the Pipestone in order to get a darker value. Claude recommended a blue or Payne\u2019s Gray which has a bluish cast. The result was the more moody painting which has a lot more character and is. Lot more interesting even though it doesn\u2019t portray the bright sunlit afternoon from the original scene.",
+    "related": [
+      "rapidanDriveIn2"
+    ],
     "image": "rapidanDriveIn1.jpeg",
     "w": 1253,
     "h": 1600
@@ -1779,6 +1920,9 @@
       "mankato"
     ],
     "description": "This was an interesting experiment. I wanted to do a value study and picked this photo I had taken outside of Mankato on Stolzman Road. I used Pipestone Genuine. After finishing the painting I shared it along with the reference photo with Claude AI. \n\nClaude analyzed the photo and then gave me some guidelines on making the darks darker, mainly adding a complementary color to the Pipestone in order to get a darker value. Claude recommended a blue or Payne\u2019s Gray which has a bluish cast. The result was the more moody painting which has a lot more character and is. Lot more interesting even though it doesn\u2019t portray the bright sunlit afternoon from the original scene.",
+    "related": [
+      "rapidanDriveInPipestoneGenuine"
+    ],
     "image": "rapidanDriveIn2.jpeg",
     "w": 1246,
     "h": 1600
@@ -1794,6 +1938,7 @@
       "urban-sketching"
     ],
     "description": "For about a week, every time I would drive through downtown Mankato a flock of birds would be on the wires at Rock and Riverfront. Finally I pulled over and shot a picture to use a reference for this urban sketch. This was one of the pieces that was in a show at the 410 Gallery.",
+    "related": [],
     "image": "rockAndRiverfront.png",
     "w": 1600,
     "h": 1070
@@ -1808,6 +1953,7 @@
       "sakatah"
     ],
     "description": "",
+    "related": [],
     "image": "sakatahTrail082924.png",
     "w": 1600,
     "h": 1070
@@ -1822,6 +1968,7 @@
       "sakatah"
     ],
     "description": "",
+    "related": [],
     "image": "sakatahTrailBridge.png",
     "w": 1600,
     "h": 1107
@@ -1836,6 +1983,7 @@
       "sakatah"
     ],
     "description": "",
+    "related": [],
     "image": "sakatahTrailMorningGlory.jpeg",
     "w": 1600,
     "h": 1052
@@ -1850,6 +1998,7 @@
       "wildlife"
     ],
     "description": "",
+    "related": [],
     "image": "seashell081824.png",
     "w": 1600,
     "h": 1115
@@ -1865,6 +2014,7 @@
       "sheep"
     ],
     "description": "",
+    "related": [],
     "image": "sheepInTheSky.jpeg",
     "w": 1600,
     "h": 1288
@@ -1880,6 +2030,7 @@
       "sheep"
     ],
     "description": "",
+    "related": [],
     "image": "sheepPortrait.jpeg",
     "w": 1203,
     "h": 1600
@@ -1895,6 +2046,7 @@
       "mankato"
     ],
     "description": "",
+    "related": [],
     "image": "sibleyBarn.png",
     "w": 997,
     "h": 1600
@@ -1909,6 +2061,7 @@
       "Sibley"
     ],
     "description": "",
+    "related": [],
     "image": "sibleyHerEyesight.jpeg",
     "w": 1600,
     "h": 1146
@@ -1923,6 +2076,7 @@
       "Sibley"
     ],
     "description": "",
+    "related": [],
     "image": "sibleyPark04061.png",
     "w": 1118,
     "h": 1600
@@ -1937,6 +2091,7 @@
       "Sibley"
     ],
     "description": "",
+    "related": [],
     "image": "sibleyParkHill.jpg",
     "w": 1600,
     "h": 1114
@@ -1951,6 +2106,7 @@
       "Sibley"
     ],
     "description": "",
+    "related": [],
     "image": "sibleyParkHillside.png",
     "w": 1600,
     "h": 1284
@@ -1965,6 +2121,7 @@
       "Sibley"
     ],
     "description": "",
+    "related": [],
     "image": "sibleyParkHilltop042624.png",
     "w": 1278,
     "h": 1600
@@ -1979,6 +2136,7 @@
       "Sibley"
     ],
     "description": "",
+    "related": [],
     "image": "sibleyParkSurveyingTheFlood.png",
     "w": 1048,
     "h": 1600
@@ -1993,6 +2151,7 @@
       "MemoryPlace"
     ],
     "description": "",
+    "related": [],
     "image": "skull.png",
     "w": 1600,
     "h": 1236
@@ -2007,6 +2166,7 @@
       "art-class"
     ],
     "description": "",
+    "related": [],
     "image": "snail.png",
     "w": 1600,
     "h": 1260
@@ -2021,6 +2181,7 @@
       "highway169"
     ],
     "description": "",
+    "related": [],
     "image": "snowOn169.png",
     "w": 1600,
     "h": 957
@@ -2035,6 +2196,7 @@
       "lighthouse"
     ],
     "description": "",
+    "related": [],
     "image": "splitRockLighthouse.jpg",
     "w": 1132,
     "h": 1600
@@ -2049,6 +2211,7 @@
       "birch"
     ],
     "description": "",
+    "related": [],
     "image": "springLakePark.png",
     "w": 1600,
     "h": 1128
@@ -2063,6 +2226,7 @@
       "food"
     ],
     "description": "",
+    "related": [],
     "image": "stawberryMountains.png",
     "w": 1600,
     "h": 1126
@@ -2077,6 +2241,7 @@
       "wildlife"
     ],
     "description": "",
+    "related": [],
     "image": "stormBirds1.jpeg",
     "w": 1600,
     "h": 812
@@ -2091,6 +2256,7 @@
       "food"
     ],
     "description": "",
+    "related": [],
     "image": "strawberry.jpeg",
     "w": 1600,
     "h": 1112
@@ -2105,6 +2271,7 @@
       "MemoryPlace"
     ],
     "description": "",
+    "related": [],
     "image": "sunflower.png",
     "w": 1600,
     "h": 1155
@@ -2119,6 +2286,7 @@
       "illustration"
     ],
     "description": "",
+    "related": [],
     "image": "supplies.png",
     "w": 1600,
     "h": 1027
@@ -2133,6 +2301,7 @@
       "flowers"
     ],
     "description": "",
+    "related": [],
     "image": "sweetPea.jpg",
     "w": 1600,
     "h": 1236
@@ -2147,6 +2316,7 @@
       "flowers"
     ],
     "description": "",
+    "related": [],
     "image": "sweetpea09062024.png",
     "w": 1600,
     "h": 1034
@@ -2161,6 +2331,7 @@
       "mankato"
     ],
     "description": "",
+    "related": [],
     "image": "taylorsNeighbor.png",
     "w": 1600,
     "h": 1143
@@ -2175,6 +2346,7 @@
       "portrait"
     ],
     "description": "",
+    "related": [],
     "image": "theWhiteHat.png",
     "w": 1600,
     "h": 1143
@@ -2190,6 +2362,7 @@
       "backyard"
     ],
     "description": "",
+    "related": [],
     "image": "timeToTrimTheSumac.png",
     "w": 1600,
     "h": 1256
@@ -2205,6 +2378,9 @@
       "stilllife"
     ],
     "description": "Three tomatoes walked into a bar. Later, i'll paint the same tomatoes using color with wax pastels",
+    "related": [
+      "tomatoes2"
+    ],
     "image": "tomatoes1.png",
     "w": 1600,
     "h": 1179
@@ -2220,6 +2396,9 @@
       "stilllife"
     ],
     "description": "I originally drew this using pencil and then revisited it to experiment with my wax pastels.",
+    "related": [
+      "tomatoes1"
+    ],
     "image": "tomatoes2.png",
     "w": 1600,
     "h": 1192
@@ -2234,6 +2413,7 @@
       "flowers"
     ],
     "description": "",
+    "related": [],
     "image": "treeRings.png",
     "w": 1600,
     "h": 1117
@@ -2248,6 +2428,7 @@
       "trees"
     ],
     "description": "",
+    "related": [],
     "image": "treeVignette.png",
     "w": 1207,
     "h": 1600
@@ -2262,6 +2443,7 @@
       "mankato"
     ],
     "description": "",
+    "related": [],
     "image": "unsettledDamStore.png",
     "w": 1600,
     "h": 1131
@@ -2277,6 +2459,7 @@
       "mankato"
     ],
     "description": "",
+    "related": [],
     "image": "urbanSketchers11-24-25.jpeg",
     "w": 1600,
     "h": 1269
@@ -2292,6 +2475,7 @@
       "urban-sketching"
     ],
     "description": "",
+    "related": [],
     "image": "victoryDrive.jpeg",
     "w": 1600,
     "h": 987
@@ -2306,6 +2490,7 @@
       "flowers"
     ],
     "description": "",
+    "related": [],
     "image": "violet.png",
     "w": 1264,
     "h": 1600
@@ -2321,6 +2506,7 @@
       "urban-sketching"
     ],
     "description": "",
+    "related": [],
     "image": "washingtonAndBroad.jpeg",
     "w": 1600,
     "h": 1131
@@ -2333,6 +2519,7 @@
     "dimensions": "5x7",
     "tags": [],
     "description": "Trying to capture the sparkle of waterdrops on a spider web and plant stems.",
+    "related": [],
     "image": "waterDroplets.png",
     "w": 1165,
     "h": 1600
@@ -2347,6 +2534,7 @@
       "food"
     ],
     "description": "",
+    "related": [],
     "image": "watermelon.jpg",
     "w": 1100,
     "h": 1600
@@ -2362,6 +2550,7 @@
       "mankato"
     ],
     "description": "",
+    "related": [],
     "image": "whiteBuffaloWoman.jpeg",
     "w": 1600,
     "h": 1043
@@ -2376,6 +2565,7 @@
       "flowers"
     ],
     "description": "",
+    "related": [],
     "image": "whiteSage.png",
     "w": 1600,
     "h": 1091
@@ -2391,6 +2581,7 @@
       "urban-sketching"
     ],
     "description": "",
+    "related": [],
     "image": "windowWasher.jpeg",
     "w": 1600,
     "h": 1085
@@ -2405,6 +2596,7 @@
       "tree"
     ],
     "description": "",
+    "related": [],
     "image": "windyMorning.jpeg",
     "w": 1084,
     "h": 1600
@@ -2420,6 +2612,7 @@
       "art-class"
     ],
     "description": "This was a Zoom art session with the group as part of an introduction to gouache. I\u2019d be afraid to drink a second glass of wine from a glass with a neck this slender but I love how it accentuates the painting. This is when I fell in love with gouache.",
+    "related": [],
     "image": "wineglass.png",
     "w": 1285,
     "h": 1600
@@ -2434,6 +2627,7 @@
       "highway169"
     ],
     "description": "",
+    "related": [],
     "image": "winterFarmOn169B.jpg",
     "w": 1600,
     "h": 471
@@ -2448,6 +2642,7 @@
       "highway169"
     ],
     "description": "",
+    "related": [],
     "image": "winterSunriseOn169.png",
     "w": 1600,
     "h": 1007
@@ -2462,6 +2657,7 @@
       "recipe"
     ],
     "description": "",
+    "related": [],
     "image": "zubriac.jpeg",
     "w": 1259,
     "h": 1600

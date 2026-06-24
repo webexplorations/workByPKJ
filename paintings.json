@@ -86,13 +86,14 @@
   {
     "id": "RasmussenWoodEast",
     "title": "RasmussenWoodEast",
-    "date": "",
-    "medium": "",
-    "dimensions": "",
+    "date": "2022-01-01",
+    "medium": "watercolor",
+    "dimensions": "11x14",
     "tags": [
-      "rasmussenWoods"
+      "rasmussenWoods",
+      "mankato"
     ],
-    "description": "",
+    "description": "I took a walk in Rasmussen Woods at the very end of winter. Did a sketch of the cat tails with the trees in the background and a large erratic.",
     "image": "RasmussenWoodEast.jpg",
     "w": 1600,
     "h": 1200
@@ -122,10 +123,24 @@
       "art-class",
       "landscape"
     ],
-    "description": "The assignment was to paint a landscape with a two-color palette. One version I did was Purple and Orange and the second one was Indigo with Quinacridone Gold.",
+    "description": "The assignment was to paint a landscape with a two-color palette. This version was Purple and Orange and the second one was Indigo with Quinacridone Gold.",
     "image": "RiverStudy2.png",
     "w": 1600,
     "h": 1129
+  },
+  {
+    "id": "SugarCookies",
+    "title": "SugarCookies",
+    "date": "2023-01-01",
+    "medium": "Watercolor and ink",
+    "dimensions": "8x10",
+    "tags": [
+      "recipe"
+    ],
+    "description": "This is one great recipe. (The secret is in the lemon.) Mom used to work in the school cafeteria and she brought home this recipe. It is still a family favorite.",
+    "image": "SugarCookies.png",
+    "w": 1236,
+    "h": 1600
   },
   {
     "id": "ZenQuartet",
@@ -407,7 +422,7 @@
     "tags": [
       "bird"
     ],
-    "description": "I love the chickadees.",
+    "description": "I love chickadees.",
     "image": "chickadee.jpeg",
     "w": 1600,
     "h": 1142
@@ -439,21 +454,6 @@
     "image": "chicken2.jpeg",
     "w": 1349,
     "h": 1600
-  },
-  {
-    "id": "chittaHeartPoem",
-    "title": "chittaHeartPoem",
-    "date": "",
-    "medium": "",
-    "dimensions": "",
-    "tags": [
-      "poem",
-      "zen"
-    ],
-    "description": "",
-    "image": "chittaHeartPoem.png",
-    "w": 1600,
-    "h": 1290
   },
   {
     "id": "coffeeHag01-04-25",
@@ -1613,43 +1613,58 @@
     "h": 570
   },
   {
+    "id": "poemChittaHeart",
+    "title": "poemChittaHeart",
+    "date": "2024-04-22",
+    "medium": "Watercolor and ink",
+    "dimensions": "8x10",
+    "tags": [
+      "poem",
+      "zen"
+    ],
+    "description": "One morning I heard someone read this poem right before a meditation session. I immediately searched for the book and purchased it. The poems were written by the first Buddhist women and this translation was done by Matty Weingas. This is the first painting I did using the poems from the book as inspiration.",
+    "image": "poemChittaHeart.png",
+    "w": 1600,
+    "h": 1290
+  },
+  {
     "id": "poemPunna-Full",
     "title": "poemPunna-Full",
-    "date": "",
-    "medium": "",
-    "dimensions": "",
+    "date": "2024-04-24",
+    "medium": "watercolor and ink",
+    "dimensions": "8x10",
     "tags": [
       "poem"
     ],
-    "description": "",
+    "description": "One morning I heard someone read this poem right before a meditation session. I immediately searched for the book and purchased it. The poems were written by the first Buddhist women and this translation was done by Matty Weingas. This was the second painting I did using the poems from the book as inspiration.",
     "image": "poemPunna-Full.png",
     "w": 1600,
     "h": 1237
   },
   {
-    "id": "poemPunna-FullPrelim",
-    "title": "poemPunna-FullPrelim",
-    "date": "",
-    "medium": "",
-    "dimensions": "",
+    "id": "poemPunnaDetail",
+    "title": "poemPunnaDetail",
+    "date": "2024-04-23",
+    "medium": "watercolor and gouache",
+    "dimensions": "8x10",
     "tags": [
       "zen"
     ],
-    "description": "",
-    "image": "poemPunna-FullPrelim.png",
+    "description": "This is a detail of the painting for poemPunnaFull before I added the hand-lettering.",
+    "image": "poemPunnaDetail.png",
     "w": 1080,
     "h": 1600
   },
   {
     "id": "poemVija-Victor",
     "title": "poemVija-Victor",
-    "date": "",
-    "medium": "",
-    "dimensions": "",
+    "date": "2024-04-26",
+    "medium": "Watercolor and ink",
+    "dimensions": "8x10",
     "tags": [
       "poem"
     ],
-    "description": "",
+    "description": "One morning I heard someone read this poem right before a meditation session. I immediately searched for the book and purchased it. The poems were written by the first Buddhist women and this translation was done by Matty Weingas. This is the last painting I did using the poems from the book as inspiration.",
     "image": "poemVija-Victor.png",
     "w": 1600,
     "h": 1284
@@ -1658,26 +1673,24 @@
     "id": "pudgetSound",
     "title": "pudgetSound",
     "date": "",
-    "medium": "",
+    "medium": "watercolor",
     "dimensions": "",
     "tags": [
       "MemoryPlace"
     ],
-    "description": "",
-    "image": "pudgetSound.jpg",
-    "w": 1600,
-    "h": 560
+    "description": "I took a trip to Seattle and the surrounding area with my son. It was exceptionally dry for the Pacific Northwest. After hiking through the forest we came out on this beach with the hikers arriving just as we were.",
+    "image": null
   },
   {
     "id": "rabbit",
     "title": "rabbit",
-    "date": "",
-    "medium": "",
-    "dimensions": "",
+    "date": "2024-01-01",
+    "medium": "gouache",
+    "dimensions": "8x10",
     "tags": [
       "wildlife"
     ],
-    "description": "",
+    "description": "Rabbits hop and nibble outside my studio window. How could I not paint them? This one though was painted using a reference photo. The live one was off on the south side of the house, nibbling on my pea and bean plants.",
     "image": "rabbit.png",
     "w": 1223,
     "h": 1600
@@ -1685,13 +1698,13 @@
   {
     "id": "radish",
     "title": "radish",
-    "date": "",
-    "medium": "",
-    "dimensions": "",
+    "date": "2024-03-10",
+    "medium": "gouache",
+    "dimensions": "8x10",
     "tags": [
       "food"
     ],
-    "description": "",
+    "description": "For a while the Zoom art group was focused on painting food items. Cookies, cupcakes, and all types of fruit. This came out of one of those sessions and is hanging in our dining area along with my other \u201cfood\u201d paintings.",
     "image": "radish.png",
     "w": 1600,
     "h": 1119
@@ -1699,13 +1712,13 @@
   {
     "id": "rainbowBookmark",
     "title": "rainbowBookmark",
-    "date": "",
-    "medium": "",
+    "date": "2023-01-01",
+    "medium": "watercolor",
     "dimensions": "",
     "tags": [
       "bookmark"
     ],
-    "description": "",
+    "description": "Just doodling around one day. Love the long format of a bookmark.",
     "image": "rainbowBookmark.jpeg",
     "w": 1600,
     "h": 261
@@ -1713,13 +1726,13 @@
   {
     "id": "rainbowFlowers",
     "title": "rainbowFlowers",
-    "date": "",
-    "medium": "",
-    "dimensions": "",
+    "date": "2023-10-29",
+    "medium": "Watercolor and ink",
+    "dimensions": "11x14",
     "tags": [
       "flowers"
     ],
-    "description": "",
+    "description": "It was at the end of the season and all the flowers were in full color. My first intention was to capture the explosion of color but then I started thinking about what was happening underground. It\u2019s probably not this colorful but I bet the fungi and carrying on a wonderful conversation with the rest of the plant world.",
     "image": "rainbowFlowers.jpeg",
     "w": 1262,
     "h": 1600
@@ -1727,42 +1740,60 @@
   {
     "id": "rainbowTrout",
     "title": "rainbowTrout",
-    "date": "",
-    "medium": "",
+    "date": "2024-09-22",
+    "medium": "Watercolor",
     "dimensions": "8x10",
     "tags": [
       "wildlife"
     ],
-    "description": "",
+    "description": "Working from a reference photo during a Sunday Zoom art group session I was experimenting on getting the subtle layers of color that are so prevalent in the natural world.",
     "image": "rainbowTrout.png",
     "w": 1600,
     "h": 1194
   },
   {
-    "id": "recipe",
-    "title": "recipe",
-    "date": "",
+    "id": "rapidanDriveIn1",
+    "title": "rapidanDriveIn1",
+    "date": "2026-05-08",
     "medium": "",
-    "dimensions": "",
+    "dimensions": "8x10",
     "tags": [
-      "recipe"
+      "highway169",
+      "landscape",
+      "mankato"
     ],
-    "description": "",
-    "image": "recipe.png",
-    "w": 1236,
+    "description": "This was an interesting experiment. I wanted to do a value study and picked this photo I had taken outside of Mankato on Stolzman Road. I used Pipestone Genuine. After finishing the painting I shared it along with the reference photo with Claude AI. \n\nClaude analyzed the photo and then gave me some guidelines on making the darks darker, mainly adding a complementary color to the Pipestone in order to get a darker value. Claude recommended a blue or Payne\u2019s Gray which has a bluish cast. The result was the more moody painting which has a lot more character and is. Lot more interesting even though it doesn\u2019t portray the bright sunlit afternoon from the original scene.",
+    "image": "rapidanDriveIn1.jpeg",
+    "w": 1253,
+    "h": 1600
+  },
+  {
+    "id": "rapidanDriveIn2",
+    "title": "rapidanDriveIn2",
+    "date": "2026-05-13",
+    "medium": "watercolor",
+    "dimensions": "8x10",
+    "tags": [
+      "highway169",
+      "landscape",
+      "mankato"
+    ],
+    "description": "This was an interesting experiment. I wanted to do a value study and picked this photo I had taken outside of Mankato on Stolzman Road. I used Pipestone Genuine. After finishing the painting I shared it along with the reference photo with Claude AI. \n\nClaude analyzed the photo and then gave me some guidelines on making the darks darker, mainly adding a complementary color to the Pipestone in order to get a darker value. Claude recommended a blue or Payne\u2019s Gray which has a bluish cast. The result was the more moody painting which has a lot more character and is. Lot more interesting even though it doesn\u2019t portray the bright sunlit afternoon from the original scene.",
+    "image": "rapidanDriveIn2.jpeg",
+    "w": 1246,
     "h": 1600
   },
   {
     "id": "rockAndRiverfront",
     "title": "rockAndRiverfront",
-    "date": "",
-    "medium": "",
+    "date": "2024-02-27",
+    "medium": "Watercolor and ink",
     "dimensions": "",
     "tags": [
       "mankato",
       "urban-sketching"
     ],
-    "description": "",
+    "description": "For about a week, every time I would drive through downtown Mankato a flock of birds would be on the wires at Rock and Riverfront. Finally I pulled over and shot a picture to use a reference for this urban sketch. This was one of the pieces that was in a show at the 410 Gallery.",
     "image": "rockAndRiverfront.png",
     "w": 1600,
     "h": 1070

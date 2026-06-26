@@ -907,15 +907,18 @@
   {
     "id": "forest",
     "title": "forest",
-    "date": "",
-    "medium": "",
-    "dimensions": "",
-    "tags": [],
-    "description": "",
+    "date": "2026-06-26",
+    "medium": "watercolor and ink",
+    "dimensions": "8x10",
+    "tags": [
+      "landscape",
+      "trees"
+    ],
+    "description": "The view out my studio window is  a cacphony of greens framed by the tree trunks. I also wanted to capture the concept of moving from darkness into the light. Most of this was done using a sea sponge.",
     "related": [],
     "image": "forest.png",
     "w": 1600,
-    "h": 1201
+    "h": 1291
   },
   {
     "id": "geranium2",
@@ -1945,13 +1948,13 @@
   {
     "id": "sakatahTrail082924",
     "title": "sakatahTrail082924",
-    "date": "2024-08-29",
-    "medium": "",
+    "date": "2024-06-29",
+    "medium": "Watercolor",
     "dimensions": "",
     "tags": [
       "sakatah"
     ],
-    "description": "",
+    "description": "I took several photos during a bike ride on the trail. This is one of the views.",
     "related": [],
     "image": "sakatahTrail082924.png",
     "w": 1600,
@@ -1960,13 +1963,13 @@
   {
     "id": "sakatahTrailBridge",
     "title": "sakatahTrailBridge",
-    "date": "",
-    "medium": "",
+    "date": "2022-08-08",
+    "medium": "watercolor",
     "dimensions": "",
     "tags": [
       "sakatah"
     ],
-    "description": "",
+    "description": "The tunnel going under Highway 22 near the beginning of the Sakatah Bike Trail is always fun. Just long enough to give you a breath of cool air and shade.",
     "related": [],
     "image": "sakatahTrailBridge.png",
     "w": 1600,
@@ -1975,13 +1978,13 @@
   {
     "id": "sakatahTrailMorningGlory",
     "title": "sakatahTrailMorningGlory",
-    "date": "",
-    "medium": "",
+    "date": "2025-08-25",
+    "medium": "Watercolor",
     "dimensions": "",
     "tags": [
       "sakatah"
     ],
-    "description": "",
+    "description": "These morning glories were blooming all along the trail. They were really splendid in the bright summer sun, especially against the deep green of the prairie grasses.",
     "related": [],
     "image": "sakatahTrailMorningGlory.jpeg",
     "w": 1600,
@@ -1991,12 +1994,12 @@
     "id": "seashell081824",
     "title": "seashell081824",
     "date": "2024-08-18",
-    "medium": "",
-    "dimensions": "",
+    "medium": "watercolor",
+    "dimensions": "8x10",
     "tags": [
       "wildlife"
     ],
-    "description": "",
+    "description": "This was painted during a Zoom art group session. This is one of my favorite shells that I picked up long ago in Florida. I really like how the dark green works with the brown hues of the shell.",
     "related": [],
     "image": "seashell081824.png",
     "w": 1600,

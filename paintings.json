@@ -921,22 +921,6 @@
     "h": 1291
   },
   {
-    "id": "forest33",
-    "title": "forest33",
-    "date": "2026-06-26",
-    "medium": "watercolor",
-    "dimensions": "8x10",
-    "tags": [
-      "landscape",
-      "tree"
-    ],
-    "description": "This is a test this is only a test",
-    "related": [],
-    "image": "forest33.png",
-    "w": 1600,
-    "h": 1200
-  },
-  {
     "id": "geranium2",
     "title": "geranium2",
     "date": "",
@@ -1830,7 +1814,9 @@
     ],
     "description": "I took a trip to Seattle and the surrounding area with my son. It was exceptionally dry for the Pacific Northwest. After hiking through the forest we came out on this beach with the hikers arriving just as we were.",
     "related": [],
-    "image": null
+    "image": "pudgetSound.jpg",
+    "w": 1600,
+    "h": 560
   },
   {
     "id": "rabbit",

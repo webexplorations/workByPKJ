@@ -246,8 +246,8 @@
     "h": 1047
   },
   {
-    "id": "beyone02242025",
-    "title": "beyone02242025",
+    "id": "beyond02242025",
+    "title": "beyond02242025",
     "date": "2025-02-24",
     "medium": "Watercolor",
     "dimensions": "8x10",
@@ -256,7 +256,7 @@
     ],
     "description": "I am working on the world unseen, the place that is beyond the veil of our everyday physical world. This was one idea, of painting a cosmic landscape framed by the trees outside my studio window. I have this one framed and hanging up in my studio.",
     "related": [],
-    "image": "beyone02242025.png",
+    "image": "beyond02242025.png",
     "w": 1600,
     "h": 1285
   },
@@ -398,6 +398,22 @@
     "image": "bowl2-watercolorKintsugi.jpeg",
     "w": 1600,
     "h": 1200
+  },
+  {
+    "id": "buddhaCard1",
+    "title": "buddhaCard1",
+    "date": "2026-06-14",
+    "medium": "watercolor",
+    "dimensions": "3x4",
+    "tags": [
+      "zen",
+      "card"
+    ],
+    "description": "Marianne wanted to send cards to people in the Sangha so I painted several for her to use. I was focused on the Triple Gem when designing the cards.",
+    "related": [],
+    "image": "buddhaCard1.png",
+    "w": 1600,
+    "h": 1250
   },
   {
     "id": "buddhaWeek2",
@@ -1296,6 +1312,21 @@
     "h": 1205
   },
   {
+    "id": "lotus06-14-26",
+    "title": "lotus06-14-26",
+    "date": "2026-06-15",
+    "medium": "watercolor",
+    "dimensions": "8x10",
+    "tags": [
+      "zen"
+    ],
+    "description": "Marianne wanted to send cards to people in her Sangha so I painted these four as a starter. Each was a representation of the Triple Gem: Buddha, Sangha, and Dharma.",
+    "related": [],
+    "image": "lotus06-14-26.png",
+    "w": 1600,
+    "h": 1209
+  },
+  {
     "id": "lupineGarden",
     "title": "lupineGarden",
     "date": "",
@@ -1646,7 +1677,7 @@
     "id": "ottCabin",
     "title": "ottCabin",
     "date": "",
-    "medium": "",
+    "medium": "Watercolor and ink",
     "dimensions": "",
     "tags": [
       "mankato",
@@ -1812,11 +1843,27 @@
     "tags": [
       "MemoryPlace"
     ],
-    "description": "I took a trip to Seattle and the surrounding area with my son. It was exceptionally dry for the Pacific Northwest. After hiking through the forest we came out on this beach with the hikers arriving just as we were.",
+    "description": "I took a trip to Seattle and the surrounding area with my son. It was exceptionally dry for the Pacific Northwest. After hiking through the forest we came out on this beach with the hikers arriving on the edge of the beach.",
     "related": [],
     "image": "pudgetSound.jpg",
     "w": 1600,
     "h": 560
+  },
+  {
+    "id": "purpleEnso",
+    "title": "purpleEnso",
+    "date": "2026-06-14",
+    "medium": "watercolor",
+    "dimensions": "3x4",
+    "tags": [
+      "zen",
+      "card"
+    ],
+    "description": "Marianne wanted to send cards to people in her Sangha so I painted up several designs for her.",
+    "related": [],
+    "image": "purpleEnso.png",
+    "w": 1600,
+    "h": 1271
   },
   {
     "id": "rabbit",
@@ -1864,8 +1911,8 @@
     "h": 261
   },
   {
-    "id": "rainbowFlowers",
-    "title": "rainbowFlowers",
+    "id": "rainbowEarth",
+    "title": "rainbowEarth",
     "date": "2023-10-29",
     "medium": "Watercolor and ink",
     "dimensions": "11x14",
@@ -1874,7 +1921,7 @@
     ],
     "description": "It was at the end of the season and all the flowers were in full color. My first intention was to capture the explosion of color but then I started thinking about what was happening underground. It\u2019s probably not this colorful but I bet the fungi and carrying on a wonderful conversation with the rest of the plant world.",
     "related": [],
-    "image": "rainbowFlowers.jpeg",
+    "image": "rainbowEarth.jpeg",
     "w": 1262,
     "h": 1600
   },
@@ -2043,7 +2090,7 @@
     "id": "sibleyBarn",
     "title": "sibleyBarn",
     "date": "",
-    "medium": "",
+    "medium": "gouache",
     "dimensions": "",
     "tags": [
       "Sibley",
@@ -2502,8 +2549,8 @@
   {
     "id": "washingtonAndBroad",
     "title": "washingtonAndBroad",
-    "date": "",
-    "medium": "",
+    "date": "2024-07-13",
+    "medium": "Watercolor and ink",
     "dimensions": "",
     "tags": [
       "mankato",

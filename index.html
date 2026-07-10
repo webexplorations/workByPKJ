@@ -155,6 +155,17 @@ footer{max-width:1120px;width:100%;margin:0 auto;padding:6px 32px 48px}
 .about-modal h2{font-weight:500;font-size:26px;color:var(--text);margin:0 0 18px}
 .about-modal p{font-size:16px;line-height:1.65;color:var(--soft);margin:0 0 14px}
 .about-modal p:last-child{margin-bottom:0}
+/* Contact form */
+.contact-form{margin-top:22px;padding-top:22px;border-top:1px solid var(--card-border);display:flex;flex-direction:column}
+.cf-label{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin:0 0 6px}
+.cf-input{font-family:var(--serif);font-size:15px;color:var(--text);background:rgba(255,255,255,.7);border:1px solid var(--border);border-radius:6px;padding:10px 12px;margin:0 0 16px;transition:border-color .2s ease,background .2s ease;-webkit-user-select:text;user-select:text}
+.cf-input:focus{outline:none;border-color:var(--accent);background:rgba(255,255,255,.95)}
+.cf-submit{align-self:flex-start;font-family:var(--serif);font-size:15px;color:#f6f4ee;background:var(--accent);border:1px solid var(--accent);border-radius:100px;padding:10px 26px;cursor:pointer;transition:opacity .2s ease}
+.cf-submit:hover{opacity:.88}
+.cf-submit:disabled{opacity:.5;cursor:default}
+.cf-status{font-size:14px;margin:14px 0 0;min-height:1px}
+.cf-status.ok{color:#3a7d4c}
+.cf-status.err{color:#b3452f}
 
 @media (max-width:560px){
   .topbar,header,main,footer{padding-left:18px;padding-right:18px}
@@ -166,7 +177,7 @@ footer{max-width:1120px;width:100%;margin:0 auto;padding:6px 32px 48px}
 <body>
 
 <div class="topbar" style="justify-content:flex-end">
-  <button class="about-link" id="aboutBtn">About the Artist</button>
+  <button class="about-link" id="aboutBtn">Contact the Artist</button>
 </div>
 
 <header>
@@ -260,12 +271,34 @@ footer{max-width:1120px;width:100%;margin:0 auto;padding:6px 32px 48px}
 <div class="about-bg" id="aboutBg">
   <div class="about-modal">
     <button class="x" id="aboutClose" aria-label="Close">✕</button>
-    <div class="plabel">About the Artist</div>
+    <div class="plabel">Contact the Artist</div>
     <h2>Peter Kendrick Johnson</h2>
     <!-- ABOUT-TEXT-START -->
-    <p>Peter Kendrick Johnson lives in Southern Minnesota and has been drawing and painting for several years. Every Saturday he is co-host with the Urban Sketching group held at Sidetracked, a poetry and art supply shop in downtown Mankato.</p>
-    <p>In his past lives he has been a photographer in the Navy, a programmer, president of a corporation, and a computer programming instructor.</p>
+    <p>Peter Kendrick Johnson lives in Southern Minnesota and has been drawing and painting for several years. Every Saturday he co-hosts the Urban Sketching group at Sidetracked, a poetry and art supply shop in downtown Mankato, where his watercolor and mixed-media notecards are also available.</p>
     <!-- ABOUT-TEXT-END -->
+
+    <!-- CONTACT-FORM-START -->
+    <form class="contact-form" id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+      <!-- Web3Forms access key. Replace the value below with the key emailed to you from web3forms.com. -->
+      <input type="hidden" name="access_key" value="39c5b34b-f8ec-4acf-ad2f-d9f64171c695">
+      <input type="hidden" name="subject" value="New message from Work by PKJ">
+      <input type="hidden" name="from_name" value="Work by PKJ website">
+      <!-- Honeypot spam trap (hidden from people, catches bots) -->
+      <input type="checkbox" name="botcheck" class="hidden" style="display:none">
+
+      <label class="cf-label" for="cf-name">Full name</label>
+      <input class="cf-input" id="cf-name" type="text" name="name" autocomplete="name" required>
+
+      <label class="cf-label" for="cf-phone">Phone number</label>
+      <input class="cf-input" id="cf-phone" type="tel" name="phone" autocomplete="tel" required>
+
+      <label class="cf-label" for="cf-email">Email</label>
+      <input class="cf-input" id="cf-email" type="email" name="email" autocomplete="email" required>
+
+      <button class="cf-submit" type="submit">Send</button>
+      <p class="cf-status" id="cfStatus" role="status" aria-live="polite"></p>
+    </form>
+    <!-- CONTACT-FORM-END -->
   </div>
 </div>
 
@@ -354,6 +387,7 @@ async function init(){
   document.getElementById('aboutBtn').addEventListener('click', ()=>toggleAbout(true));
   document.getElementById('aboutClose').addEventListener('click', ()=>toggleAbout(false));
   document.getElementById('aboutBg').addEventListener('click', e=>{ if(e.target.id==='aboutBg') toggleAbout(false); });
+  wireContactForm();
 
   wireViewer();
   openFromHash();
@@ -434,6 +468,40 @@ function render(){
 function toggleAbout(on){
   document.getElementById('aboutBg').classList.toggle('open', on);
   document.body.style.overflow = on ? 'hidden' : '';
+}
+
+function wireContactForm(){
+  const form = document.getElementById('contactForm');
+  if (!form) return;
+  const status = document.getElementById('cfStatus');
+  const btn = form.querySelector('.cf-submit');
+  form.addEventListener('submit', async (e)=>{
+    e.preventDefault();
+    status.className = 'cf-status';
+    status.textContent = 'Sending…';
+    btn.disabled = true;
+    try {
+      const res = await fetch(form.action, {
+        method: 'POST',
+        headers: { 'Accept': 'application/json' },
+        body: new FormData(form)
+      });
+      const data = await res.json();
+      if (res.ok && data.success){
+        status.className = 'cf-status ok';
+        status.textContent = 'Thank you — your message has been sent.';
+        form.reset();
+      } else {
+        status.className = 'cf-status err';
+        status.textContent = (data && data.message) ? data.message : 'Something went wrong. Please try again.';
+        btn.disabled = false;
+      }
+    } catch (err) {
+      status.className = 'cf-status err';
+      status.textContent = 'Network error. Please try again.';
+      btn.disabled = false;
+    }
+  });
 }
 
 /* ===================== Immersive viewer ===================== */

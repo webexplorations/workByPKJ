@@ -160,6 +160,7 @@ footer{max-width:1120px;width:100%;margin:0 auto;padding:6px 32px 48px}
 .cf-label{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin:0 0 6px}
 .cf-input{font-family:var(--serif);font-size:15px;color:var(--text);background:rgba(255,255,255,.7);border:1px solid var(--border);border-radius:6px;padding:10px 12px;margin:0 0 16px;transition:border-color .2s ease,background .2s ease;-webkit-user-select:text;user-select:text}
 .cf-input:focus{outline:none;border-color:var(--accent);background:rgba(255,255,255,.95)}
+.cf-textarea{resize:vertical;min-height:90px;font-family:var(--serif);line-height:1.5}
 .cf-submit{align-self:flex-start;font-family:var(--serif);font-size:15px;color:#f6f4ee;background:var(--accent);border:1px solid var(--accent);border-radius:100px;padding:10px 26px;cursor:pointer;transition:opacity .2s ease}
 .cf-submit:hover{opacity:.88}
 .cf-submit:disabled{opacity:.5;cursor:default}
@@ -286,14 +287,17 @@ footer{max-width:1120px;width:100%;margin:0 auto;padding:6px 32px 48px}
       <!-- Honeypot spam trap (hidden from people, catches bots) -->
       <input type="checkbox" name="botcheck" class="hidden" style="display:none">
 
-      <label class="cf-label" for="cf-name">Full name</label>
+      <label class="cf-label" for="cf-name">Your Full Name</label>
       <input class="cf-input" id="cf-name" type="text" name="name" autocomplete="name" required>
 
-      <label class="cf-label" for="cf-phone">Phone number</label>
+      <label class="cf-label" for="cf-phone">Your Phone Number</label>
       <input class="cf-input" id="cf-phone" type="tel" name="phone" autocomplete="tel" required>
 
-      <label class="cf-label" for="cf-email">Email</label>
+      <label class="cf-label" for="cf-email">Your Email</label>
       <input class="cf-input" id="cf-email" type="email" name="email" autocomplete="email" required>
+
+      <label class="cf-label" for="cf-message">Your Message</label>
+      <textarea class="cf-input cf-textarea" id="cf-message" name="message" rows="4" required></textarea>
 
       <button class="cf-submit" type="submit">Send</button>
       <p class="cf-status" id="cfStatus" role="status" aria-live="polite"></p>

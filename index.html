@@ -147,9 +147,9 @@ footer{max-width:1120px;width:100%;margin:0 auto;padding:6px 32px 48px}
 .v-help .row .ico{display:inline-flex;width:30px;height:30px;border-radius:100px;background:var(--viconbg);align-items:center;justify-content:center;color:var(--vicon);flex:none}
 
 /* About modal */
-.about-bg{position:fixed;inset:0;z-index:60;background:rgba(20,18,26,.55);backdrop-filter:blur(3px);-webkit-backdrop-filter:blur(3px);display:none;align-items:center;justify-content:center;padding:24px}
+.about-bg{position:fixed;inset:0;z-index:60;background:rgba(20,18,26,.55);backdrop-filter:blur(3px);-webkit-backdrop-filter:blur(3px);display:none;align-items:flex-start;justify-content:center;padding:24px;overflow-y:auto;-webkit-overflow-scrolling:touch}
 .about-bg.open{display:flex}
-.about-modal{position:relative;background:var(--surface);border:1px solid rgba(60,50,75,.16);border-radius:6px;max-width:540px;width:100%;padding:44px;box-shadow:0 40px 90px rgba(20,12,35,.45)}
+.about-modal{position:relative;margin:auto;background:var(--surface);border:1px solid rgba(60,50,75,.16);border-radius:6px;max-width:540px;width:100%;padding:44px;box-shadow:0 40px 90px rgba(20,12,35,.45)}
 .about-modal .x{position:absolute;top:18px;right:18px;width:38px;height:38px;border-radius:100px;border:1px solid var(--card-border);background:transparent;color:#3a3640;font-size:16px;cursor:pointer}
 .about-modal .plabel{font-family:var(--mono);font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);margin-bottom:10px}
 .about-modal h2{font-weight:500;font-size:26px;color:var(--text);margin:0 0 18px}
@@ -172,6 +172,8 @@ footer{max-width:1120px;width:100%;margin:0 auto;padding:6px 32px 48px}
   .topbar,header,main,footer{padding-left:18px;padding-right:18px}
   .logo{font-size:24px}
   .v-title{font-size:17px}
+  .about-bg{padding:16px}
+  .about-modal{padding:30px 22px 26px}
 }
 </style>
 </head>
